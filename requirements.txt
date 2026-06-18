@@ -1,0 +1,12 @@
+textual>=0.60
+httpx>=0.27
+platformdirs>=4
+pycountry>=23
+langdetect>=1.0.9
+tomli-w>=1.0
+ffsubsync>=0.4.25
+parsett>=1.8.5
+cryptography>=49.0.0
+static-ffmpeg>=3.0
+zstandard>=0.25.0
+beautifulsoup4>=4.15.0

@@ -1,0 +1,399 @@
+f420c8d8898957d8810820d55f624b6eaa653bba3faf1087b56e19e8e4e01d97  README.md
+c2ac6257f61fb53c8cc6b59623b27b5df7003c03d483a143cde0cea983d9326c  clean_plex_library/Movies/Amélie (2001)/Amélie (2001).en.srt
+934c4123c63c75499f513e9636cdda6847ac8b44e465bfad09314a700448ea2f  clean_plex_library/Movies/Amélie (2001)/Amélie (2001).mkv
+341a8dbceefacc3617f2b4386a7dfa7e4221b06f6ca4f2fe761f972bb4456068  clean_plex_library/Movies/Arrival (2016)/Arrival (2016).fr.forced.srt
+f67bde063592d11591f5415d178ab4c52bfcf1a19c6630ae0719bff16578fc96  clean_plex_library/Movies/Arrival (2016)/Arrival (2016).mkv
+aae838170b74f2a77511f8da4eb4c13af544f288a00d487d56f69f860d496b0b  clean_plex_library/Movies/Big Buck Bunny (2008)/Big Buck Bunny (2008).en.forced.srt
+cb96882f2a0d53fe85077d178136019243daa6328ac4b368d8bd816ba02ac430  clean_plex_library/Movies/Big Buck Bunny (2008)/Big Buck Bunny (2008).mp4
+09696b8dc9639034ca318624d321e8ff0eea75a35e44c9284d8d6fc8d310387c  clean_plex_library/Movies/Blade Runner 2049 (2017)/Blade Runner 2049 (2017).en.forced.srt
+a8ab2a9fdc1c26918d3b76a6067422f7b2eb6128baa4fafbefed826d840e70ab  clean_plex_library/Movies/Blade Runner 2049 (2017)/Blade Runner 2049 (2017).mkv
+cbdb5611d8aed77967c1e8ecbcadb0ed3798ceaaf2f9f97be5d15d8c0ee77871  clean_plex_library/Movies/Charade (1963)/Charade (1963).fr.srt
+16470db7d9bb8ecf25347453cc073411eb866aa4eca9829ec655549fa916c712  clean_plex_library/Movies/Charade (1963)/Charade (1963).mp4
+609a0db7175b5df2ce677f98930b35b3873b16d4c6015715e7ea9e9943d426ad  clean_plex_library/Movies/Dr. Strangelove (1964)/Dr. Strangelove (1964).fr.srt
+5592868eab7251e14573b21834ca6bf86ea3e732342850a3ed1a2df2575ee5a3  clean_plex_library/Movies/Dr. Strangelove (1964)/Dr. Strangelove (1964).mp4
+1e9398005a1d7b659eb00fdf484602eae9602dd5ca08e78bfbb19d7df48cc3ff  clean_plex_library/Movies/Dune (2021)/Dune (2021) - 2160p.mkv
+c2a92f0e29384ea2ff0f2cfe0ddc645110650328c643b7f36042344327601734  clean_plex_library/Movies/Dune (2021)/Dune (2021).en.srt
+0797c8327c493b503c76655ba35fcb5b592a592baafef1ba007ae52d7d5fd61f  clean_plex_library/Movies/Dune (2021)/Dune (2021).mkv
+330156ebe895972df9c97281bc5a5fb42e6ebeedf6b42df6e55fb07e272d5de4  clean_plex_library/Movies/Everything Everywhere All at Once (2022)/Everything Everywhere All at Once (2022).es.srt
+28965ed86511124da47924052709a7fcf3b55c62c5bad9fdf9f61f927fb922f4  clean_plex_library/Movies/Everything Everywhere All at Once (2022)/Everything Everywhere All at Once (2022).mp4
+81692ad69e47d3c266c6079cdc49cf66d5f74de4cc8cc26af2e7c6d631f32e88  clean_plex_library/Movies/His Girl Friday (1940)/His Girl Friday (1940).es.forced.srt
+0b9ef3c905c026bf7558d2f84e43ad9d84cd82ef71a7d68203a5b8e78e9ff615  clean_plex_library/Movies/His Girl Friday (1940)/His Girl Friday (1940).mkv
+76ae786caea16150b1c5deef249ee6f2752161feb945a27695a56b854a436ca6  clean_plex_library/Movies/Inception (2010)/Inception (2010).es.srt
+d1424070adcc775132da6d9f1e19f65a88048ab8ab97a6f9aa7079f78fea15c1  clean_plex_library/Movies/Inception (2010)/Inception (2010).mkv
+01c65a6090fbbf65a905f2bead37a0c524add1efa449b5446bf2c26b5273da39  clean_plex_library/Movies/Mad Max - Fury Road (2015)/Mad Max - Fury Road (2015).es.srt
+e96a6dbe59196510332199fdd0a31d4cfe1c1631f368042cc81c0437d5ab4e3a  clean_plex_library/Movies/Mad Max - Fury Road (2015)/Mad Max - Fury Road (2015).mkv
+4ae659387a417cc01b56baa3380801efa8574fd1d09a9a508013ed893b618bf9  clean_plex_library/Movies/Metropolis (1927)/Metropolis (1927).en.srt
+b6aef7a9827ac90da1f5d289c14b3421e7f13bd37edebf59ad3ee2d7b79d62e6  clean_plex_library/Movies/Metropolis (1927)/Metropolis (1927).mkv
+1656b2c24cbd0984cb9288819f61695410be2baaf6430a0fbf0a70e2d735ad34  clean_plex_library/Movies/Night of the Living Dead (1968)/Night of the Living Dead (1968).en.srt
+c5ed51caf10387b733a95b71ca3ac361f9a96c12ad6b7938af77ebc7722bade8  clean_plex_library/Movies/Night of the Living Dead (1968)/Night of the Living Dead (1968).mkv
+32461d5bd1773012acef0ba15636752949bd7c2ce50f9172159d9f56cf0dd9af  clean_plex_library/Movies/Night of the Living Dead (1968)/poster.jpg
+e09a283350e7a4daf54dd0221fe9eae239a4b3ce42f90af5cb02873129def1a5  clean_plex_library/Movies/Nosferatu (1922)/Nosferatu (1922).fr.srt
+710b14de0f4ab0afbd225cf4672127062a6e8acef27d18bd73917b5ceb3c9075  clean_plex_library/Movies/Nosferatu (1922)/Nosferatu (1922).mkv
+acba93696211dfb32e913372e20371a0588b397d6a2429f001518b9306f91431  clean_plex_library/Movies/Parasite (2019)/Parasite (2019).fr.srt
+4f684762d6e8f54058dbd223de9bd00aa5f299fc2a426b8f9f4b0f90ea897494  clean_plex_library/Movies/Parasite (2019)/Parasite (2019).mkv
+bb0a34be9ebbcefbbe340e7e9c3bd6c124b9af7e055f7af9ffd3186f62270bc6  clean_plex_library/Movies/Seven Samurai (1954)/Seven Samurai (1954).es.srt
+d9f3326cd08cdc955bef30a4873bbbf4026eb0e8893e3354b636682ca2e7d275  clean_plex_library/Movies/Seven Samurai (1954)/Seven Samurai (1954).mkv
+419fff1a27db63428efcd40263160dc5ab8a2eb232fcfa5926019a50fa24359a  clean_plex_library/Movies/Sherlock Jr. (1924)/Sherlock Jr. (1924).es.srt
+27564fd5f7d380a73837df8b13ce6dbe9cba0bf01fcd4b307b1253181aaebb49  clean_plex_library/Movies/Sherlock Jr. (1924)/Sherlock Jr. (1924).mkv
+094b7f5d6c7a6bf12ae06a458feaef06770abadb47a3826289a9817bd0f07dbb  clean_plex_library/Movies/Sintel (2010)/Sintel (2010).es.srt
+33132d37ec2c526d53aadd6e23a72b6f7d81dcf19b7560bee490dbdb01cb9ff3  clean_plex_library/Movies/Sintel (2010)/Sintel (2010).mkv
+c6c33d35988f96f9efbc172c5567869e71f314c3cb17fbca8882e2b065c260d6  clean_plex_library/Movies/Spider-Man - No Way Home (2021)/Spider-Man - No Way Home (2021).fr.srt
+f6d8ad4cd4822bacf037293048e7b8b28104c07588f2f351cc9b2230c2d2c6ac  clean_plex_library/Movies/Spider-Man - No Way Home (2021)/Spider-Man - No Way Home (2021).mkv
+80dc0002aca989b40866ab51c67ce1e9204c28cb261a52f23ff53ac548881f0a  clean_plex_library/Movies/Tears of Steel (2012)/Tears of Steel (2012).fr.srt
+8e553c8a458178733d61850ca3128ed7d49bb938dea4b0019045aab8e4b6b47a  clean_plex_library/Movies/Tears of Steel (2012)/Tears of Steel (2012).mkv
+f49a3763cfcd40707db0e428d2ca6e04cc01fce67edad9db107ffed271d77b3b  clean_plex_library/Movies/The General (1926)/The General (1926).es.srt
+259cc566e1e918ace067d24bc7cda8850c9f6117e9de915cd2bb00a23a095366  clean_plex_library/Movies/The General (1926)/The General (1926).mp4
+e27ca606f6fba5b56e61dc896ffedeacaa7ae2dde1d0fd261f4803d71e28b48a  clean_plex_library/Movies/The General (1926) {edition-Restored}/The General (1926) {edition-Restored}.mkv
+1cd42227e0e460d8675a9db0cee774c02911fb8b45500e39ee7ed54b985c1cac  clean_plex_library/Movies/The Gold Rush (1925)/The Gold Rush (1925).fr.srt
+5cd8aa61ea7da273ad684830c4a97fb3ddcebac5010db4e33c7c1ca5b1eb45f0  clean_plex_library/Movies/The Gold Rush (1925)/The Gold Rush (1925).mkv
+53d4c199d3af5a5701a67b97be2289f7159a50b91d5d3f3d38adeb89525d2bef  clean_plex_library/Movies/The Kid (1921)/The Kid (1921).en.srt
+2f7f3cc9624e962b9307944164171f841272d605a548b9b0fc95728470364e53  clean_plex_library/Movies/The Kid (1921)/The Kid (1921).mkv
+df119c11da258e07cdea050db607510c5876445d21a677c379d96f113812e4d6  clean_plex_library/Movies/The Matrix (1999)/The Matrix (1999).en.srt
+47005bcf18ba36c6b1aeef24832b5387f3a83d06e28c8f8fc797b2e2a614c622  clean_plex_library/Movies/The Matrix (1999)/The Matrix (1999).mp4
+34eb638545e503cb56a94e48cd5937ef154ab58e45345c10cecba7d799fb8560  clean_plex_library/Movies/The Matrix (1999)/featurettes/Making The Matrix.mkv
+0e8100cb6845d948349301efc1baf0b3d71aaa66313765dfbe4f85953cfce564  clean_plex_library/TV Shows/Better Call Saul (2015)/Season 01/Better Call Saul (2015) - S01E01.en.srt
+ab8b50a4f1ae1c16046a0c5397ddebd983d3e65edfe1187e1d25ddef5662fba7  clean_plex_library/TV Shows/Better Call Saul (2015)/Season 01/Better Call Saul (2015) - S01E01.mkv
+67063d45db30922f5d03f7cb6b6b2991eaddf1ec86fc9bc88cba930590620373  clean_plex_library/TV Shows/Better Call Saul (2015)/Season 03/Better Call Saul (2015) - S03E05.mkv
+1c7f0392895d4bbfb571d88830c0e8fa833e3696d830c589a742458993bd6c0b  clean_plex_library/TV Shows/Better Call Saul (2015)/Season 06/Better Call Saul (2015) - S06E13.mkv
+82ab36e00fdc43108c2c7a48fc29ca3f18a3994df461ea00c575d730cecde934  clean_plex_library/TV Shows/Breaking Bad (2008)/Season 01/Breaking Bad (2008) - S01E01.en.srt
+0166cd00ffa2836eeed61efa2d67a385d0ada18b3bd730fbfd09efb17f9ef5a2  clean_plex_library/TV Shows/Breaking Bad (2008)/Season 01/Breaking Bad (2008) - S01E01.mkv
+9898c8c86b549375ada4ed0c21416afc85dd1df68436cb2bd3148e7733c7b3c4  clean_plex_library/TV Shows/Breaking Bad (2008)/Season 01/Breaking Bad (2008) - S01E02.mkv
+fe0de2458e26dbf121ae09d495ce5dd2d1c6899d9f7ca7cbf97c4942777e6cae  clean_plex_library/TV Shows/Breaking Bad (2008)/Season 05/Breaking Bad (2008) - S05E14.mkv
+d41eb303088d3a0313a27f6d7c1fffcf011b8d4b48710f2254262ef375efcdbe  clean_plex_library/TV Shows/Community (2009)/Season 01/Community (2009) - S01E01.en.srt
+1af011c7cea6f220f7884eedd429c3312ba0e6e09b091921af60fb45b8aa16f1  clean_plex_library/TV Shows/Community (2009)/Season 01/Community (2009) - S01E01.mkv
+184645aeaf66eb96f6d4ecf2d36a72cc0fc90c7635aad0c49c48c9a61efdd5cd  clean_plex_library/TV Shows/Community (2009)/Season 03/Community (2009) - S03E04.mkv
+59e2c888d7ae6009429b82f71c400d76e3840ffa5c604b8547031817c0a241c5  clean_plex_library/TV Shows/Community (2009)/Season 06/Community (2009) - S06E13.mkv
+9749fb7712f1c1e819584f104ff3a4f71b3f0b203b6cf99fd02d3ad31779822b  clean_plex_library/TV Shows/Doctor Who (2005)/Season 01/Doctor Who (2005) - S01E01.en.srt
+747babdcd58ad6bfc1a16c0af4ac334fa5135778f8a3af1c07a84c34d4dfa843  clean_plex_library/TV Shows/Doctor Who (2005)/Season 01/Doctor Who (2005) - S01E01.mkv
+a7c0ef33b865677e9999ac300c9151fc60b686bb47d69c3cf49fcf25dca6320a  clean_plex_library/TV Shows/Doctor Who (2005)/Season 05/Doctor Who (2005) - S05E10.mkv
+02d7ebcab2273f21dcd6f1f677788acba27cb5560402737a74525fac4daab85e  clean_plex_library/TV Shows/Doctor Who (2005)/Season 10/Doctor Who (2005) - S10E12.mkv
+527da3394900eea73565624b1014222d7ff07ec372bb9e14c66a7b4ea0c23c69  clean_plex_library/TV Shows/Game of Thrones (2011)/Season 01/Game of Thrones (2011) - S01E01.en.srt
+230e6b6e63a6322cc37893fe1e92768dfc06ecf7b3b188defcfdf5c4f42dd1e9  clean_plex_library/TV Shows/Game of Thrones (2011)/Season 01/Game of Thrones (2011) - S01E01.mkv
+9cb2bbf6de83925cbdffd85f2fa157624cca09fd4a0b589830a9f88fe2607984  clean_plex_library/TV Shows/Game of Thrones (2011)/Season 06/Game of Thrones (2011) - S06E09.mkv
+393955be844d898084ec1807b545b52eaa9d7913230898a18f269ce585884db3  clean_plex_library/TV Shows/Game of Thrones (2011)/Season 08/Game of Thrones (2011) - S08E06.mkv
+273b99a014fbd44218e9595b5adfc66fa7a0e6d0a7421a77e86b848642779452  clean_plex_library/TV Shows/Parks and Recreation (2009)/Season 01/Parks and Recreation (2009) - S01E01.en.srt
+5ccd5445dc8c789db552438f97998654312a28a3419148458e93be97f62ac783  clean_plex_library/TV Shows/Parks and Recreation (2009)/Season 01/Parks and Recreation (2009) - S01E01.mkv
+82a0168b6304df4923cbc230461552453cedbd4309c10d9c2a2954a05865ba38  clean_plex_library/TV Shows/Parks and Recreation (2009)/Season 03/Parks and Recreation (2009) - S03E07.mkv
+3d1a6cde0b9dc3710f5dd6f68c5c324d4f58207636ecdaec55b6cc3d927b7f50  clean_plex_library/TV Shows/Parks and Recreation (2009)/Season 07/Parks and Recreation (2009) - S07E13.mkv
+63a4e3733fa13e41c07e258629fafc61f4dd152eb2ad505c12bf736cddb22de4  clean_plex_library/TV Shows/Severance (2022)/Season 01/Severance (2022) - S01E01.en.srt
+4b51b729fe9a8cdfa88a0853fd4c1f783bba9d896592afdc919016dd7ce2ec02  clean_plex_library/TV Shows/Severance (2022)/Season 01/Severance (2022) - S01E01.mkv
+52da5bf3dcc64ccd1f57eb42a002dac3c90a4a2ed47e6d08589d7805ef1e9051  clean_plex_library/TV Shows/Severance (2022)/Season 01/Severance (2022) - S01E09.mkv
+0d407aa4d482e9b6ca46ee2cfd23408291ec930829164453ad26d1b84ac23471  clean_plex_library/TV Shows/Severance (2022)/Season 02/Severance (2022) - S02E10.mkv
+47ae54f25cc20f2cc0cf9616d166214a1c75ad01946d4f818c786b19ab844e22  clean_plex_library/TV Shows/Star Trek - The Next Generation (1987)/Season 01/Star Trek - The Next Generation (1987) - S01E01.en.srt
+2364d0f6a03331e96bbc7292ced25c63ab1dbb12857803987b1586289375f085  clean_plex_library/TV Shows/Star Trek - The Next Generation (1987)/Season 01/Star Trek - The Next Generation (1987) - S01E01.mkv
+73b09888c3cf5a27c751cb73e90d00a1e05579f2a9caec7afe9d063391d2a404  clean_plex_library/TV Shows/Star Trek - The Next Generation (1987)/Season 03/Star Trek - The Next Generation (1987) - S03E26.mkv
+e937fa91c0c751dd86547f1fa17df86b345140fbd044b016597b8865b9600683  clean_plex_library/TV Shows/Star Trek - The Next Generation (1987)/Season 07/Star Trek - The Next Generation (1987) - S07E25.mkv
+25bafbd86ab829057214790fcfd07e182492692eea66dc29f086a358611743b9  clean_plex_library/TV Shows/Stranger Things (2016)/Season 01/Stranger Things (2016) - S01E01.en.srt
+b32120db120212ae6f83e27f2faf68c303f8c40db42a6db32e80eb539a0e99c7  clean_plex_library/TV Shows/Stranger Things (2016)/Season 01/Stranger Things (2016) - S01E01.mkv
+a403e3407675d1359aad2a602c62df2394f9e6737f15fb4fd8709f5356bc9876  clean_plex_library/TV Shows/Stranger Things (2016)/Season 02/Stranger Things (2016) - S02E09.mkv
+5ea44182e5f289a8076b31480c11a0715d73ea189e896ea03a521493c656a86e  clean_plex_library/TV Shows/Stranger Things (2016)/Season 04/Stranger Things (2016) - S04E09.mkv
+d4642d6a8d02b83c081c976d386dfc476eec57330d918608c2c3c1f531c81dbc  clean_plex_library/TV Shows/The Last of Us (2023)/Season 01/The Last of Us (2023) - S01E01.en.srt
+1cc0b729621f0d8d37d3707a9c354e19aa13d5ef72f153f85e6fed05e1380331  clean_plex_library/TV Shows/The Last of Us (2023)/Season 01/The Last of Us (2023) - S01E01.mkv
+0ab176fa55a91e4ad5c408032efe7bcff685799e90a14a327ba4a9eae84ef3eb  clean_plex_library/TV Shows/The Last of Us (2023)/Season 01/The Last of Us (2023) - S01E03.mkv
+3374b1446d5a4cb509e63a22843c758d66ba973a674f4ffcc96fb34752597efd  clean_plex_library/TV Shows/The Last of Us (2023)/Season 01/The Last of Us (2023) - S01E09.mkv
+a5585604b545bda0e998493d65efd126b57ba22538eb2d25de75d3e90b631179  clean_plex_library/TV Shows/The Office (2005)/Season 01/The Office (2005) - S01E01.en.srt
+44a93935bcb04ea2a2ef8a7234457fd7065a66fc5513677bb3041160f3091bc8  clean_plex_library/TV Shows/The Office (2005)/Season 01/The Office (2005) - S01E01.mkv
+b450c54db91075000d3f3b7d30154191974b343b8b30a1f543d688816e6bd086  clean_plex_library/TV Shows/The Office (2005)/Season 02/The Office (2005) - S02E01.mkv
+96b399cadf2a215ca3dbdb1f08f621c6c4e6d595cbe8990eee4fcca131f466d9  clean_plex_library/TV Shows/The Office (2005)/Season 07/The Office (2005) - S07E17.mkv
+bfb57db19b594ea72f5f27b83da118f668579fb6b5bf0f658b10ba01b42a9987  clean_plex_library/TV Shows/The Sopranos (1999)/Season 01/The Sopranos (1999) - S01E01.en.srt
+d3fa3472b9d01d613ddf969cf3a1f514af825c41887168618af225c058a285d8  clean_plex_library/TV Shows/The Sopranos (1999)/Season 01/The Sopranos (1999) - S01E01.mkv
+5fc7d83eced9c09b3f6ed90f4dd05e77f15ca185a6ed8511a7c011e4bdab0d61  clean_plex_library/TV Shows/The Sopranos (1999)/Season 03/The Sopranos (1999) - S03E11.mkv
+2f991d83ae1b0e1c51076f0c51af7d8f16868e6709663c4736af7fb2c558e0d4  clean_plex_library/TV Shows/The Sopranos (1999)/Season 06/The Sopranos (1999) - S06E21.mkv
+8aae1d744aec2c846a7279fdb35193cef292d6402e6d0a81419230decb63cb01  clean_plex_library/TV Shows/The Wire (2002)/Season 01/The Wire (2002) - S01E01.en.srt
+eb1c7ccb22391442184a421dbce15920aeb01e225b820867b8faf8e50a9f6be1  clean_plex_library/TV Shows/The Wire (2002)/Season 01/The Wire (2002) - S01E01.mkv
+15374700140f8d4b97249980a4e17ffefc780993355d3db61dad00ad57a746ae  clean_plex_library/TV Shows/The Wire (2002)/Season 03/The Wire (2002) - S03E11.mkv
+27fe95bf7a9741a12018bfc811da6ebb224b0b62cbbda0e251c7196650789673  clean_plex_library/TV Shows/The Wire (2002)/Season 05/The Wire (2002) - S05E10.mkv
+78b32410af97d999bd760e3bfaedaec2626fb40bc0137a7d0d587268ac023437  clean_plex_library/TV Shows/The X-Files (1993)/Season 01/The X-Files (1993) - S01E01.en.srt
+419e9dc8083cef1cc073288741702e0baae4c30cebe331c28fce80d08eb7875a  clean_plex_library/TV Shows/The X-Files (1993)/Season 01/The X-Files (1993) - S01E01.mkv
+55a9cc31133798095fe25932e75a34829d2f439bf47088a6c5217f37aa60999e  clean_plex_library/TV Shows/The X-Files (1993)/Season 04/The X-Files (1993) - S04E07.mkv
+6a722bce15e4ed8df564338a1233cb601aa2bcad2899358563faaed63c395a86  clean_plex_library/TV Shows/The X-Files (1993)/Season 11/The X-Files (1993) - S11E10.mkv
+df06ce9efab5ccbe568c5b4b5a3acc0aceed83df0d18e8feca8292ee2483ed96  directory_tree.txt
+7ddf1af6e68f6c3080cd7e249c576122a9e6fbdabca6305bb5ac2ab3f83c37e4  edge_cases/anime/[Group] Fullmetal Alchemist Brotherhood - 002 [Dual Audio][10bit][HEVC].mkv
+9f1a14a1864209607c34b340fe577f5ad80abc46cfdc8890a4af755237648e11  edge_cases/anime/[SubsPlease] Attack on Titan - 01 (1080p) [A1B2C3D4].mkv
+be66da3df2163755b60fd3aa96f7e407613cf34935112fede406a95c1bf527a5  edge_cases/duplicates/Dune (2021)/Dune.2021.2160p.UHD.BluRay.REMUX.HDR.HEVC-GRP.mkv
+0073e29d95dc60c968240451e2b4730b8c64ab09a5b8da6c424ac3baba5b7fd5  edge_cases/duplicates/Dune (2021)/Dune.2021.720p.WEBRip.x264-GRP.mkv
+32461d5bd1773012acef0ba15636752949bd7c2ce50f9172159d9f56cf0dd9af  edge_cases/false_positives/S01E01-proof.jpg
+021f48806070a39a151e136b7c3456be3e91aede712a9de44e248d56def28c47  edge_cases/partial/Oppenheimer.2023.2160p.mkv.!qB
+c58143996064a87f67357e7f8b0350298ac6c9b7c9c4a6e936ee4cd94c74ea08  edge_cases/punctuation/Dr Strangelove 1964/Dr.Strangelove.or.How.I.Learned.to.Stop.Worrying.and.Love.the.Bomb.1964.1080p.mkv
+b60f1ec83d28684935e277b6f171d278323976bd6a052ec48ae8710dee776a12  edge_cases/season_folder_filename_matrix/variant_01/The X-Files (1993)/s01/05 - The Jersey Devil.mkv
+6901fd0446936fea55ad6cc4bb8276ab0a9c4f92c104fe68afd922ff6f8475e6  edge_cases/season_folder_filename_matrix/variant_01/The X-Files (1993)/s01/104 - Conduit.mkv
+705484a064b1e8c424fd55cd4d03e75fafbe6bc7ad9a8aa9ca6c80ef5f0cc95e  edge_cases/season_folder_filename_matrix/variant_01/The X-Files (1993)/s01/1x03 - Squeeze.mkv
+b23aee9fa6b4d6b08622555cec3c945cfb14fa9bd925a584faf9bb51f24d53d8  edge_cases/season_folder_filename_matrix/variant_01/The X-Files (1993)/s01/E08 - Ice.mkv
+c7a7942a9df38e810f66d3590368d145f743521c02fcab6e3fa2f45d8edacace  edge_cases/season_folder_filename_matrix/variant_01/The X-Files (1993)/s01/Episode 06 - Shadows.mkv
+61a683a67398f40f3314cee1c35cd02aba2dd46796d662847948100f35458a43  edge_cases/season_folder_filename_matrix/variant_01/The X-Files (1993)/s01/Episode_7_Ghost_in_the_Machine.mkv
+9ad141add70e94f6c7304f4328bf1701c514063e8c1e1427ff31679a1281586f  edge_cases/season_folder_filename_matrix/variant_01/The X-Files (1993)/s01/Fallen Angel - 1x10.mkv
+68cc62e4a559453a82e0e255365f1258646799b3920e589fc90c656bb5c81407  edge_cases/season_folder_filename_matrix/variant_01/The X-Files (1993)/s01/Fallen_Angel.mkv
+3f9536367823d6c72cf163e02fe59c0202e6bd991eb91739092f1aef1988f395  edge_cases/season_folder_filename_matrix/variant_01/The X-Files (1993)/s01/Ice ep8.mkv
+50d5cdf23d898701ac640e0eaa43d637dcec69817effc48697bbca2c79a0163f  edge_cases/season_folder_filename_matrix/variant_01/The X-Files (1993)/s01/S01E01 - Pilot.mkv
+429a3a62a07361f14ae9a46bd280d3682f9152b5b832e636f247a85617e7abc1  edge_cases/season_folder_filename_matrix/variant_01/The X-Files (1993)/s01/Space - S01E09.mkv
+483de3509f0693216deac64f0d0bba3b383b065deef9a14b265b3a8b37b4e4a1  edge_cases/season_folder_filename_matrix/variant_01/The X-Files (1993)/s01/Space 09.mkv
+3427fe3f2b8bcfc0b2e5a1bb7ddc0122536c1f0edfa58f8aeeed2b22680ca76e  edge_cases/season_folder_filename_matrix/variant_01/The X-Files (1993)/s01/e01 Pilot.mkv
+c6db1c2a8231329997583b2f489cd78243f27d5534ba60967461891e6c89d539  edge_cases/season_folder_filename_matrix/variant_01/The X-Files (1993)/s01/e03_Squeeze.mkv
+b3becd64f71e139b9dcf8a5a847b5b15c0ff2d1c74e692c2d714348bfcce8577  edge_cases/season_folder_filename_matrix/variant_01/The X-Files (1993)/s01/e2 Deep Throat.mkv
+761f9ebe8ac84249a2b1b9f76224fa584cd49ae2baecb2421d090b472e3961c9  edge_cases/season_folder_filename_matrix/variant_01/The X-Files (1993)/s01/e4_Conduit.mkv
+7dab9355c58845a24b1cedd898dadd7ed8b28705ac355c01669d3f95277e0b43  edge_cases/season_folder_filename_matrix/variant_01/The X-Files (1993)/s01/ep05 The Jersey Devil.mkv
+caeabc7a2bba1ec13e76e80578d4438c8cf448976c8b4f89f596c78ea9f79732  edge_cases/season_folder_filename_matrix/variant_01/The X-Files (1993)/s01/ep6 Shadows.mkv
+5ac06d22db53d0d7266da9c0c23cd5f30a0b45407700f0af3b5bba3018df61bc  edge_cases/season_folder_filename_matrix/variant_01/The X-Files (1993)/s01/episode 7 Ghost in the Machine.mkv
+78b5403b0fb05719c77d3f886ef35e19984e99a8afc040763fbe664f427c17fc  edge_cases/season_folder_filename_matrix/variant_01/The X-Files (1993)/s01/s01e2 Deep Throat.mkv
+140138a28dd15edb15b6972164aced1ca910dbb14ee86ed81da658824caa3f47  edge_cases/season_folder_filename_matrix/variant_02/The X-Files (1993)/s1/05 - The Jersey Devil.mkv
+d78cce3055409bad345c421090ae2e7fa90f22b3ffea0bd4f9dd5bdb7f2445bb  edge_cases/season_folder_filename_matrix/variant_02/The X-Files (1993)/s1/104 - Conduit.mkv
+7c3c5a059c2c65051786d45f80e42975f028455f1d51b7a9f3a6e66af5729a68  edge_cases/season_folder_filename_matrix/variant_02/The X-Files (1993)/s1/1x03 - Squeeze.mkv
+5a18a773e36be353de6afc80f9af0f29a3cf30d9bbc705df72541e17cd6ed5d6  edge_cases/season_folder_filename_matrix/variant_02/The X-Files (1993)/s1/E08 - Ice.mkv
+a424e222900c82c90b4050af8e22936c1e68ecd011cd4d01b763ec30af682bbd  edge_cases/season_folder_filename_matrix/variant_02/The X-Files (1993)/s1/Episode 06 - Shadows.mkv
+d3133110843d6672d593817c1a7022f333b48354b463d2763b7c341c7bbfddb1  edge_cases/season_folder_filename_matrix/variant_02/The X-Files (1993)/s1/Episode_7_Ghost_in_the_Machine.mkv
+b729ce9df3dd61a0e6cd883e2d6cb3b77671a181f9f7d7f6573564b9efda3b0f  edge_cases/season_folder_filename_matrix/variant_02/The X-Files (1993)/s1/Fallen Angel - 1x10.mkv
+a8e97da40f6e0f7b136a3bd6040456acfee1095ad8b60c705686d816477a1ab3  edge_cases/season_folder_filename_matrix/variant_02/The X-Files (1993)/s1/Fallen_Angel.mkv
+eccc76e02b38526ec97fbb13cd258bd616116f0918572fcb2313230fd6875fbf  edge_cases/season_folder_filename_matrix/variant_02/The X-Files (1993)/s1/Ice ep8.mkv
+ea3ab5132d0ea684680e853753a9bd23f9efacc63640abc44b696b78432b7b43  edge_cases/season_folder_filename_matrix/variant_02/The X-Files (1993)/s1/S01E01 - Pilot.mkv
+ceb16a5970b7658ec3a5e4b02c4ce628f127af8daf74cbb036de20fb3c21ac06  edge_cases/season_folder_filename_matrix/variant_02/The X-Files (1993)/s1/Space - S01E09.mkv
+9353930deea93b6b913a249a6960815d93b40ba81eb262f6366e0a0cc8a68135  edge_cases/season_folder_filename_matrix/variant_02/The X-Files (1993)/s1/Space 09.mkv
+d54df4d1191b3983ee88b3256fc597a26343323eab85857290a1d0081546c792  edge_cases/season_folder_filename_matrix/variant_02/The X-Files (1993)/s1/e01 Pilot.mkv
+5e0b5e8439e6f6ee27072392af3cc69b16abc4815078a16ee158f46315a255ca  edge_cases/season_folder_filename_matrix/variant_02/The X-Files (1993)/s1/e03_Squeeze.mkv
+0f2c9ea8c4de65db85dea94689be4bd822b0c51612ee6c1352df2aed735e3094  edge_cases/season_folder_filename_matrix/variant_02/The X-Files (1993)/s1/e2 Deep Throat.mkv
+4ef7fa6728bef416a7e4683408365dca74afa1e7b3d451898ca900b9ba228233  edge_cases/season_folder_filename_matrix/variant_02/The X-Files (1993)/s1/e4_Conduit.mkv
+b3117e29781dc1209cabda3844c93739ebccf3aa8be9d06d3a3d1ec84343d9fe  edge_cases/season_folder_filename_matrix/variant_02/The X-Files (1993)/s1/ep05 The Jersey Devil.mkv
+8a15ac588a075c05836f538192eed9156c33af14066722bdbddf8896e658213a  edge_cases/season_folder_filename_matrix/variant_02/The X-Files (1993)/s1/ep6 Shadows.mkv
+fb89dfe178424a05fb26f0f104151f7b4e033fa9b560517769ed7066de59ffc1  edge_cases/season_folder_filename_matrix/variant_02/The X-Files (1993)/s1/episode 7 Ghost in the Machine.mkv
+7bae133805fbcad21c5f9ebab1fe54bf01492180b69032c27e533ef6c2aed731  edge_cases/season_folder_filename_matrix/variant_02/The X-Files (1993)/s1/s01e2 Deep Throat.mkv
+457bb856da72e9376030d4f0c86bff003c30b961a128cbd8a89ac277011bec38  edge_cases/season_folder_filename_matrix/variant_03/The X-Files (1993)/season1/05 - The Jersey Devil.mkv
+3915a564157fa772e1b7b23e94397ff239cf755c98884553b054b4f4c9bc1862  edge_cases/season_folder_filename_matrix/variant_03/The X-Files (1993)/season1/104 - Conduit.mkv
+3aa599e9081fa71ccff8e428ee605282216f8276208f7e351bf7ebff28e3745c  edge_cases/season_folder_filename_matrix/variant_03/The X-Files (1993)/season1/1x03 - Squeeze.mkv
+8d48587ffcad19e09d11c7480cf8042ad01f1735d3c5845c3ad404e2f42b56dc  edge_cases/season_folder_filename_matrix/variant_03/The X-Files (1993)/season1/E08 - Ice.mkv
+70e42ca36eb96de16fb8c47e87777c009904bc3a6e3ee8f4a812cfff6046a116  edge_cases/season_folder_filename_matrix/variant_03/The X-Files (1993)/season1/Episode 06 - Shadows.mkv
+ff6370fe9d521f6edb97bd4ef8de82b98a40d772c94947411308c58f211cbc74  edge_cases/season_folder_filename_matrix/variant_03/The X-Files (1993)/season1/Episode_7_Ghost_in_the_Machine.mkv
+03523b5d8f0f19664eb4f34a33ea6dffe284fd4729b7769eaf53b16a91118423  edge_cases/season_folder_filename_matrix/variant_03/The X-Files (1993)/season1/Fallen Angel - 1x10.mkv
+0108c5b4d34c6d758f44a07c78f660a1e06073108cf4947d5c98da9bf213d663  edge_cases/season_folder_filename_matrix/variant_03/The X-Files (1993)/season1/Fallen_Angel.mkv
+81f99d2f34058ad8ef1983a27ec8d2af1dd08367b3cdd8c17c6da09690f6ef08  edge_cases/season_folder_filename_matrix/variant_03/The X-Files (1993)/season1/Ice ep8.mkv
+e241a08d3173b3b6b7c82f61306cc5232c863852061aa98d30ee1956434a7eec  edge_cases/season_folder_filename_matrix/variant_03/The X-Files (1993)/season1/S01E01 - Pilot.mkv
+4609b1fa62f30aa068622574e42a496d7075f4508d2d1358b651fbc0f18c2e8c  edge_cases/season_folder_filename_matrix/variant_03/The X-Files (1993)/season1/Space - S01E09.mkv
+0b73f15c2da5790121c97d8114e02823131b39fdea37419abcff87a7a907dc1d  edge_cases/season_folder_filename_matrix/variant_03/The X-Files (1993)/season1/Space 09.mkv
+d63a0dee0083bed294be7f37ee602c4b4e0fde7254116e5c1db96938bbbcab79  edge_cases/season_folder_filename_matrix/variant_03/The X-Files (1993)/season1/e01 Pilot.mkv
+e7a1f1f96372430b45413feb957994358da31602e18d203d368e5f6b92f85a9e  edge_cases/season_folder_filename_matrix/variant_03/The X-Files (1993)/season1/e03_Squeeze.mkv
+b19063424389750bd3ae3cbb000897e8623058fc96a049fa977da2e7daf097ec  edge_cases/season_folder_filename_matrix/variant_03/The X-Files (1993)/season1/e2 Deep Throat.mkv
+40e04a20801470e9647516fae9e5383d8fe87eab131716f4f2d25a509b4cdf00  edge_cases/season_folder_filename_matrix/variant_03/The X-Files (1993)/season1/e4_Conduit.mkv
+6283f814fd3dac8fe1ae7243668ec6463477175d63d50b66bacc199264e787bd  edge_cases/season_folder_filename_matrix/variant_03/The X-Files (1993)/season1/ep05 The Jersey Devil.mkv
+9fd93535350f30157e74ce368078840a66137eb21c6573033a0c664d84d5eb59  edge_cases/season_folder_filename_matrix/variant_03/The X-Files (1993)/season1/ep6 Shadows.mkv
+5c2dea702a8ff2c2c81055870f9e2031a578bb28f795fea525e3db0b610c6ebc  edge_cases/season_folder_filename_matrix/variant_03/The X-Files (1993)/season1/episode 7 Ghost in the Machine.mkv
+9c7521ea560b45ca803e29cd8a25a4efb5439158fa812fb1e8ecfaea9dca5e13  edge_cases/season_folder_filename_matrix/variant_03/The X-Files (1993)/season1/s01e2 Deep Throat.mkv
+a913c0b3170d007897009859aa9179f7128609ef3f7d79bdaa99e8b70a0e09a1  edge_cases/season_folder_filename_matrix/variant_04/The X-Files (1993)/season_01/05 - The Jersey Devil.mkv
+bc0a941acba753b0a1c8dd3e1e1d3e46b655dcedf732decdcd8625750b3c37e5  edge_cases/season_folder_filename_matrix/variant_04/The X-Files (1993)/season_01/104 - Conduit.mkv
+8afa96a57a1c7e61148e0c1735022611a193891cc16ef07016ead8b69f495c8a  edge_cases/season_folder_filename_matrix/variant_04/The X-Files (1993)/season_01/1x03 - Squeeze.mkv
+9c7559e064f9dad14379ed47fde56a7756685c8cc0aa0692158b0ade95d05072  edge_cases/season_folder_filename_matrix/variant_04/The X-Files (1993)/season_01/E08 - Ice.mkv
+09d47f6f6b77c5390cdf3b544ac05165b1321cebd6e6a081b1e4cc33743db1fa  edge_cases/season_folder_filename_matrix/variant_04/The X-Files (1993)/season_01/Episode 06 - Shadows.mkv
+610389c3083df154bc7a6827c0a49c463403d5ca92c282805b6e0c6e83e30d6f  edge_cases/season_folder_filename_matrix/variant_04/The X-Files (1993)/season_01/Episode_7_Ghost_in_the_Machine.mkv
+723dad6723d112ce207de3b20764e6cd2edfaf3e6b15be8c5f699135829382ed  edge_cases/season_folder_filename_matrix/variant_04/The X-Files (1993)/season_01/Fallen Angel - 1x10.mkv
+2e54b0621cc752e873b886ab7b3fa03cea2436cbcd274acdfffcba89918a11c7  edge_cases/season_folder_filename_matrix/variant_04/The X-Files (1993)/season_01/Fallen_Angel.mkv
+c195952a40c7b1566ceb39f140b6969269cb1d9e065d48a0b269d6fd8fe838d7  edge_cases/season_folder_filename_matrix/variant_04/The X-Files (1993)/season_01/Ice ep8.mkv
+9c8166d3c5732321a67bce354ca717321d0edbaa0d891643694ae4a43a74a0a1  edge_cases/season_folder_filename_matrix/variant_04/The X-Files (1993)/season_01/S01E01 - Pilot.mkv
+df97676d4cab596e9373dc7df44027fe153c563c6c6c5c869e82004ce50bbb44  edge_cases/season_folder_filename_matrix/variant_04/The X-Files (1993)/season_01/Space - S01E09.mkv
+0c352c85731886ee12d233e43a809705f6fe67ba1b6992f0bcfef5aa5b8a8aed  edge_cases/season_folder_filename_matrix/variant_04/The X-Files (1993)/season_01/Space 09.mkv
+944b98e4548967bf899e0d878fa8000081a1b0a995cfcde31e181f3e532262f4  edge_cases/season_folder_filename_matrix/variant_04/The X-Files (1993)/season_01/e01 Pilot.mkv
+c639d4d2df12ae380147f8adc41b3912f3f736f8f5cfb698aa67380359769aa9  edge_cases/season_folder_filename_matrix/variant_04/The X-Files (1993)/season_01/e03_Squeeze.mkv
+b37e17c37a35fcdeb4a70e9eda04485aa750e3f1b09ebc866c7a78af1419bb63  edge_cases/season_folder_filename_matrix/variant_04/The X-Files (1993)/season_01/e2 Deep Throat.mkv
+0dcfcc5b29016d5b01e906f17c8ac4b89f3c6f26612e241e630bba6aa6ea10db  edge_cases/season_folder_filename_matrix/variant_04/The X-Files (1993)/season_01/e4_Conduit.mkv
+f5ceb45f882ea09ff699d5564e264e944d9ce161a428191cf88a046c3874c880  edge_cases/season_folder_filename_matrix/variant_04/The X-Files (1993)/season_01/ep05 The Jersey Devil.mkv
+8e8c51ec9ccedcb045f91004343304ffe7e0678d40b87387065bb9e1fba8374d  edge_cases/season_folder_filename_matrix/variant_04/The X-Files (1993)/season_01/ep6 Shadows.mkv
+01056d06e95258a7a04ad20f55095e1fb6eb7dac75eb6dbfc0e1f353e030e863  edge_cases/season_folder_filename_matrix/variant_04/The X-Files (1993)/season_01/episode 7 Ghost in the Machine.mkv
+20060e901cb3876d4acd087a0c4a2c63e340b42292360a3a8be234b4d1db5b72  edge_cases/season_folder_filename_matrix/variant_04/The X-Files (1993)/season_01/s01e2 Deep Throat.mkv
+7ea29f30c704e6a48ec2d1c0fd00873885183c84f408a605266988d14e882592  edge_cases/season_folder_filename_matrix/variant_05/The X-Files (1993)/season_1/05 - The Jersey Devil.mkv
+f9ec2f7e27be6f3418f977e18f390e18c4507116e23114a58ad1944db23cd889  edge_cases/season_folder_filename_matrix/variant_05/The X-Files (1993)/season_1/104 - Conduit.mkv
+e46ad250c523bcc6cf2d4ad7cffd9fc97da280f4355b2bc4770ac142332bd08a  edge_cases/season_folder_filename_matrix/variant_05/The X-Files (1993)/season_1/1x03 - Squeeze.mkv
+7fc6803290ef7c386f94f7e9fc6571ad5171578c05cccaffea5da19e4dc13efe  edge_cases/season_folder_filename_matrix/variant_05/The X-Files (1993)/season_1/E08 - Ice.mkv
+36dea2777d686050d6a2656ce721556f1ed4b95dbff349bd745c3e26ac55804f  edge_cases/season_folder_filename_matrix/variant_05/The X-Files (1993)/season_1/Episode 06 - Shadows.mkv
+17206481bd2bca22e3d4447edd424e9e29a5bbf5097fbd8b157cf3e467c407a2  edge_cases/season_folder_filename_matrix/variant_05/The X-Files (1993)/season_1/Episode_7_Ghost_in_the_Machine.mkv
+160bc02ed6d02ec1a10daabf25307308b62106964d1ba174f0dd76309d2af2a2  edge_cases/season_folder_filename_matrix/variant_05/The X-Files (1993)/season_1/Fallen Angel - 1x10.mkv
+bb919ea5386f4fb5d5d4b9f1f24bae6ec3107abd06ef313542baec4f2f688e19  edge_cases/season_folder_filename_matrix/variant_05/The X-Files (1993)/season_1/Fallen_Angel.mkv
+b486bcce60cea8a846d0e6bcd51bc03c927fbaa532c947026ed73c6fc2444898  edge_cases/season_folder_filename_matrix/variant_05/The X-Files (1993)/season_1/Ice ep8.mkv
+9b832c988a8208a9c15112c1fe7eaff0f02e1f5f4eec151b222baa99a88cd172  edge_cases/season_folder_filename_matrix/variant_05/The X-Files (1993)/season_1/S01E01 - Pilot.mkv
+0ea32c6f22dc63300337b347d28a40b29aa27123577cd426815a1c7c155f822c  edge_cases/season_folder_filename_matrix/variant_05/The X-Files (1993)/season_1/Space - S01E09.mkv
+602963af31137fce7d4c8358283ad67e67bc3ceb391d99e979254e7f6b8c9d96  edge_cases/season_folder_filename_matrix/variant_05/The X-Files (1993)/season_1/Space 09.mkv
+827f3aed63b99c1eebbbf9f30f2b8707b66b6707f3aecf8d6bf87ffe0dbf7a80  edge_cases/season_folder_filename_matrix/variant_05/The X-Files (1993)/season_1/e01 Pilot.mkv
+a616ef394dccfe7f76cff100fdb08cce4011e0e0627ef8f484c927a068a659d2  edge_cases/season_folder_filename_matrix/variant_05/The X-Files (1993)/season_1/e03_Squeeze.mkv
+2fbbff255d3355b3a02be3e04faed28770f50149cbf45b5c261288f539f69cc2  edge_cases/season_folder_filename_matrix/variant_05/The X-Files (1993)/season_1/e2 Deep Throat.mkv
+0e9656ffbb3e43de9101d977ba81787f65b614907cb7940ddcc2fd7af55594a4  edge_cases/season_folder_filename_matrix/variant_05/The X-Files (1993)/season_1/e4_Conduit.mkv
+4f9fb6561acaafb727b06830af7278e6f21bdb4769e15401076731fab6b9a016  edge_cases/season_folder_filename_matrix/variant_05/The X-Files (1993)/season_1/ep05 The Jersey Devil.mkv
+aedddfda05718e928dcb27370047325fb1653a93af00b7741b9a3adf86bad117  edge_cases/season_folder_filename_matrix/variant_05/The X-Files (1993)/season_1/ep6 Shadows.mkv
+c7c518dae9a0054272da444633519e50f8a4406cc4b633472aa4aaa5ce0270e2  edge_cases/season_folder_filename_matrix/variant_05/The X-Files (1993)/season_1/episode 7 Ghost in the Machine.mkv
+1c2dad9e76ed7212beaca3d313b706b2a1ff775e57f094499f591d59082b5fda  edge_cases/season_folder_filename_matrix/variant_05/The X-Files (1993)/season_1/s01e2 Deep Throat.mkv
+7b930c984a58102b1d8baa9b9d4ceec8c1f4b9fa127ad0cf07a5c788915fa051  edge_cases/season_folder_filename_matrix/variant_06/The X-Files (1993)/S01/05 - The Jersey Devil.mkv
+d5606e368486d99869a8fb4bf73d111bd091ac24e489aeb6373614dc9b354db0  edge_cases/season_folder_filename_matrix/variant_06/The X-Files (1993)/S01/104 - Conduit.mkv
+aa18e276089263293d420caaa397fbfb6751d0e014e0dcc1e1950b184820de94  edge_cases/season_folder_filename_matrix/variant_06/The X-Files (1993)/S01/1x03 - Squeeze.mkv
+d63e179ff36036a54f0859cde6b78e833e176add3e37dff7381b73315b581e4e  edge_cases/season_folder_filename_matrix/variant_06/The X-Files (1993)/S01/E08 - Ice.mkv
+d2d0cda5c3473abd86c6fa98ce74418d309147bfc7108f80ea3d2ebed4f3f59b  edge_cases/season_folder_filename_matrix/variant_06/The X-Files (1993)/S01/Episode 06 - Shadows.mkv
+8d58e5f3e3ee092f044eca815876075bb22e8526add513e18b9862aa56395624  edge_cases/season_folder_filename_matrix/variant_06/The X-Files (1993)/S01/Episode_7_Ghost_in_the_Machine.mkv
+b3c0ac1b5f717863fb5ba88ce7d0bf9d157d0abc725ad8c910d6f53bf6305d0b  edge_cases/season_folder_filename_matrix/variant_06/The X-Files (1993)/S01/Fallen Angel - 1x10.mkv
+7ef7a77592d83b546c55807d599a29a2a7eeeffbb9d6ee3c569f9864b899baa6  edge_cases/season_folder_filename_matrix/variant_06/The X-Files (1993)/S01/Fallen_Angel.mkv
+270b9052aa21aaa96b479af771afbf6fdebe861cc61cdcad454eef2f3066ecfb  edge_cases/season_folder_filename_matrix/variant_06/The X-Files (1993)/S01/Ice ep8.mkv
+d3d5f486aaed5fd0475ad4e804cc4f9dd2f594c1a730395d899862525baaaf27  edge_cases/season_folder_filename_matrix/variant_06/The X-Files (1993)/S01/S01E01 - Pilot.mkv
+44a06fd436814801a168e5bf4798564998a0a62a51a0fa494c7fa21571699f03  edge_cases/season_folder_filename_matrix/variant_06/The X-Files (1993)/S01/Space - S01E09.mkv
+96aef9dec0aa5150b009e1a4ef3c6a55182c1c0d39c58f1190d29b5751fd76f8  edge_cases/season_folder_filename_matrix/variant_06/The X-Files (1993)/S01/Space 09.mkv
+9189a14996e18de709677650c911b74c1c41578bd30d30edf1169fa86ea28c73  edge_cases/season_folder_filename_matrix/variant_06/The X-Files (1993)/S01/e01 Pilot.mkv
+00c01bac5b36b96b48acfcf13b9cba532677354a8b3edb961dcc2cb2e06aee7c  edge_cases/season_folder_filename_matrix/variant_06/The X-Files (1993)/S01/e03_Squeeze.mkv
+980c6a9e43550a436b1639fc3677962eecd49f27ea949250bb2b7719aadb54af  edge_cases/season_folder_filename_matrix/variant_06/The X-Files (1993)/S01/e2 Deep Throat.mkv
+848e1cf487d04e843a083eb5aa9d41584857c0837a160bcb3ff8b67f3792e443  edge_cases/season_folder_filename_matrix/variant_06/The X-Files (1993)/S01/e4_Conduit.mkv
+43aaa9d87ec5d6d8ff2cd209430fefb16540f9b0733fb1e0ea316223307c022a  edge_cases/season_folder_filename_matrix/variant_06/The X-Files (1993)/S01/ep05 The Jersey Devil.mkv
+6cee55cab76d709031075c44a2849b13a419d2cd434bda02a9256c71ba628f11  edge_cases/season_folder_filename_matrix/variant_06/The X-Files (1993)/S01/ep6 Shadows.mkv
+49c75e7b3266918505e78ab415c04ad1674a5446a6a619e88d7ac42a81bbe494  edge_cases/season_folder_filename_matrix/variant_06/The X-Files (1993)/S01/episode 7 Ghost in the Machine.mkv
+9b097098b3419ca4331ee885a8093c4a5d15300a5ab069128a8ad49f194a0267  edge_cases/season_folder_filename_matrix/variant_06/The X-Files (1993)/S01/s01e2 Deep Throat.mkv
+5edf17c792a6d5cb42d91ad2f9e78e02989a2dcf18d2f4a90697fbe60b7e21ea  edge_cases/season_folder_filename_matrix/variant_07/The X-Files (1993)/S1/05 - The Jersey Devil.mkv
+4ba947676ab9347695bbd80653595db42e7c581f6a88bfcac95f29f97e7dbd83  edge_cases/season_folder_filename_matrix/variant_07/The X-Files (1993)/S1/104 - Conduit.mkv
+8dc7ff59009b924073aa2fcc4ee7bb17d54ab2f93a944fa3e536f85b67420778  edge_cases/season_folder_filename_matrix/variant_07/The X-Files (1993)/S1/1x03 - Squeeze.mkv
+386314ab59f37f7fecb12866da25e88ad964501cd37c9100137158dff4d9134e  edge_cases/season_folder_filename_matrix/variant_07/The X-Files (1993)/S1/E08 - Ice.mkv
+926bc169f7f697684f79429cd823f44873bc59ba4abceebf189c36f2bc40fa78  edge_cases/season_folder_filename_matrix/variant_07/The X-Files (1993)/S1/Episode 06 - Shadows.mkv
+65ab7b19b7ba47e5091f2d36c73f65bfc0b303dba863a2f63708139ad7f92d16  edge_cases/season_folder_filename_matrix/variant_07/The X-Files (1993)/S1/Episode_7_Ghost_in_the_Machine.mkv
+02108e2bab42aaf2941dd05f76ac6199524464321b6ebfd9f6a1066946138b78  edge_cases/season_folder_filename_matrix/variant_07/The X-Files (1993)/S1/Fallen Angel - 1x10.mkv
+a6c98e980dc31e9716d76fbd563b2fc3b328de351ec990090ebeaf9e76f2cb32  edge_cases/season_folder_filename_matrix/variant_07/The X-Files (1993)/S1/Fallen_Angel.mkv
+e9a591c934390b4fba5f76a31bbdf23d7eb7fed98ea08309182921d3cda0e04b  edge_cases/season_folder_filename_matrix/variant_07/The X-Files (1993)/S1/Ice ep8.mkv
+c420caaa54032b094255881ff4c5c0664767a6fdc63be8986bc3dba41644ec77  edge_cases/season_folder_filename_matrix/variant_07/The X-Files (1993)/S1/S01E01 - Pilot.mkv
+7db744e1e25ed464dcf4c97a814ce960b0ccc057d93e2ccf46b552f10cc04a71  edge_cases/season_folder_filename_matrix/variant_07/The X-Files (1993)/S1/Space - S01E09.mkv
+882a625f8832a7c27e194322d20474287628b84f3a260f9ec79390afc055a655  edge_cases/season_folder_filename_matrix/variant_07/The X-Files (1993)/S1/Space 09.mkv
+ed4375d060f8c3f2bc2378d48feb4ede35cec7369a5e69141d81826455dcf148  edge_cases/season_folder_filename_matrix/variant_07/The X-Files (1993)/S1/e01 Pilot.mkv
+f538dd4cf4f1b13a863dcb038694f52c9ffe12f94c2a70c6356f89928d2f554d  edge_cases/season_folder_filename_matrix/variant_07/The X-Files (1993)/S1/e03_Squeeze.mkv
+10002ede84035da253bf1943432dcded4a2c7e693bdd0db987b0022783a39472  edge_cases/season_folder_filename_matrix/variant_07/The X-Files (1993)/S1/e2 Deep Throat.mkv
+27619cca72b9f22a229600015537ee565d71f239a9d376b75841253128e3f092  edge_cases/season_folder_filename_matrix/variant_07/The X-Files (1993)/S1/e4_Conduit.mkv
+ed79da3ddbcd7791593d739f46cae99c99254e7e097991d409fe44d67a7e8eb9  edge_cases/season_folder_filename_matrix/variant_07/The X-Files (1993)/S1/ep05 The Jersey Devil.mkv
+0c2c905104000fed6124fea1005b574da8f7e560b9f4ad359f215293bbfcecff  edge_cases/season_folder_filename_matrix/variant_07/The X-Files (1993)/S1/ep6 Shadows.mkv
+986fa9847eee91b8a2d68d9cfb99302a2e090e7a4ecb560c962284bfc82dca28  edge_cases/season_folder_filename_matrix/variant_07/The X-Files (1993)/S1/episode 7 Ghost in the Machine.mkv
+678822a92ad2dcf434e79314b073e6a59f6a4cd098f4c77483653e9ad81987b1  edge_cases/season_folder_filename_matrix/variant_07/The X-Files (1993)/S1/s01e2 Deep Throat.mkv
+a323706ab123801d05aea935d0b2b4a2541c390f2478e4995828e25a81f84d8a  edge_cases/season_folder_filename_matrix/variant_08/The X-Files (1993)/Season 01/05 - The Jersey Devil.mkv
+0047b3615cbbc2367e60403409996030a02d823ec0dff169e6db417100158bb5  edge_cases/season_folder_filename_matrix/variant_08/The X-Files (1993)/Season 01/104 - Conduit.mkv
+ecb329f931ce615bdbc086cf427bdb69d2c0a0e816604ab8d587f04b23cf5573  edge_cases/season_folder_filename_matrix/variant_08/The X-Files (1993)/Season 01/1x03 - Squeeze.mkv
+8ef4e7f24d7a96017e1db94a25b1b845e0689c004f1e788d1c9326515cdc4d11  edge_cases/season_folder_filename_matrix/variant_08/The X-Files (1993)/Season 01/E08 - Ice.mkv
+2ed41ad9cfed93884f473edc23d5d657245e8cb988264bf3a6ac8c6d9f087126  edge_cases/season_folder_filename_matrix/variant_08/The X-Files (1993)/Season 01/Episode 06 - Shadows.mkv
+97fd4a0a1f36754e46da5d70ecaff42f2b0e177b53f6a179de1fe6e00f11b365  edge_cases/season_folder_filename_matrix/variant_08/The X-Files (1993)/Season 01/Episode_7_Ghost_in_the_Machine.mkv
+16d9f077c4ede673671a85b5ca5f2e4d2d937990b34b640f91a2352c20287ef3  edge_cases/season_folder_filename_matrix/variant_08/The X-Files (1993)/Season 01/Fallen Angel - 1x10.mkv
+27aefbe1c87d2b2b20b8c08575b4245d1a982df5040c29db326e837932c6a8fb  edge_cases/season_folder_filename_matrix/variant_08/The X-Files (1993)/Season 01/Fallen_Angel.mkv
+fb0567cbbea7f82d91a86d8296119d7666f8c4c760b05f92e8ecbcaf582fdaf5  edge_cases/season_folder_filename_matrix/variant_08/The X-Files (1993)/Season 01/Ice ep8.mkv
+0fb04647528a797cb61fc17887ec7f0783f3c2ef3dd36a7f9b3c6e8944434b09  edge_cases/season_folder_filename_matrix/variant_08/The X-Files (1993)/Season 01/S01E01 - Pilot.mkv
+c51b6d79afc494ba7ea4cf914d80db63b6ee31e1555a4ab6f9abefc889e918a9  edge_cases/season_folder_filename_matrix/variant_08/The X-Files (1993)/Season 01/Space - S01E09.mkv
+7af970e506efb466616b17f304e9b09dc9f5887437c297722908684f84a71f7a  edge_cases/season_folder_filename_matrix/variant_08/The X-Files (1993)/Season 01/Space 09.mkv
+0156305650ca89d61be97a27f034a1cead0df3fc521f2952c534cc5ed98fbee7  edge_cases/season_folder_filename_matrix/variant_08/The X-Files (1993)/Season 01/e01 Pilot.mkv
+549b7cc0aee0e6e6a3425f30119e9d6d28afcb8ce799cb5a2bb9f3a3fdde9190  edge_cases/season_folder_filename_matrix/variant_08/The X-Files (1993)/Season 01/e03_Squeeze.mkv
+cc69c8c1eaaeb0af7b598d9c4a0349f1505087250176714d4bb9a9aed954e540  edge_cases/season_folder_filename_matrix/variant_08/The X-Files (1993)/Season 01/e2 Deep Throat.mkv
+18ecac859757aecbe7040e90f4fab2f05590e020123275500d38c4b4ff06acae  edge_cases/season_folder_filename_matrix/variant_08/The X-Files (1993)/Season 01/e4_Conduit.mkv
+62378d6ec427abdb79258babfbce8ac65bbc039784ffb1c5fe06252b1599f1ad  edge_cases/season_folder_filename_matrix/variant_08/The X-Files (1993)/Season 01/ep05 The Jersey Devil.mkv
+2c6482cd3e1ab265399311452d62509818adb85ad5c2834c8e73859e2406a506  edge_cases/season_folder_filename_matrix/variant_08/The X-Files (1993)/Season 01/ep6 Shadows.mkv
+ffe0d4f756945c93e11de94b97a0e74ebd4f201a6eba5b57e7725525c334d01a  edge_cases/season_folder_filename_matrix/variant_08/The X-Files (1993)/Season 01/episode 7 Ghost in the Machine.mkv
+902bf1ccb95b72098e0636c4d0b63ceb5de6dc64de141d61cd673070648edbca  edge_cases/season_folder_filename_matrix/variant_08/The X-Files (1993)/Season 01/s01e2 Deep Throat.mkv
+3d2f422831c34e6cfd134735d519975617d786d7ffa0925468dd5708e754e047  edge_cases/season_folder_filename_matrix/variant_09/The X-Files (1993)/Season 1/05 - The Jersey Devil.mkv
+a2c72624f5e0c11409b4e574981b8ef266c87ebb53ec800d48f8133981b812bc  edge_cases/season_folder_filename_matrix/variant_09/The X-Files (1993)/Season 1/104 - Conduit.mkv
+39a9bd58e0e34e3ed96e00bf8e3190f42225102c02f7c37c4429977de5c4d36d  edge_cases/season_folder_filename_matrix/variant_09/The X-Files (1993)/Season 1/1x03 - Squeeze.mkv
+febef1c1cbbaffe88a6c0333d05b2084a538b36c837d0d3896b3d558f97873bd  edge_cases/season_folder_filename_matrix/variant_09/The X-Files (1993)/Season 1/E08 - Ice.mkv
+fa23192406282c22027acb0cd5839a5b93c3bccd6ecaff1c28ef4af5510fcf3a  edge_cases/season_folder_filename_matrix/variant_09/The X-Files (1993)/Season 1/Episode 06 - Shadows.mkv
+7b0aaa9ac57bbe65b12e8186deda55b10d2431bae11a4c82e4ad3c10f1c70a75  edge_cases/season_folder_filename_matrix/variant_09/The X-Files (1993)/Season 1/Episode_7_Ghost_in_the_Machine.mkv
+9bed2b8cd2a19dad270bb37aaf2b354e7f5ee450e68ee8b53621f78c987fa1f9  edge_cases/season_folder_filename_matrix/variant_09/The X-Files (1993)/Season 1/Fallen Angel - 1x10.mkv
+9a9b758ddf2a5adfefc376980a4063d8aad9b2af2ee28f86d7612ddee296b6ca  edge_cases/season_folder_filename_matrix/variant_09/The X-Files (1993)/Season 1/Fallen_Angel.mkv
+551d9a576945b201eb7910272530fa01f3b0f7a1e9945d793bafca09603be1cd  edge_cases/season_folder_filename_matrix/variant_09/The X-Files (1993)/Season 1/Ice ep8.mkv
+8a3815bfaa6696a1ea141bee4c6232ec3c8d30b1e67ad6e6340593c4a1ca7752  edge_cases/season_folder_filename_matrix/variant_09/The X-Files (1993)/Season 1/S01E01 - Pilot.mkv
+d33e23462d42d4da148fc5bf1f3f193d9c6371aeb76150847914661c18982c24  edge_cases/season_folder_filename_matrix/variant_09/The X-Files (1993)/Season 1/Space - S01E09.mkv
+6d3ea0aaed1e8eb293415c4b51e55659e971394714cacf288e0f861e731dff14  edge_cases/season_folder_filename_matrix/variant_09/The X-Files (1993)/Season 1/Space 09.mkv
+f6c32a1c3c2bec2912e276accc70cda53ec953622af914b6d319b5b13ae0da57  edge_cases/season_folder_filename_matrix/variant_09/The X-Files (1993)/Season 1/e01 Pilot.mkv
+0d52d6bd542e8337e531bbc6a12d11c1b03ec1cf21b3cc6cad2b7264e79fbde5  edge_cases/season_folder_filename_matrix/variant_09/The X-Files (1993)/Season 1/e03_Squeeze.mkv
+eeb35a80392bcde67143eb7f81e309eba9a7a910b4ae35648e7fd335946d1fdc  edge_cases/season_folder_filename_matrix/variant_09/The X-Files (1993)/Season 1/e2 Deep Throat.mkv
+e2edca104fd4aa4b9a89692f668040f91172794a3d5e35da4152be7c21c66813  edge_cases/season_folder_filename_matrix/variant_09/The X-Files (1993)/Season 1/e4_Conduit.mkv
+24a532ea3193165cc4062fe2ba1650a65f83f375c9638868fd0dd48261425cbd  edge_cases/season_folder_filename_matrix/variant_09/The X-Files (1993)/Season 1/ep05 The Jersey Devil.mkv
+4a14773183a03dcecf5fdfbf221d6e136d769eb0d8426a84255f7e62e6d54ca8  edge_cases/season_folder_filename_matrix/variant_09/The X-Files (1993)/Season 1/ep6 Shadows.mkv
+4a8a8f1413e3fac2d8c8ea2893ac133f7d245c60990867dc832d71e9192e8d5a  edge_cases/season_folder_filename_matrix/variant_09/The X-Files (1993)/Season 1/episode 7 Ghost in the Machine.mkv
+4f4ffe7385a3f41d28ace3775d47e32cb21e2a19e8dad72f405bcd2852b0136e  edge_cases/season_folder_filename_matrix/variant_09/The X-Files (1993)/Season 1/s01e2 Deep Throat.mkv
+ef9a5dfb82ca7dcae1c031d4c7a2f68cf667e524ceb4f423e211984359add29f  edge_cases/season_folder_filename_matrix/variant_10/The X-Files (1993)/season01/05 - The Jersey Devil.mkv
+0b82416cb2e52de88c15f19b1bb71b7e06543fe95c283db74dfeeca50a3b6c22  edge_cases/season_folder_filename_matrix/variant_10/The X-Files (1993)/season01/104 - Conduit.mkv
+9f2475d815405b09464c002af1b60a2d49a1fd1fd753ed5d86f70e134b1ca40c  edge_cases/season_folder_filename_matrix/variant_10/The X-Files (1993)/season01/1x03 - Squeeze.mkv
+a470fdc799110bb2a90aaa332f5e13cb5748fe73822988f7ad8572ef4617eee5  edge_cases/season_folder_filename_matrix/variant_10/The X-Files (1993)/season01/E08 - Ice.mkv
+d228e71da52b9cd2e76a2b7a6dc340a908a2929fa0b68408d6811e0fa44371f4  edge_cases/season_folder_filename_matrix/variant_10/The X-Files (1993)/season01/Episode 06 - Shadows.mkv
+506efe443fd910bcede4bb58c77895d2ae116812a262e6ad335ea9106761f8af  edge_cases/season_folder_filename_matrix/variant_10/The X-Files (1993)/season01/Episode_7_Ghost_in_the_Machine.mkv
+37db8cfabc941b98050a5f6efdd0de6d5c102e83ffbeef69bb79303ef1fd7897  edge_cases/season_folder_filename_matrix/variant_10/The X-Files (1993)/season01/Fallen Angel - 1x10.mkv
+6cb5d423dca2d64fb7c16cf5caf80c2cbd3933c1a213693fc945de9b5318f8a6  edge_cases/season_folder_filename_matrix/variant_10/The X-Files (1993)/season01/Fallen_Angel.mkv
+446e1bfeced4916200ce89d394a78079392ce893b899f52ddfdfe4a1c3f1c217  edge_cases/season_folder_filename_matrix/variant_10/The X-Files (1993)/season01/Ice ep8.mkv
+85e1097812e3b828c6b394aff2ccccefaa74e01b6373bdb8c63173ffa901520a  edge_cases/season_folder_filename_matrix/variant_10/The X-Files (1993)/season01/S01E01 - Pilot.mkv
+6dfc9706d229b56d9e08123c084f011aa92732da2a3bf228266d70c529c5a7be  edge_cases/season_folder_filename_matrix/variant_10/The X-Files (1993)/season01/Space - S01E09.mkv
+ca2b4f2b467f2339223243c9209654bfe10a04a20bbb73043b75b7ed3e92fe75  edge_cases/season_folder_filename_matrix/variant_10/The X-Files (1993)/season01/Space 09.mkv
+517ae19068c53de3768fe19595e71612b9dc30c7d5c56ebef4012f4c82878d47  edge_cases/season_folder_filename_matrix/variant_10/The X-Files (1993)/season01/e01 Pilot.mkv
+2afc13d8a3e4bc74741c45c7e1ef5b72107856304db3242358997999185aee6c  edge_cases/season_folder_filename_matrix/variant_10/The X-Files (1993)/season01/e03_Squeeze.mkv
+758b4205b686f96d1cf5e73bdbada679da95431b5a87abb25b4a0cd56c86c409  edge_cases/season_folder_filename_matrix/variant_10/The X-Files (1993)/season01/e2 Deep Throat.mkv
+d5300e2a49f8e0104606ffa741beccc20384810708bab0cf875c809ce7126574  edge_cases/season_folder_filename_matrix/variant_10/The X-Files (1993)/season01/e4_Conduit.mkv
+5163a857810e4f551d72096a20e7fffb5b9da6804b7677428910bef50b4634bf  edge_cases/season_folder_filename_matrix/variant_10/The X-Files (1993)/season01/ep05 The Jersey Devil.mkv
+0ce2ce7973521bcbb9601fb8004ff1702df5b67c837aa1ee1954eda5eec0abe0  edge_cases/season_folder_filename_matrix/variant_10/The X-Files (1993)/season01/ep6 Shadows.mkv
+4636a1415de06ea46ae2b3f89a4a1152cf9f990289046527a525ddcb1cbfa78e  edge_cases/season_folder_filename_matrix/variant_10/The X-Files (1993)/season01/episode 7 Ghost in the Machine.mkv
+200bbe739fd066d459f0f021af7b4c9390083e7274649c45d5db07f44efe000b  edge_cases/season_folder_filename_matrix/variant_10/The X-Files (1993)/season01/s01e2 Deep Throat.mkv
+acba93696211dfb32e913372e20371a0588b397d6a2429f001518b9306f91431  edge_cases/subtitles_only/Parasite.2019.en.srt
+f391039dc416ae45f4f1d29bc76f5c42e87173c4499a7ab7de57a9c9e58bc39c  edge_cases/unicode/Amélie.2001.1080p.BluRay.x264-GRP/Amélie.2001.1080p.BluRay.x264-GRP.mkv
+8cd54a1face36138002afc17171278b6ca31073972c2984d380dcb61b1dd6324  edge_cases/unicode/七人の侍.1954.1080p.BluRay.x264-GRP/七人の侍.1954.1080p.BluRay.x264-GRP.mkv
+d117cb1e7e2c1dfd40ff0de57c369aeb3675e0eb072d2b5e2fe27a9e377cdde5  manifest.csv
+7a2df4848c901cc295ae43b12ae1b9804842526bf5c90093a55648f979383136  manifest.json
+6c836f49250702d4e9e37299981b0a846867bed0f1c9e68d650f37041c894f27  messy_downloads/movies/Alien.1979.DIRECTORS.CUT.1080p.BluRay.x264.DTS-FGT/Alien.1979.DIRECTORS.CUT.1080p.BluRay.x264.DTS-FGT.mkv
+9300d2a3306a1106e8e4f2f968050b25ef4ccd7e97df607c3f26b4321bbc56c9  messy_downloads/movies/Alien.1979.DIRECTORS.CUT.1080p.BluRay.x264.DTS-FGT/RARBG.txt
+1b581d70cd50dc67910a3d26fc1648bf29fa530b55da47fe4c19abd54535d01d  messy_downloads/movies/Aliens.1986.Special.Edition.1080p.BluR~bb4abcef/Aliens.1986.Special.Edition.1080p.BluRay.x265.10bit-GalaxyRG265.mkv
+6180e63eb22fa33245135b47ab56650c89107e94b1b854f540d9abfe2238a208  messy_downloads/movies/Aliens.1986.Special.Edition.1080p.BluR~bb4abcef/Sample/Aliens.1986.Special.Edition.1080p.BluRay.x265.10bit-GalaxyRG265.sample.mkv
+d0afad126faecb4b5ef06c5db1b60b6a4e25eb8f7853809c2f1b71bf8428011b  messy_downloads/movies/Amelie.2001.FRENCH.1080p.BluRay.x264.DTS-FGT/Amelie.2001.FRENCH.1080p.BluRay.x264.DTS-FGT.mkv
+0659bbd1119e108ec588d3e101fb17fd51c1a0593158442b49c7897ead0fc24b  messy_downloads/movies/Anatomy.of.a.Fall.2023.FRENCH.1080p.Bl~a3ddee03/Anatomy.of.a.Fall.2023.FRENCH.1080p.BluRay.x264-USURY.mkv
+168b1c316a11cd64f3a221a998cd6145581e03a0be7439b8c18cd632da7a6b5b  messy_downloads/movies/Barbie.2023.1080p.WEB-DL.DDP5.1.Atmos.H.264-FLUX/Barbie.2023.1080p.WEB-DL.DDP5.1.Atmos.H.264-FLUX.mkv
+3b4645928a5ad32ec0b257b0a45190deb2f836cce1baa54b04c05b89e23a6d67  messy_downloads/movies/Dune.Part.Two.2024.2160p.WEB-DL.DDP5.1~bf7506c7/Dune.Part.Two.2024.2160p.WEB-DL.DDP5.1.Atmos.DV.HDR.H.265-FLUX.mkv
+d3cf4519f1af62f9c23666e1fa813cc0d5cbde112935e206094ece07273bef9f  messy_downloads/movies/Everything.Everywhere.All.at.Once.2022~7d302c1b/Everything.Everywhere.All.at.Once.2022.1080p.BluRay.x265-RARBG.mkv
+7db60e8ce8889d1d09acc97eabb92fd29ea0eb5c9a01df120e9f67da2e4c4884  messy_downloads/movies/Ford.v.Ferrari.2019.2160p.UHD.BluRay.x~20309f57/Ford.v.Ferrari.2019.2160p.UHD.BluRay.x265.HDR.DTS-HD.MA.7.1-TERMiNAL.mkv
+f7b480bc59dfb4e2d08dd9e5a7bb2ae5fc3210bb90960ff46b33e27968eb260f  messy_downloads/movies/Get.Out.2017.1080p.BluRay.x264-GECKOS/Get.Out.2017.1080p.BluRay.x264-GECKOS.mkv
+7090a398bde03401726dcc0a1683da44406cece6aa44c6a76b93316e7279af45  messy_downloads/movies/Heat.1995.Directors.Definitive.Edition~05e0a5a4/Heat.1995.Directors.Definitive.Edition.2160p.UHD.BluRay.REMUX.HDR.HEVC.TrueHD.Atmos-EPSiLON.mkv
+259b0d65d8e8c4d38c4b79d1f1279700e53e5c844fd5e615d4ccb63217c7f669  messy_downloads/movies/Heat.1995.Directors.Definitive.Edition~05e0a5a4/Subs/English.srt
+c3a7e1b0d43530f0882895256ed73d90ac9c0f33b01743f9f8395b53367b01bb  messy_downloads/movies/Interstellar.2014.1080p.BluRay.x264-SPARKS/Interstellar.2014.1080p.BluRay.x264-SPARKS.mkv
+56a148ee8fa88acfbe3a76a66ba4979375fe8d5ea05434be2d6833023ce22293  messy_downloads/movies/Jurassic.Park.1993.2160p.UHD.BluRay.x2~a1e87b89/Jurassic.Park.1993.2160p.UHD.BluRay.x265.10bit.HDR.TrueHD.7.1-TERMiNAL.mkv
+7149bf9c2b94badd467f785831c74b2bd7fe92395af0588bc384052648497439  messy_downloads/movies/Jurassic.Park.1993.2160p.UHD.BluRay.x2~a1e87b89/Subs/English.srt
+4c415269a1d6f47fdb558218322ce592874f8371a57b96f7c11829c593e6db85  messy_downloads/movies/Knives.Out.2019.1080p.BluRay.x264.DTS-~14549347/Knives.Out.2019.1080p.BluRay.x264.DTS-HD.MA.5.1-FGT.mkv
+a4c23a3f389d0d93a4d8ba737b264663eaae7eebb6aff927cec55269c8361266  messy_downloads/movies/Moonlight.2016.1080p.WEB-DL.DD5.1.H264-FGT/Moonlight.2016.1080p.WEB-DL.DD5.1.H264-FGT.mkv
+97a9378697218e2d8d69cb5d5de8651b5ca66db26ea3cd014382c29f065b88ed  messy_downloads/movies/Oppenheimer.2023.2160p.IMAX.UHD.BluRay~904b1ea1/Oppenheimer.2023.2160p.IMAX.UHD.BluRay.REMUX.HDR.HEVC.DTS-HD.MA.5.1-FGT.mkv
+31075e2353ded88d09f035441dad997e1d5d0a7d267198dd774899e6e8ea4abb  messy_downloads/movies/Pans.Labyrinth.2006.SPANISH.1080p.BluR~ac8a91b9/Pans.Labyrinth.2006.SPANISH.1080p.BluRay.x264.DTS-FGT.mkv
+131bcac5d359c2688898b3283fa6bed3cd20cdbab100224c5436f01cb41366b8  messy_downloads/movies/Pans.Labyrinth.2006.SPANISH.1080p.BluR~ac8a91b9/Pans.Labyrinth.2006.SPANISH.1080p.BluRay.x264.DTS-FGT.nfo
+c16471edfccf0adae003d0405cce75071576fa8d84b8346c3824db17364e8db2  messy_downloads/movies/Past.Lives.2023.KOREAN.1080p.WEBRip.x2~738f88d3/Past.Lives.2023.KOREAN.1080p.WEBRip.x264.AAC5.1-YTS.MX.mp4
+f781e261abf7b40cfb64bc753e40449901c62df0f5c410e271619583580002ff  messy_downloads/movies/Poor.Things.2023.1080p.BluRay.x264.DTS~00c2e481/Poor.Things.2023.1080p.BluRay.x264.DTS-HD.MA.5.1-MT.mkv
+9d79d43e48592acd6653bb94cd2d4a2466aa63eb58b8de41ee8356700368ea84  messy_downloads/movies/Pulp.Fiction.1994.1080p.BluRay.H264.AAC-RARBG/Pulp.Fiction.1994.1080p.BluRay.H264.AAC-RARBG.mp4
+b131309b4a5c6e02a1a536e402b51027012e3776a71424f8707074e4180f9de4  messy_downloads/movies/Pulp.Fiction.1994.1080p.BluRay.H264.AAC-RARBG/Pulp.Fiction.1994.1080p.BluRay.H264.AAC-RARBG.nfo
+5ceeb857afffbee7f6d8400dcb9a2fd9395d94cc534b0ab33d9ef759c5b16fab  messy_downloads/movies/Spider-Man.No.Way.Home.2021.EXTENDED.1~be64dd66/Spider-Man.No.Way.Home.2021.EXTENDED.1080p.BluRay.x264.DTS-FGT.mkv
+0e2563a85870934197af8f37b660b2f184cedcad5e961c9525e06e6d0031e6c2  messy_downloads/movies/Spirited.Away.2001.JAPANESE.1080p.BluR~1ff426db/Sample/Spirited.Away.2001.JAPANESE.1080p.BluRay.x264.DTS-FGT.sample.mkv
+113414f789365116404b8532aa037c81904e463a8044dca07e97dc26a366cb84  messy_downloads/movies/Spirited.Away.2001.JAPANESE.1080p.BluR~1ff426db/Spirited.Away.2001.JAPANESE.1080p.BluRay.x264.DTS-FGT.mkv
+e5db6f0a32df36eddbd44458cedc9cd62b37e943642b98442c74808fe24866eb  messy_downloads/movies/The.Dark.Knight.2008.IMAX.2160p.UHD.Bl~64e8f37d/The.Dark.Knight.2008.IMAX.2160p.UHD.BluRay.REMUX.HDR.HEVC.TrueHD.Atmos-FGT.mkv
+2e35387131affe148de9109fa706a53376c80b505b27b59ee5bc6696ab2a0bfe  messy_downloads/movies/The.Godfather.1972.REMASTERED.1080p.Bl~e4a70824/Sample/The.Godfather.1972.REMASTERED.1080p.BluRay.x265-RARBG.sample.mkv
+68586ba8882cff689ff189712874751cf6b36584b1e73aae45044406150f2cad  messy_downloads/movies/The.Godfather.1972.REMASTERED.1080p.Bl~e4a70824/The.Godfather.1972.REMASTERED.1080p.BluRay.x265-RARBG.mkv
+ea2d30ddf4ddff34dbee173843edb86a9caa662c697e5cbe81ef088002323154  messy_downloads/movies/The.Holdovers.2023.1080p.BluRay.x264.DTS-MT/The.Holdovers.2023.1080p.BluRay.x264.DTS-MT.mkv
+7eb752a5be34d496437e499f18ce0c2312e76c14aa53e4fd7c5b60f24e7905de  messy_downloads/movies/The.Social.Network.2010.1080p.BluRay.x264.DTS-FGT/The.Social.Network.2010.1080p.BluRay.x264.DTS-FGT.mkv
+5d0a9a10cb34121c20015f1f319469ca29f28765ce2898e82843de9362d7eace  messy_downloads/movies/The.Thing.1982.1080p.BluRay.x264.DTS-HD.MA.5.1-FGT/The.Thing.1982.1080p.BluRay.x264.DTS-HD.MA.5.1-FGT.mkv
+722ad65f102d56b3c77c205d8d7c3c0a1e53ee663696253fb7c3209950a197a3  messy_downloads/movies/The.Thing.1982.1080p.BluRay.x264.DTS-HD.MA.5.1-FGT/The.Thing.1982.1080p.BluRay.x264.DTS-HD.MA.5.1-FGT.nfo
+c082b1b930d09b46c13d6be6de145daecb787cf6d2898f0551ea885f933bc421  messy_downloads/movies/Toy.Story.1995.1080p.BluRay.x264.DTS-WiKi/RARBG.txt
+d23d6eb07a3439495e86e67410ed7bbfbd28fad4eff36046036597647bf11e8c  messy_downloads/movies/Toy.Story.1995.1080p.BluRay.x264.DTS-WiKi/Toy.Story.1995.1080p.BluRay.x264.DTS-WiKi.mkv
+5f58e81cdd4496c210ef0e7235f1c7e6e2d84047b4f083e42e5ca2f01e77b04d  messy_downloads/movies/Whiplash.2014.1080p.BluRay.x264.DTS-RARBG/Whiplash.2014.1080p.BluRay.x264.DTS-RARBG.mkv
+3ef36e81446f7d43286135461f0f4c940f3709be10311ab5aef3d49b91702c8b  messy_downloads/packed/Casablanca.1942.1080p.BluRay.x264-GRP/casablanca-grp.r01
+11b0bb797749d576b4d80a1e1b2375b541c3e727004dfee6ebbedc8b3fe1d6ac  messy_downloads/packed/Casablanca.1942.1080p.BluRay.x264-GRP/casablanca-grp.rar
+bafeed5fc7d1562230781f07e3fbc4448f9619e03eebbd2fd7513888ac5de80f  messy_downloads/tv/Band.of.Brothers.Season.Pack/Band.of.Brothers.S01E09.1080p.BluRay.x264-DEMAND.mkv
+8975a25b85baf3f2601732a1328d895c63533cef104c9c6e78bb4161a444961e  messy_downloads/tv/Better.Call.Saul.Season.Pack/Better.Call.Saul.S06E13.1080p.WEB-DL.DDP5.1.H.264-NTb.mkv
+a1a48a45ad035226dd88167a69f4eb55ffc08cbfcf997d1afe898856b4453515  messy_downloads/tv/Better.Call.Saul.Season.Pack/Better.Call.Saul.S06E13.1080p.WEB-DL.DDP5.1.H.264-NTb.sample.mkv
+9670f14fbe594e7924600be1d01b83af9d9ca6facf37e62e4e3c96970fdf6ca3  messy_downloads/tv/Black.Mirror.Season.Pack/Black.Mirror.S03E04.1080p.WEBRip.x264-SKGTV.mkv
+e29f73be59d0c6085826e7e7644dbf96c002166366b888652bfdcbade65cf3a5  messy_downloads/tv/Breaking.Bad.Season.Pack/Breaking.Bad.S05E14.1080p.BluRay.x265-RARBG.mkv
+82ab36e00fdc43108c2c7a48fc29ca3f18a3994df461ea00c575d730cecde934  messy_downloads/tv/Breaking.Bad.Season.Pack/Subs/Breaking.Bad.S05E14.1080p.BluRay.x265-RARBG.English.srt
+64c5b1728562574aa0bfe310504f99c4b48e7712b1e43dfb78d480c92c6b3e2f  messy_downloads/tv/Chernobyl.Season.Pack/Chernobyl.S01E01.1080p.BluRay.x264-ROVERS.mkv
+d23cbb83209f63958a88611cbe6841bb91858604c3d34b7fe1c832e82fed8f3f  messy_downloads/tv/Community.Season.Pack/Community.S03E04.1080p.BluRay.x264-SHORTBREHD.mkv
+6771552cf40ebadf4343b609a2f2ffb941aa320f057ee777393c58b7ec9bddd7  messy_downloads/tv/Dark.Season.Pack/Dark.S02E06.GERMAN.1080p.WEBRip.x264-STRiFE.mkv
+ceb58527e919f0a7293a13a4b26ed89084e728f80eee63eb2138af2e9b610a5f  messy_downloads/tv/Doctor.Who.2005.Season.Pack/Doctor.Who.2005.S05E10.1080p.BluRay.x264-SHORTBREHD.mkv
+f9b53fe0cf263159d721c3c4f431b3e5c59cfe8636eb046df5b9f8e4bdbb7bf8  messy_downloads/tv/Fargo.Season.Pack/Fargo.S01E06.1080p.BluRay.x264-ROVERS.mkv
+8816eed249dddf0cdbdb88deda3b566f819733a91128515b925a67fb03a54236  messy_downloads/tv/Futurama.Season.Pack/Futurama.S04E07.1080p.WEB-DL.DD5.1.H.264-NTb.mkv
+30a0b59d7c63e049257d711dc83853ec9be98eb47a7abe5c86159515c25a90b3  messy_downloads/tv/Game.of.Thrones.Season.Pack/Game.of.Thrones.S06E09.2160p.UHD.BluRay.x265-HDBEE.mkv
+f06d9e4e25c8708bf34f56aaf3a87c9ac481858d2c2a4fa757ed0cb7d027ae82  messy_downloads/tv/Game.of.Thrones.Season.Pack/Game.of.Thrones.S06E09.2160p.UHD.BluRay.x265-HDBEE.sample.mkv
+525536fe147f2e70fe3a31a0ce79ae0fd741e4c14b17b89f767cfa99b98dba40  messy_downloads/tv/Lost.Season.Pack/Lost.S03E22-E23.1080p.BluRay.x264-DEMAND.mkv
+ac4467e85137c1eb3d2ac9d4289876ec0c3d35db4e411db807a2ae9baaf8ffea  messy_downloads/tv/Mr.Robot.Season.Pack/Mr.Robot.S04E07.1080p.BluRay.x264-SHORTBREHD.mkv
+471e3aeef16a0919b6e47d1de7f2a1d478e82edced607380dba8135736daa31b  messy_downloads/tv/Parks.and.Recreation.Season.Pack/Parks.and.Recreation.S03E07.1080p.BluRay.x264-DEFLATE.mkv
+b10c48f1bef2bc74aee53799065ce4bf5c1ead8f590a30b1691b16e0c4954a3b  messy_downloads/tv/Severance.Season.Pack/Severance.S01E09.2160p.WEB-DL.DDP5.1.Atmos.DV.H.265-NTb.mkv
+68be99e71cbd593d194c1cd4b6132ba1ef005d1b179f5ff9d0db39a312ced53e  messy_downloads/tv/Star.Trek.The.Next.Generation.Season.Pack/Star.Trek.The.Next.Generation.S03E26.1080p.BluRay.x264-DEMAND.mkv
+e7f6bd5f4e8395fc7bbb6d9fe0e89c1eaa0de26a2b68569a26433811c20162d1  messy_downloads/tv/Stranger.Things.Season.Pack/Stranger.Things.S04E09.1080p.WEB-DL.DDP5.1.Atmos.H.264-TEPES.mkv
+14757e850218713af4a4181776d04a3e3f2f1bef5261b1a6b8682c7ad6df8534  messy_downloads/tv/Stranger.Things.Season.Pack/Stranger.Things.S04E09.1080p.WEB-DL.DDP5.1.Atmos.H.264-TEPES.nfo
+1b0992e567215ef966e064cf982192cb528f64042b2c7cab29287b4797b3e34f  messy_downloads/tv/Succession.Season.Pack/Succession.S04E03.1080p.WEB-DL.DDP5.1.H.264-NTb.mkv
+3cf4f5b7b20d163c23f3daf66767fc66bfbad1f9b8d1ce98abe41078ca03e1db  messy_downloads/tv/The.Bear.Season.Pack/The.Bear.S02E06.1080p.WEB-DL.DDP5.1.H.264-FLUX.mkv
+c660a718e2eaa0c94d2aedd06b8bdb7ec7c731e294a83ea0cc52f07d6855e552  messy_downloads/tv/The.Expanse.Season.Pack/The.Expanse.S03E06.1080p.BluRay.x264-SHORTBREHD.mkv
+d4642d6a8d02b83c081c976d386dfc476eec57330d918608c2c3c1f531c81dbc  messy_downloads/tv/The.Last.of.Us.Season.Pack/Subs/The.Last.of.Us.S01E03.2160p.WEB-DL.DDP5.1.Atmos.DV.HDR.H.265-NTb.English.srt
+38702a792dcda5579d45d440fb1807e69a02f74ac34e0787cd9b357b473d4f9c  messy_downloads/tv/The.Last.of.Us.Season.Pack/The.Last.of.Us.S01E03.2160p.WEB-DL.DDP5.1.Atmos.DV.HDR.H.265-NTb.mkv
+8667eee04ea7376e682ed1ef6b1c32a425aab5d5b6d38ff949a0ab0fddcb3883  messy_downloads/tv/The.Mandalorian.Season.Pack/The.Mandalorian.S02E08.2160p.WEB-DL.DDP5.1.Atmos.DV.H.265-FLUX.mkv
+d2067591ab1f30765e485c6a44ce101744c5efa5df90f3f694ebd2ac3d1e721a  messy_downloads/tv/The.Office.US.Season.Pack/The.Office.US.S07E17.1080p.BluRay.x264-BORDURE.mkv
+b5ebb0fd23a4c06b2d23063a50b252686fe6f087d79a491d7612a811a3f04baa  messy_downloads/tv/The.Simpsons.Season.Pack/The.Simpsons.S08E23.720p.WEB-DL.DD5.1.H.264-NTb.mkv
+2df0c01e916efd70bc2ebb545c691ef2328f5d32d6051d6c5b0b39186efcaf95  messy_downloads/tv/The.Sopranos.Season.Pack/The.Sopranos.S06E21.1080p.BluRay.x264-ROVERS.mkv
+359f9f94d304b54103f36b62c377197f4f72c3a6d95b0034205220148250013a  messy_downloads/tv/The.Sopranos.Season.Pack/The.Sopranos.S06E21.1080p.BluRay.x264-ROVERS.nfo
+f9a3dc3821892cc4c3d5ba0e8424fc87817188a76344a10d44251197400278db  messy_downloads/tv/The.Twilight.Zone.1959.Season.Pack/The.Twilight.Zone.1959.S01E22.1080p.BluRay.x264-DEMAND.mkv
+8aae1d744aec2c846a7279fdb35193cef292d6402e6d0a81419230decb63cb01  messy_downloads/tv/The.Wire.Season.Pack/Subs/The.Wire.S03E11.1080p.BluRay.x264-ROVERS.English.srt
+2580a4089347f6f4c25dc232ef57ffcbe2d839631bbc580272f81da35135fc3e  messy_downloads/tv/The.Wire.Season.Pack/The.Wire.S03E11.1080p.BluRay.x264-ROVERS.mkv
+6ba652a18cd2712600bf4ce2d2f4061222f77fe5cb7a27f9a8efa50828f77a6c  messy_downloads/tv/The.X-Files.Season.Pack/The.X-Files.S04E07.720p.BluRay.x264-DEMAND.mkv
+f90d237934244394f0fefaaf47ada90eb22f6fea10f903a71b4e3b4da9e59a42  messy_downloads/tv/True.Detective.Season.Pack/True.Detective.S01E04.1080p.BluRay.x264-DEMAND.mkv
+91cbe111c2686ebad12f6915439c9177bdf2e35caad0680be0f38942f70458cd  messy_downloads/tv/Twin.Peaks.Season.Pack/Twin.Peaks.S02E07.1080p.BluRay.x264-SHORTBREHD.mkv

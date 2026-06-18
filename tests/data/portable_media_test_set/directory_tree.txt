@@ -1,0 +1,596 @@
+media_directory_test_set_400_portable/
+├── clean_plex_library/
+│   ├── Movies/
+│   │   ├── Amélie (2001)/
+│   │   │   ├── Amélie (2001).en.srt
+│   │   │   └── Amélie (2001).mkv
+│   │   ├── Arrival (2016)/
+│   │   │   ├── Arrival (2016).fr.forced.srt
+│   │   │   └── Arrival (2016).mkv
+│   │   ├── Big Buck Bunny (2008)/
+│   │   │   ├── Big Buck Bunny (2008).en.forced.srt
+│   │   │   └── Big Buck Bunny (2008).mp4
+│   │   ├── Blade Runner 2049 (2017)/
+│   │   │   ├── Blade Runner 2049 (2017).en.forced.srt
+│   │   │   └── Blade Runner 2049 (2017).mkv
+│   │   ├── Charade (1963)/
+│   │   │   ├── Charade (1963).fr.srt
+│   │   │   └── Charade (1963).mp4
+│   │   ├── Dr. Strangelove (1964)/
+│   │   │   ├── Dr. Strangelove (1964).fr.srt
+│   │   │   └── Dr. Strangelove (1964).mp4
+│   │   ├── Dune (2021)/
+│   │   │   ├── Dune (2021) - 2160p.mkv
+│   │   │   ├── Dune (2021).en.srt
+│   │   │   └── Dune (2021).mkv
+│   │   ├── Everything Everywhere All at Once (2022)/
+│   │   │   ├── Everything Everywhere All at Once (2022).es.srt
+│   │   │   └── Everything Everywhere All at Once (2022).mp4
+│   │   ├── His Girl Friday (1940)/
+│   │   │   ├── His Girl Friday (1940).es.forced.srt
+│   │   │   └── His Girl Friday (1940).mkv
+│   │   ├── Inception (2010)/
+│   │   │   ├── Inception (2010).es.srt
+│   │   │   └── Inception (2010).mkv
+│   │   ├── Mad Max - Fury Road (2015)/
+│   │   │   ├── Mad Max - Fury Road (2015).es.srt
+│   │   │   └── Mad Max - Fury Road (2015).mkv
+│   │   ├── Metropolis (1927)/
+│   │   │   ├── Metropolis (1927).en.srt
+│   │   │   └── Metropolis (1927).mkv
+│   │   ├── Night of the Living Dead (1968)/
+│   │   │   ├── Night of the Living Dead (1968).en.srt
+│   │   │   ├── Night of the Living Dead (1968).mkv
+│   │   │   └── poster.jpg
+│   │   ├── Nosferatu (1922)/
+│   │   │   ├── Nosferatu (1922).fr.srt
+│   │   │   └── Nosferatu (1922).mkv
+│   │   ├── Parasite (2019)/
+│   │   │   ├── Parasite (2019).fr.srt
+│   │   │   └── Parasite (2019).mkv
+│   │   ├── Seven Samurai (1954)/
+│   │   │   ├── Seven Samurai (1954).es.srt
+│   │   │   └── Seven Samurai (1954).mkv
+│   │   ├── Sherlock Jr. (1924)/
+│   │   │   ├── Sherlock Jr. (1924).es.srt
+│   │   │   └── Sherlock Jr. (1924).mkv
+│   │   ├── Sintel (2010)/
+│   │   │   ├── Sintel (2010).es.srt
+│   │   │   └── Sintel (2010).mkv
+│   │   ├── Spider-Man - No Way Home (2021)/
+│   │   │   ├── Spider-Man - No Way Home (2021).fr.srt
+│   │   │   └── Spider-Man - No Way Home (2021).mkv
+│   │   ├── Tears of Steel (2012)/
+│   │   │   ├── Tears of Steel (2012).fr.srt
+│   │   │   └── Tears of Steel (2012).mkv
+│   │   ├── The General (1926)/
+│   │   │   ├── The General (1926).es.srt
+│   │   │   └── The General (1926).mp4
+│   │   ├── The General (1926) {edition-Restored}/
+│   │   │   └── The General (1926) {edition-Restored}.mkv
+│   │   ├── The Gold Rush (1925)/
+│   │   │   ├── The Gold Rush (1925).fr.srt
+│   │   │   └── The Gold Rush (1925).mkv
+│   │   ├── The Kid (1921)/
+│   │   │   ├── The Kid (1921).en.srt
+│   │   │   └── The Kid (1921).mkv
+│   │   └── The Matrix (1999)/
+│   │       ├── featurettes/
+│   │       │   └── Making The Matrix.mkv
+│   │       ├── The Matrix (1999).en.srt
+│   │       └── The Matrix (1999).mp4
+│   └── TV Shows/
+│       ├── Better Call Saul (2015)/
+│       │   ├── Season 01/
+│       │   │   ├── Better Call Saul (2015) - S01E01.en.srt
+│       │   │   └── Better Call Saul (2015) - S01E01.mkv
+│       │   ├── Season 03/
+│       │   │   └── Better Call Saul (2015) - S03E05.mkv
+│       │   └── Season 06/
+│       │       └── Better Call Saul (2015) - S06E13.mkv
+│       ├── Breaking Bad (2008)/
+│       │   ├── Season 01/
+│       │   │   ├── Breaking Bad (2008) - S01E01.en.srt
+│       │   │   ├── Breaking Bad (2008) - S01E01.mkv
+│       │   │   └── Breaking Bad (2008) - S01E02.mkv
+│       │   └── Season 05/
+│       │       └── Breaking Bad (2008) - S05E14.mkv
+│       ├── Community (2009)/
+│       │   ├── Season 01/
+│       │   │   ├── Community (2009) - S01E01.en.srt
+│       │   │   └── Community (2009) - S01E01.mkv
+│       │   ├── Season 03/
+│       │   │   └── Community (2009) - S03E04.mkv
+│       │   └── Season 06/
+│       │       └── Community (2009) - S06E13.mkv
+│       ├── Doctor Who (2005)/
+│       │   ├── Season 01/
+│       │   │   ├── Doctor Who (2005) - S01E01.en.srt
+│       │   │   └── Doctor Who (2005) - S01E01.mkv
+│       │   ├── Season 05/
+│       │   │   └── Doctor Who (2005) - S05E10.mkv
+│       │   └── Season 10/
+│       │       └── Doctor Who (2005) - S10E12.mkv
+│       ├── Game of Thrones (2011)/
+│       │   ├── Season 01/
+│       │   │   ├── Game of Thrones (2011) - S01E01.en.srt
+│       │   │   └── Game of Thrones (2011) - S01E01.mkv
+│       │   ├── Season 06/
+│       │   │   └── Game of Thrones (2011) - S06E09.mkv
+│       │   └── Season 08/
+│       │       └── Game of Thrones (2011) - S08E06.mkv
+│       ├── Parks and Recreation (2009)/
+│       │   ├── Season 01/
+│       │   │   ├── Parks and Recreation (2009) - S01E01.en.srt
+│       │   │   └── Parks and Recreation (2009) - S01E01.mkv
+│       │   ├── Season 03/
+│       │   │   └── Parks and Recreation (2009) - S03E07.mkv
+│       │   └── Season 07/
+│       │       └── Parks and Recreation (2009) - S07E13.mkv
+│       ├── Severance (2022)/
+│       │   ├── Season 01/
+│       │   │   ├── Severance (2022) - S01E01.en.srt
+│       │   │   ├── Severance (2022) - S01E01.mkv
+│       │   │   └── Severance (2022) - S01E09.mkv
+│       │   └── Season 02/
+│       │       └── Severance (2022) - S02E10.mkv
+│       ├── Star Trek - The Next Generation (1987)/
+│       │   ├── Season 01/
+│       │   │   ├── Star Trek - The Next Generation (1987) - S01E01.en.srt
+│       │   │   └── Star Trek - The Next Generation (1987) - S01E01.mkv
+│       │   ├── Season 03/
+│       │   │   └── Star Trek - The Next Generation (1987) - S03E26.mkv
+│       │   └── Season 07/
+│       │       └── Star Trek - The Next Generation (1987) - S07E25.mkv
+│       ├── Stranger Things (2016)/
+│       │   ├── Season 01/
+│       │   │   ├── Stranger Things (2016) - S01E01.en.srt
+│       │   │   └── Stranger Things (2016) - S01E01.mkv
+│       │   ├── Season 02/
+│       │   │   └── Stranger Things (2016) - S02E09.mkv
+│       │   └── Season 04/
+│       │       └── Stranger Things (2016) - S04E09.mkv
+│       ├── The Last of Us (2023)/
+│       │   └── Season 01/
+│       │       ├── The Last of Us (2023) - S01E01.en.srt
+│       │       ├── The Last of Us (2023) - S01E01.mkv
+│       │       ├── The Last of Us (2023) - S01E03.mkv
+│       │       └── The Last of Us (2023) - S01E09.mkv
+│       ├── The Office (2005)/
+│       │   ├── Season 01/
+│       │   │   ├── The Office (2005) - S01E01.en.srt
+│       │   │   └── The Office (2005) - S01E01.mkv
+│       │   ├── Season 02/
+│       │   │   └── The Office (2005) - S02E01.mkv
+│       │   └── Season 07/
+│       │       └── The Office (2005) - S07E17.mkv
+│       ├── The Sopranos (1999)/
+│       │   ├── Season 01/
+│       │   │   ├── The Sopranos (1999) - S01E01.en.srt
+│       │   │   └── The Sopranos (1999) - S01E01.mkv
+│       │   ├── Season 03/
+│       │   │   └── The Sopranos (1999) - S03E11.mkv
+│       │   └── Season 06/
+│       │       └── The Sopranos (1999) - S06E21.mkv
+│       ├── The Wire (2002)/
+│       │   ├── Season 01/
+│       │   │   ├── The Wire (2002) - S01E01.en.srt
+│       │   │   └── The Wire (2002) - S01E01.mkv
+│       │   ├── Season 03/
+│       │   │   └── The Wire (2002) - S03E11.mkv
+│       │   └── Season 05/
+│       │       └── The Wire (2002) - S05E10.mkv
+│       └── The X-Files (1993)/
+│           ├── Season 01/
+│           │   ├── The X-Files (1993) - S01E01.en.srt
+│           │   └── The X-Files (1993) - S01E01.mkv
+│           ├── Season 04/
+│           │   └── The X-Files (1993) - S04E07.mkv
+│           └── Season 11/
+│               └── The X-Files (1993) - S11E10.mkv
+├── edge_cases/
+│   ├── anime/
+│   │   ├── [Group] Fullmetal Alchemist Brotherhood - 002 [Dual Audio][10bit][HEVC].mkv
+│   │   └── [SubsPlease] Attack on Titan - 01 (1080p) [A1B2C3D4].mkv
+│   ├── duplicates/
+│   │   └── Dune (2021)/
+│   │       ├── Dune.2021.2160p.UHD.BluRay.REMUX.HDR.HEVC-GRP.mkv
+│   │       └── Dune.2021.720p.WEBRip.x264-GRP.mkv
+│   ├── false_positives/
+│   │   └── S01E01-proof.jpg
+│   ├── partial/
+│   │   └── Oppenheimer.2023.2160p.mkv.!qB
+│   ├── punctuation/
+│   │   └── Dr Strangelove 1964/
+│   │       └── Dr.Strangelove.or.How.I.Learned.to.Stop.Worrying.and.Love.the.Bomb.1964.1080p.mkv
+│   ├── season_folder_filename_matrix/
+│   │   ├── variant_01/
+│   │   │   └── The X-Files (1993)/
+│   │   │       └── s01/
+│   │   │           ├── 05 - The Jersey Devil.mkv
+│   │   │           ├── 104 - Conduit.mkv
+│   │   │           ├── 1x03 - Squeeze.mkv
+│   │   │           ├── e01 Pilot.mkv
+│   │   │           ├── e03_Squeeze.mkv
+│   │   │           ├── E08 - Ice.mkv
+│   │   │           ├── e2 Deep Throat.mkv
+│   │   │           ├── e4_Conduit.mkv
+│   │   │           ├── ep05 The Jersey Devil.mkv
+│   │   │           ├── ep6 Shadows.mkv
+│   │   │           ├── Episode 06 - Shadows.mkv
+│   │   │           ├── episode 7 Ghost in the Machine.mkv
+│   │   │           ├── Episode_7_Ghost_in_the_Machine.mkv
+│   │   │           ├── Fallen Angel - 1x10.mkv
+│   │   │           ├── Fallen_Angel.mkv
+│   │   │           ├── Ice ep8.mkv
+│   │   │           ├── S01E01 - Pilot.mkv
+│   │   │           ├── s01e2 Deep Throat.mkv
+│   │   │           ├── Space - S01E09.mkv
+│   │   │           └── Space 09.mkv
+│   │   ├── variant_02/
+│   │   │   └── The X-Files (1993)/
+│   │   │       └── s1/
+│   │   │           ├── 05 - The Jersey Devil.mkv
+│   │   │           ├── 104 - Conduit.mkv
+│   │   │           ├── 1x03 - Squeeze.mkv
+│   │   │           ├── e01 Pilot.mkv
+│   │   │           ├── e03_Squeeze.mkv
+│   │   │           ├── E08 - Ice.mkv
+│   │   │           ├── e2 Deep Throat.mkv
+│   │   │           ├── e4_Conduit.mkv
+│   │   │           ├── ep05 The Jersey Devil.mkv
+│   │   │           ├── ep6 Shadows.mkv
+│   │   │           ├── Episode 06 - Shadows.mkv
+│   │   │           ├── episode 7 Ghost in the Machine.mkv
+│   │   │           ├── Episode_7_Ghost_in_the_Machine.mkv
+│   │   │           ├── Fallen Angel - 1x10.mkv
+│   │   │           ├── Fallen_Angel.mkv
+│   │   │           ├── Ice ep8.mkv
+│   │   │           ├── S01E01 - Pilot.mkv
+│   │   │           ├── s01e2 Deep Throat.mkv
+│   │   │           ├── Space - S01E09.mkv
+│   │   │           └── Space 09.mkv
+│   │   ├── variant_03/
+│   │   │   └── The X-Files (1993)/
+│   │   │       └── season1/
+│   │   │           ├── 05 - The Jersey Devil.mkv
+│   │   │           ├── 104 - Conduit.mkv
+│   │   │           ├── 1x03 - Squeeze.mkv
+│   │   │           ├── e01 Pilot.mkv
+│   │   │           ├── e03_Squeeze.mkv
+│   │   │           ├── E08 - Ice.mkv
+│   │   │           ├── e2 Deep Throat.mkv
+│   │   │           ├── e4_Conduit.mkv
+│   │   │           ├── ep05 The Jersey Devil.mkv
+│   │   │           ├── ep6 Shadows.mkv
+│   │   │           ├── Episode 06 - Shadows.mkv
+│   │   │           ├── episode 7 Ghost in the Machine.mkv
+│   │   │           ├── Episode_7_Ghost_in_the_Machine.mkv
+│   │   │           ├── Fallen Angel - 1x10.mkv
+│   │   │           ├── Fallen_Angel.mkv
+│   │   │           ├── Ice ep8.mkv
+│   │   │           ├── S01E01 - Pilot.mkv
+│   │   │           ├── s01e2 Deep Throat.mkv
+│   │   │           ├── Space - S01E09.mkv
+│   │   │           └── Space 09.mkv
+│   │   ├── variant_04/
+│   │   │   └── The X-Files (1993)/
+│   │   │       └── season_01/
+│   │   │           ├── 05 - The Jersey Devil.mkv
+│   │   │           ├── 104 - Conduit.mkv
+│   │   │           ├── 1x03 - Squeeze.mkv
+│   │   │           ├── e01 Pilot.mkv
+│   │   │           ├── e03_Squeeze.mkv
+│   │   │           ├── E08 - Ice.mkv
+│   │   │           ├── e2 Deep Throat.mkv
+│   │   │           ├── e4_Conduit.mkv
+│   │   │           ├── ep05 The Jersey Devil.mkv
+│   │   │           ├── ep6 Shadows.mkv
+│   │   │           ├── Episode 06 - Shadows.mkv
+│   │   │           ├── episode 7 Ghost in the Machine.mkv
+│   │   │           ├── Episode_7_Ghost_in_the_Machine.mkv
+│   │   │           ├── Fallen Angel - 1x10.mkv
+│   │   │           ├── Fallen_Angel.mkv
+│   │   │           ├── Ice ep8.mkv
+│   │   │           ├── S01E01 - Pilot.mkv
+│   │   │           ├── s01e2 Deep Throat.mkv
+│   │   │           ├── Space - S01E09.mkv
+│   │   │           └── Space 09.mkv
+│   │   ├── variant_05/
+│   │   │   └── The X-Files (1993)/
+│   │   │       └── season_1/
+│   │   │           ├── 05 - The Jersey Devil.mkv
+│   │   │           ├── 104 - Conduit.mkv
+│   │   │           ├── 1x03 - Squeeze.mkv
+│   │   │           ├── e01 Pilot.mkv
+│   │   │           ├── e03_Squeeze.mkv
+│   │   │           ├── E08 - Ice.mkv
+│   │   │           ├── e2 Deep Throat.mkv
+│   │   │           ├── e4_Conduit.mkv
+│   │   │           ├── ep05 The Jersey Devil.mkv
+│   │   │           ├── ep6 Shadows.mkv
+│   │   │           ├── Episode 06 - Shadows.mkv
+│   │   │           ├── episode 7 Ghost in the Machine.mkv
+│   │   │           ├── Episode_7_Ghost_in_the_Machine.mkv
+│   │   │           ├── Fallen Angel - 1x10.mkv
+│   │   │           ├── Fallen_Angel.mkv
+│   │   │           ├── Ice ep8.mkv
+│   │   │           ├── S01E01 - Pilot.mkv
+│   │   │           ├── s01e2 Deep Throat.mkv
+│   │   │           ├── Space - S01E09.mkv
+│   │   │           └── Space 09.mkv
+│   │   ├── variant_06/
+│   │   │   └── The X-Files (1993)/
+│   │   │       └── S01/
+│   │   │           ├── 05 - The Jersey Devil.mkv
+│   │   │           ├── 104 - Conduit.mkv
+│   │   │           ├── 1x03 - Squeeze.mkv
+│   │   │           ├── e01 Pilot.mkv
+│   │   │           ├── e03_Squeeze.mkv
+│   │   │           ├── E08 - Ice.mkv
+│   │   │           ├── e2 Deep Throat.mkv
+│   │   │           ├── e4_Conduit.mkv
+│   │   │           ├── ep05 The Jersey Devil.mkv
+│   │   │           ├── ep6 Shadows.mkv
+│   │   │           ├── Episode 06 - Shadows.mkv
+│   │   │           ├── episode 7 Ghost in the Machine.mkv
+│   │   │           ├── Episode_7_Ghost_in_the_Machine.mkv
+│   │   │           ├── Fallen Angel - 1x10.mkv
+│   │   │           ├── Fallen_Angel.mkv
+│   │   │           ├── Ice ep8.mkv
+│   │   │           ├── S01E01 - Pilot.mkv
+│   │   │           ├── s01e2 Deep Throat.mkv
+│   │   │           ├── Space - S01E09.mkv
+│   │   │           └── Space 09.mkv
+│   │   ├── variant_07/
+│   │   │   └── The X-Files (1993)/
+│   │   │       └── S1/
+│   │   │           ├── 05 - The Jersey Devil.mkv
+│   │   │           ├── 104 - Conduit.mkv
+│   │   │           ├── 1x03 - Squeeze.mkv
+│   │   │           ├── e01 Pilot.mkv
+│   │   │           ├── e03_Squeeze.mkv
+│   │   │           ├── E08 - Ice.mkv
+│   │   │           ├── e2 Deep Throat.mkv
+│   │   │           ├── e4_Conduit.mkv
+│   │   │           ├── ep05 The Jersey Devil.mkv
+│   │   │           ├── ep6 Shadows.mkv
+│   │   │           ├── Episode 06 - Shadows.mkv
+│   │   │           ├── episode 7 Ghost in the Machine.mkv
+│   │   │           ├── Episode_7_Ghost_in_the_Machine.mkv
+│   │   │           ├── Fallen Angel - 1x10.mkv
+│   │   │           ├── Fallen_Angel.mkv
+│   │   │           ├── Ice ep8.mkv
+│   │   │           ├── S01E01 - Pilot.mkv
+│   │   │           ├── s01e2 Deep Throat.mkv
+│   │   │           ├── Space - S01E09.mkv
+│   │   │           └── Space 09.mkv
+│   │   ├── variant_08/
+│   │   │   └── The X-Files (1993)/
+│   │   │       └── Season 01/
+│   │   │           ├── 05 - The Jersey Devil.mkv
+│   │   │           ├── 104 - Conduit.mkv
+│   │   │           ├── 1x03 - Squeeze.mkv
+│   │   │           ├── e01 Pilot.mkv
+│   │   │           ├── e03_Squeeze.mkv
+│   │   │           ├── E08 - Ice.mkv
+│   │   │           ├── e2 Deep Throat.mkv
+│   │   │           ├── e4_Conduit.mkv
+│   │   │           ├── ep05 The Jersey Devil.mkv
+│   │   │           ├── ep6 Shadows.mkv
+│   │   │           ├── Episode 06 - Shadows.mkv
+│   │   │           ├── episode 7 Ghost in the Machine.mkv
+│   │   │           ├── Episode_7_Ghost_in_the_Machine.mkv
+│   │   │           ├── Fallen Angel - 1x10.mkv
+│   │   │           ├── Fallen_Angel.mkv
+│   │   │           ├── Ice ep8.mkv
+│   │   │           ├── S01E01 - Pilot.mkv
+│   │   │           ├── s01e2 Deep Throat.mkv
+│   │   │           ├── Space - S01E09.mkv
+│   │   │           └── Space 09.mkv
+│   │   ├── variant_09/
+│   │   │   └── The X-Files (1993)/
+│   │   │       └── Season 1/
+│   │   │           ├── 05 - The Jersey Devil.mkv
+│   │   │           ├── 104 - Conduit.mkv
+│   │   │           ├── 1x03 - Squeeze.mkv
+│   │   │           ├── e01 Pilot.mkv
+│   │   │           ├── e03_Squeeze.mkv
+│   │   │           ├── E08 - Ice.mkv
+│   │   │           ├── e2 Deep Throat.mkv
+│   │   │           ├── e4_Conduit.mkv
+│   │   │           ├── ep05 The Jersey Devil.mkv
+│   │   │           ├── ep6 Shadows.mkv
+│   │   │           ├── Episode 06 - Shadows.mkv
+│   │   │           ├── episode 7 Ghost in the Machine.mkv
+│   │   │           ├── Episode_7_Ghost_in_the_Machine.mkv
+│   │   │           ├── Fallen Angel - 1x10.mkv
+│   │   │           ├── Fallen_Angel.mkv
+│   │   │           ├── Ice ep8.mkv
+│   │   │           ├── S01E01 - Pilot.mkv
+│   │   │           ├── s01e2 Deep Throat.mkv
+│   │   │           ├── Space - S01E09.mkv
+│   │   │           └── Space 09.mkv
+│   │   └── variant_10/
+│   │       └── The X-Files (1993)/
+│   │           └── season01/
+│   │               ├── 05 - The Jersey Devil.mkv
+│   │               ├── 104 - Conduit.mkv
+│   │               ├── 1x03 - Squeeze.mkv
+│   │               ├── e01 Pilot.mkv
+│   │               ├── e03_Squeeze.mkv
+│   │               ├── E08 - Ice.mkv
+│   │               ├── e2 Deep Throat.mkv
+│   │               ├── e4_Conduit.mkv
+│   │               ├── ep05 The Jersey Devil.mkv
+│   │               ├── ep6 Shadows.mkv
+│   │               ├── Episode 06 - Shadows.mkv
+│   │               ├── episode 7 Ghost in the Machine.mkv
+│   │               ├── Episode_7_Ghost_in_the_Machine.mkv
+│   │               ├── Fallen Angel - 1x10.mkv
+│   │               ├── Fallen_Angel.mkv
+│   │               ├── Ice ep8.mkv
+│   │               ├── S01E01 - Pilot.mkv
+│   │               ├── s01e2 Deep Throat.mkv
+│   │               ├── Space - S01E09.mkv
+│   │               └── Space 09.mkv
+│   ├── subtitles_only/
+│   │   └── Parasite.2019.en.srt
+│   └── unicode/
+│       ├── Amélie.2001.1080p.BluRay.x264-GRP/
+│       │   └── Amélie.2001.1080p.BluRay.x264-GRP.mkv
+│       └── 七人の侍.1954.1080p.BluRay.x264-GRP/
+│           └── 七人の侍.1954.1080p.BluRay.x264-GRP.mkv
+├── messy_downloads/
+│   ├── movies/
+│   │   ├── Alien.1979.DIRECTORS.CUT.1080p.BluRay.x264.DTS-FGT/
+│   │   │   ├── Alien.1979.DIRECTORS.CUT.1080p.BluRay.x264.DTS-FGT.mkv
+│   │   │   └── RARBG.txt
+│   │   ├── Aliens.1986.Special.Edition.1080p.BluR~bb4abcef/
+│   │   │   ├── Sample/
+│   │   │   │   └── Aliens.1986.Special.Edition.1080p.BluRay.x265.10bit-GalaxyRG265.sample.mkv
+│   │   │   └── Aliens.1986.Special.Edition.1080p.BluRay.x265.10bit-GalaxyRG265.mkv
+│   │   ├── Amelie.2001.FRENCH.1080p.BluRay.x264.DTS-FGT/
+│   │   │   └── Amelie.2001.FRENCH.1080p.BluRay.x264.DTS-FGT.mkv
+│   │   ├── Anatomy.of.a.Fall.2023.FRENCH.1080p.Bl~a3ddee03/
+│   │   │   └── Anatomy.of.a.Fall.2023.FRENCH.1080p.BluRay.x264-USURY.mkv
+│   │   ├── Barbie.2023.1080p.WEB-DL.DDP5.1.Atmos.H.264-FLUX/
+│   │   │   └── Barbie.2023.1080p.WEB-DL.DDP5.1.Atmos.H.264-FLUX.mkv
+│   │   ├── Dune.Part.Two.2024.2160p.WEB-DL.DDP5.1~bf7506c7/
+│   │   │   └── Dune.Part.Two.2024.2160p.WEB-DL.DDP5.1.Atmos.DV.HDR.H.265-FLUX.mkv
+│   │   ├── Everything.Everywhere.All.at.Once.2022~7d302c1b/
+│   │   │   └── Everything.Everywhere.All.at.Once.2022.1080p.BluRay.x265-RARBG.mkv
+│   │   ├── Ford.v.Ferrari.2019.2160p.UHD.BluRay.x~20309f57/
+│   │   │   └── Ford.v.Ferrari.2019.2160p.UHD.BluRay.x265.HDR.DTS-HD.MA.7.1-TERMiNAL.mkv
+│   │   ├── Get.Out.2017.1080p.BluRay.x264-GECKOS/
+│   │   │   └── Get.Out.2017.1080p.BluRay.x264-GECKOS.mkv
+│   │   ├── Heat.1995.Directors.Definitive.Edition~05e0a5a4/
+│   │   │   ├── Subs/
+│   │   │   │   └── English.srt
+│   │   │   └── Heat.1995.Directors.Definitive.Edition.2160p.UHD.BluRay.REMUX.HDR.HEVC.TrueHD.Atmos-EPSiLON.mkv
+│   │   ├── Interstellar.2014.1080p.BluRay.x264-SPARKS/
+│   │   │   └── Interstellar.2014.1080p.BluRay.x264-SPARKS.mkv
+│   │   ├── Jurassic.Park.1993.2160p.UHD.BluRay.x2~a1e87b89/
+│   │   │   ├── Subs/
+│   │   │   │   └── English.srt
+│   │   │   └── Jurassic.Park.1993.2160p.UHD.BluRay.x265.10bit.HDR.TrueHD.7.1-TERMiNAL.mkv
+│   │   ├── Knives.Out.2019.1080p.BluRay.x264.DTS-~14549347/
+│   │   │   └── Knives.Out.2019.1080p.BluRay.x264.DTS-HD.MA.5.1-FGT.mkv
+│   │   ├── Moonlight.2016.1080p.WEB-DL.DD5.1.H264-FGT/
+│   │   │   └── Moonlight.2016.1080p.WEB-DL.DD5.1.H264-FGT.mkv
+│   │   ├── Oppenheimer.2023.2160p.IMAX.UHD.BluRay~904b1ea1/
+│   │   │   └── Oppenheimer.2023.2160p.IMAX.UHD.BluRay.REMUX.HDR.HEVC.DTS-HD.MA.5.1-FGT.mkv
+│   │   ├── Pans.Labyrinth.2006.SPANISH.1080p.BluR~ac8a91b9/
+│   │   │   ├── Pans.Labyrinth.2006.SPANISH.1080p.BluRay.x264.DTS-FGT.mkv
+│   │   │   └── Pans.Labyrinth.2006.SPANISH.1080p.BluRay.x264.DTS-FGT.nfo
+│   │   ├── Past.Lives.2023.KOREAN.1080p.WEBRip.x2~738f88d3/
+│   │   │   └── Past.Lives.2023.KOREAN.1080p.WEBRip.x264.AAC5.1-YTS.MX.mp4
+│   │   ├── Poor.Things.2023.1080p.BluRay.x264.DTS~00c2e481/
+│   │   │   └── Poor.Things.2023.1080p.BluRay.x264.DTS-HD.MA.5.1-MT.mkv
+│   │   ├── Pulp.Fiction.1994.1080p.BluRay.H264.AAC-RARBG/
+│   │   │   ├── Pulp.Fiction.1994.1080p.BluRay.H264.AAC-RARBG.mp4
+│   │   │   └── Pulp.Fiction.1994.1080p.BluRay.H264.AAC-RARBG.nfo
+│   │   ├── Spider-Man.No.Way.Home.2021.EXTENDED.1~be64dd66/
+│   │   │   └── Spider-Man.No.Way.Home.2021.EXTENDED.1080p.BluRay.x264.DTS-FGT.mkv
+│   │   ├── Spirited.Away.2001.JAPANESE.1080p.BluR~1ff426db/
+│   │   │   ├── Sample/
+│   │   │   │   └── Spirited.Away.2001.JAPANESE.1080p.BluRay.x264.DTS-FGT.sample.mkv
+│   │   │   └── Spirited.Away.2001.JAPANESE.1080p.BluRay.x264.DTS-FGT.mkv
+│   │   ├── The.Dark.Knight.2008.IMAX.2160p.UHD.Bl~64e8f37d/
+│   │   │   └── The.Dark.Knight.2008.IMAX.2160p.UHD.BluRay.REMUX.HDR.HEVC.TrueHD.Atmos-FGT.mkv
+│   │   ├── The.Godfather.1972.REMASTERED.1080p.Bl~e4a70824/
+│   │   │   ├── Sample/
+│   │   │   │   └── The.Godfather.1972.REMASTERED.1080p.BluRay.x265-RARBG.sample.mkv
+│   │   │   └── The.Godfather.1972.REMASTERED.1080p.BluRay.x265-RARBG.mkv
+│   │   ├── The.Holdovers.2023.1080p.BluRay.x264.DTS-MT/
+│   │   │   └── The.Holdovers.2023.1080p.BluRay.x264.DTS-MT.mkv
+│   │   ├── The.Social.Network.2010.1080p.BluRay.x264.DTS-FGT/
+│   │   │   └── The.Social.Network.2010.1080p.BluRay.x264.DTS-FGT.mkv
+│   │   ├── The.Thing.1982.1080p.BluRay.x264.DTS-HD.MA.5.1-FGT/
+│   │   │   ├── The.Thing.1982.1080p.BluRay.x264.DTS-HD.MA.5.1-FGT.mkv
+│   │   │   └── The.Thing.1982.1080p.BluRay.x264.DTS-HD.MA.5.1-FGT.nfo
+│   │   ├── Toy.Story.1995.1080p.BluRay.x264.DTS-WiKi/
+│   │   │   ├── RARBG.txt
+│   │   │   └── Toy.Story.1995.1080p.BluRay.x264.DTS-WiKi.mkv
+│   │   └── Whiplash.2014.1080p.BluRay.x264.DTS-RARBG/
+│   │       └── Whiplash.2014.1080p.BluRay.x264.DTS-RARBG.mkv
+│   ├── packed/
+│   │   └── Casablanca.1942.1080p.BluRay.x264-GRP/
+│   │       ├── casablanca-grp.r01
+│   │       └── casablanca-grp.rar
+│   └── tv/
+│       ├── Band.of.Brothers.Season.Pack/
+│       │   └── Band.of.Brothers.S01E09.1080p.BluRay.x264-DEMAND.mkv
+│       ├── Better.Call.Saul.Season.Pack/
+│       │   ├── Better.Call.Saul.S06E13.1080p.WEB-DL.DDP5.1.H.264-NTb.mkv
+│       │   └── Better.Call.Saul.S06E13.1080p.WEB-DL.DDP5.1.H.264-NTb.sample.mkv
+│       ├── Black.Mirror.Season.Pack/
+│       │   └── Black.Mirror.S03E04.1080p.WEBRip.x264-SKGTV.mkv
+│       ├── Breaking.Bad.Season.Pack/
+│       │   ├── Subs/
+│       │   │   └── Breaking.Bad.S05E14.1080p.BluRay.x265-RARBG.English.srt
+│       │   └── Breaking.Bad.S05E14.1080p.BluRay.x265-RARBG.mkv
+│       ├── Chernobyl.Season.Pack/
+│       │   └── Chernobyl.S01E01.1080p.BluRay.x264-ROVERS.mkv
+│       ├── Community.Season.Pack/
+│       │   └── Community.S03E04.1080p.BluRay.x264-SHORTBREHD.mkv
+│       ├── Dark.Season.Pack/
+│       │   └── Dark.S02E06.GERMAN.1080p.WEBRip.x264-STRiFE.mkv
+│       ├── Doctor.Who.2005.Season.Pack/
+│       │   └── Doctor.Who.2005.S05E10.1080p.BluRay.x264-SHORTBREHD.mkv
+│       ├── Fargo.Season.Pack/
+│       │   └── Fargo.S01E06.1080p.BluRay.x264-ROVERS.mkv
+│       ├── Futurama.Season.Pack/
+│       │   └── Futurama.S04E07.1080p.WEB-DL.DD5.1.H.264-NTb.mkv
+│       ├── Game.of.Thrones.Season.Pack/
+│       │   ├── Game.of.Thrones.S06E09.2160p.UHD.BluRay.x265-HDBEE.mkv
+│       │   └── Game.of.Thrones.S06E09.2160p.UHD.BluRay.x265-HDBEE.sample.mkv
+│       ├── Lost.Season.Pack/
+│       │   └── Lost.S03E22-E23.1080p.BluRay.x264-DEMAND.mkv
+│       ├── Mr.Robot.Season.Pack/
+│       │   └── Mr.Robot.S04E07.1080p.BluRay.x264-SHORTBREHD.mkv
+│       ├── Parks.and.Recreation.Season.Pack/
+│       │   └── Parks.and.Recreation.S03E07.1080p.BluRay.x264-DEFLATE.mkv
+│       ├── Severance.Season.Pack/
+│       │   └── Severance.S01E09.2160p.WEB-DL.DDP5.1.Atmos.DV.H.265-NTb.mkv
+│       ├── Star.Trek.The.Next.Generation.Season.Pack/
+│       │   └── Star.Trek.The.Next.Generation.S03E26.1080p.BluRay.x264-DEMAND.mkv
+│       ├── Stranger.Things.Season.Pack/
+│       │   ├── Stranger.Things.S04E09.1080p.WEB-DL.DDP5.1.Atmos.H.264-TEPES.mkv
+│       │   └── Stranger.Things.S04E09.1080p.WEB-DL.DDP5.1.Atmos.H.264-TEPES.nfo
+│       ├── Succession.Season.Pack/
+│       │   └── Succession.S04E03.1080p.WEB-DL.DDP5.1.H.264-NTb.mkv
+│       ├── The.Bear.Season.Pack/
+│       │   └── The.Bear.S02E06.1080p.WEB-DL.DDP5.1.H.264-FLUX.mkv
+│       ├── The.Expanse.Season.Pack/
+│       │   └── The.Expanse.S03E06.1080p.BluRay.x264-SHORTBREHD.mkv
+│       ├── The.Last.of.Us.Season.Pack/
+│       │   ├── Subs/
+│       │   │   └── The.Last.of.Us.S01E03.2160p.WEB-DL.DDP5.1.Atmos.DV.HDR.H.265-NTb.English.srt
+│       │   └── The.Last.of.Us.S01E03.2160p.WEB-DL.DDP5.1.Atmos.DV.HDR.H.265-NTb.mkv
+│       ├── The.Mandalorian.Season.Pack/
+│       │   └── The.Mandalorian.S02E08.2160p.WEB-DL.DDP5.1.Atmos.DV.H.265-FLUX.mkv
+│       ├── The.Office.US.Season.Pack/
+│       │   └── The.Office.US.S07E17.1080p.BluRay.x264-BORDURE.mkv
+│       ├── The.Simpsons.Season.Pack/
+│       │   └── The.Simpsons.S08E23.720p.WEB-DL.DD5.1.H.264-NTb.mkv
+│       ├── The.Sopranos.Season.Pack/
+│       │   ├── The.Sopranos.S06E21.1080p.BluRay.x264-ROVERS.mkv
+│       │   └── The.Sopranos.S06E21.1080p.BluRay.x264-ROVERS.nfo
+│       ├── The.Twilight.Zone.1959.Season.Pack/
+│       │   └── The.Twilight.Zone.1959.S01E22.1080p.BluRay.x264-DEMAND.mkv
+│       ├── The.Wire.Season.Pack/
+│       │   ├── Subs/
+│       │   │   └── The.Wire.S03E11.1080p.BluRay.x264-ROVERS.English.srt
+│       │   └── The.Wire.S03E11.1080p.BluRay.x264-ROVERS.mkv
+│       ├── The.X-Files.Season.Pack/
+│       │   └── The.X-Files.S04E07.720p.BluRay.x264-DEMAND.mkv
+│       ├── True.Detective.Season.Pack/
+│       │   └── True.Detective.S01E04.1080p.BluRay.x264-DEMAND.mkv
+│       └── Twin.Peaks.Season.Pack/
+│           └── Twin.Peaks.S02E07.1080p.BluRay.x264-SHORTBREHD.mkv
+├── directory_tree.txt
+├── manifest.csv
+├── manifest.json
+├── README.md
+└── SHA256SUMS.txt

@@ -1,0 +1,46 @@
+[project]
+name = "subracer"
+version = "0.1.0"
+description = "Parallel multi-source subtitle detection, extraction, downloading and syncing TUI"
+readme = "README.md"
+requires-python = ">=3.12"
+authors = [{ name = "Priv" }]
+dependencies = [
+  "textual>=0.60",
+  "httpx>=0.27",
+  "platformdirs>=4",
+  "pycountry>=23",
+  "langdetect>=1.0.9",
+  "tomli-w>=1.0",
+  "ffsubsync>=0.4.25",
+  "parsett>=1.8.5",
+  "cryptography>=49.0.0",
+  "static-ffmpeg>=3.0",
+  "zstandard>=0.25.0",
+  "beautifulsoup4>=4.15.0",
+]
+
+[project.optional-dependencies]
+# Heavy, opt-in: only needed for the full local file mirror (Phase 4).
+mirror = ["libtorrent>=2.0"]
+
+[dependency-groups]
+dev = [
+    "openpyxl>=3.1.5",
+    "pytest>=8",
+    "pytest-asyncio>=0.23",
+]
+
+[project.scripts]
+subracer = "subracer.__main__:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
