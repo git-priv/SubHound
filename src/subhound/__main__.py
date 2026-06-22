@@ -33,7 +33,7 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     description="Parallel multi-source subtitle detection, download and sync.",
   )
   parser.add_argument("--headless", action="store_true",
-                      help="run once without the TUI and print a summary")
+                      help="run without the TUI and print a summary")
   parser.add_argument("--dir", type=Path, default=None,
                       help="target media directory (required for --headless)")
   parser.add_argument("--languages", type=str, default=None,

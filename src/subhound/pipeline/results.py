@@ -566,7 +566,7 @@ class RunLog:
   #    (none)
   #
   # Example:
-  #    run_log.record_success(key, "local_osdb", "/m/A.en.srt", 0.3)
+  #    run_log.record_success(key, "milahu", "/m/A.en.srt", 0.3)
   def record_success(self, key: str, source: str, subtitle_file: str, offset: float | None) -> None:
     entry = self.entries[key]
     entry.tried_sources.add(source)

@@ -1,8 +1,8 @@
 # subhound.core.hashing
 #
 # File fingerprinting helpers:
-#  - the OpenSubtitles "moviehash" (used by OpenSubtitles.com and the local OSDB
-#    index for exact hash-based subtitle matching), and
+#  - the OpenSubtitles "moviehash" used by OpenSubtitles.com for exact
+#    hash-based subtitle matching, and
 #  - a cheap (size, mtime_ns) fingerprint used by the results store to decide
 #    whether a previously-processed video is unchanged and can be skipped.
 

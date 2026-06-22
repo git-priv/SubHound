@@ -1,0 +1,267 @@
+/* Nord palette
+ *
+ * Polar Night  — backgrounds and text
+ *   #2E3440   deepest background
+ *   #3B4252   panel / surface
+ *   #434C5E   elevated surface
+ *   #4C566A   borders / muted
+ *   #D8DEE9   muted text
+ *   #E5E9F0   body text
+ *   #ECEFF4   bright text
+ *
+ * Frost        — interactive accents
+ *   #8FBCBB   teal
+ *   #88C0D0   light blue (primary accent)
+ *   #81A1C1   medium blue
+ *   #5E81AC   dark blue
+ *
+ * Aurora       — status / semantic
+ *   #BF616A   red    — error / failed
+ *   #EBCB8B   yellow — wait-list
+ *   #A3BE8C   green  — success
+ */
+
+/* ── Tooltips ────────────────────────────────────────────────────────────── */
+
+Tooltip {
+  max-width: 78;
+}
+
+/* ── Global ──────────────────────────────────────────────────────────────── */
+
+Screen {
+  background: #2E3440;
+  color: #ECEFF4;
+}
+
+Header {
+  background: #5E81AC;
+  color: #ECEFF4;
+  text-style: bold;
+}
+
+Footer {
+  background: #3B4252;
+}
+
+TabbedContent {
+  padding: 0 1;
+}
+
+TabPane {
+  padding: 1;
+}
+
+Tabs > Tab.-active {
+  color: #88C0D0;
+  text-style: bold;
+}
+
+Input {
+  border: tall #4C566A;
+}
+
+Input:focus {
+  border: tall #88C0D0;
+}
+
+Button:focus {
+  text-style: bold;
+}
+
+/* ── Setup tab ───────────────────────────────────────────────────────────── */
+
+#setup_form {
+  padding: 1 2;
+  background: #3B4252;
+  border: round #4C566A;
+}
+
+#setup_form Label {
+  margin-top: 1;
+  color: #81A1C1;
+}
+
+#save {
+  margin-top: 2;
+}
+
+#language_help {
+  color: #4C566A;
+  margin-bottom: 1;
+}
+
+/* ── Run tab ─────────────────────────────────────────────────────────────── */
+
+#run_view {
+  padding: 1 2;
+  background: #3B4252;
+  border: round #4C566A;
+}
+
+#run_controls {
+  height: 5;
+  padding: 1;
+  background: #434C5E;
+  border: solid #4C566A;
+}
+
+#dir {
+  width: 1fr;
+}
+
+#browse_directory {
+  width: 18;
+  margin-left: 1;
+}
+
+.switch-label {
+  width: auto;
+  padding: 1 1 0 2;
+  color: #D8DEE9;
+}
+
+#start {
+  width: 14;
+  margin-left: 2;
+}
+
+#progress {
+  margin: 1 1 0 1;
+  width: 1fr;
+}
+
+#stat_grid {
+  layout: grid;
+  grid-size: 3 2;
+  grid-columns: 1fr 1fr 1fr;
+  grid-rows: 4 4;
+  grid-gutter: 1;
+  height: 9;
+  margin: 1;
+}
+
+.stat-card {
+  content-align: center middle;
+  background: #434C5E;
+  border: solid #4C566A;
+  color: #D8DEE9;
+}
+
+.stat-card.success {
+  border: solid #A3BE8C;
+  color: #A3BE8C;
+}
+
+.stat-card.failed {
+  border: solid #BF616A;
+  color: #BF616A;
+}
+
+.stat-card.waitlist {
+  border: solid #EBCB8B;
+  color: #EBCB8B;
+}
+
+#run_detail {
+  min-height: 3;
+  margin: 0 1 1 1;
+  padding: 0 1;
+  color: #81A1C1;
+}
+
+#results {
+  height: 14;
+  margin: 0 1 1 1;
+  border: round #4C566A;
+  background: #2E3440;
+}
+
+DataTable > .datatable--header {
+  background: #5E81AC;
+  color: #ECEFF4;
+  text-style: bold;
+}
+
+#schedule_panel {
+  height: auto;
+  margin: 0 1 1 1;
+  padding: 1;
+  background: #434C5E;
+  border: solid #4C566A;
+}
+
+#schedule_help {
+  color: #81A1C1;
+}
+
+#schedule_controls {
+  height: 4;
+  padding-top: 1;
+}
+
+#schedule_controls Input {
+  width: 12;
+}
+
+#schedule_controls Button {
+  margin-left: 1;
+}
+
+/* ── Logs tab ────────────────────────────────────────────────────────────── */
+
+RichLog {
+  background: #2E3440;
+  border: round #4C566A;
+}
+
+/* ── Directory picker modal ──────────────────────────────────────────────── */
+
+DirectoryPicker {
+  align: center middle;
+  background: #2E3440 80%;
+}
+
+#directory_dialog {
+  width: 86%;
+  height: 86%;
+  padding: 1 2;
+  background: #3B4252;
+  border: round #88C0D0;
+}
+
+#picker_title {
+  height: 2;
+  color: #88C0D0;
+  text-style: bold;
+}
+
+#picker_path {
+  height: 2;
+  color: #D8DEE9;
+}
+
+#directory_tree {
+  height: 1fr;
+  border: solid #4C566A;
+  background: #2E3440;
+}
+
+#picker_actions {
+  height: auto;
+  margin-top: 1;
+}
+
+#picker_actions Button {
+  margin-left: 1;
+}
+
+#choose_directory {
+  min-width: 18;
+}
+
+#media_type_picker {
+  width: 1fr;
+  border: none;
+  background: transparent;
+}

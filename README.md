@@ -1,74 +1,76 @@
 # subhound
 
-Parallel, multi-source subtitle detection, extraction, downloading and syncing
-with a cross-platform TUI. Point it at a media directory and it finds a
-well-synced, correct-language subtitle for every video — trying cheap local
-sources first and rate-limited network sources last, stopping as soon as a good
-subtitle is found.
+Parallel, multi-source subtitle detection, extraction, download, normalization,
+and synchronization with a cross-platform TUI. Point it at a media directory
+and it finds a correct-language subtitle for each video, sync-tests candidates,
+and stops as soon as an acceptable result is found.
 
-- Pipeline details: [docs/PIPELINE.md](docs/PIPELINE.md)
-- Status & roadmap: [ROADMAP.md](ROADMAP.md)
+- Pipeline behavior: [docs/PIPELINE.md](docs/PIPELINE.md)
+- Implementation status and remaining work: [ROADMAP.md](ROADMAP.md)
 
 ## Quick start
 
 ```bash
 uv sync
-uv run subhound                       # launch the TUI
-uv run subhound --headless --dir /media --languages en   # run once, headless
+uv run subhound
+uv run subhound --headless --dir /media --languages en
+uv run subhound --headless --dir /media --languages en --once
 ```
+
+The default headless mode remains running when an exhausted provider has a known
+quota reset within `--max-quota-wait`. Use `--once` for a single pass or for
+periodic scheduler runs that resume from persisted state.
 
 ## Subtitle sources
 
-Sources are tried in the order below, per (video, language), stopping at the
-first subtitle that synchronizes within your thresholds. Movie-only and TV-only
-sources are filtered automatically by media type.
+For each `(video, language)` pair, subhound first checks embedded tracks and
+existing subtitle files beside the video. If neither yields an acceptable
+result, it tries the applicable external providers in order:
 
-| Order | Source | Media | Auth |
-|---|---|---|---|
-| 1 | Local OpenSubtitles DB | movies + TV | none (local files) |
-| 2 | OpenSubtitles.com | movies + TV | optional (API key + account) |
-| 3 | SubSource | movies + TV | API key |
-| 4 | Gestdown (Addic7ed proxy) | TV only | none |
-| 5 | YIFY (yts-subs.com) | movies only | none |
-| 6 | Podnapisi | movies + TV | none |
-| 7 | TVsubtitles.net | TV only | none |
+| Media | Provider order |
+|---|---|
+| Movies | Milahu → OpenSubtitles.com → SubSource → YIFY → Podnapisi |
+| TV | Milahu → OpenSubtitles.com → SubSource → Gestdown → Podnapisi → TVsubtitles.net |
+| Unknown | Milahu → OpenSubtitles.com → SubSource → Podnapisi |
+
+Movie-only and TV-only providers are filtered automatically. The source order
+and enabled set are configurable.
 
 ## Provider API limits
 
-These are **download** limits per source. subhound tracks remaining quota where a
-provider reports it, and when a provider is exhausted it moves the affected
-videos to a wait-list and retries that source after its quota resets (see
-[docs/PIPELINE.md](docs/PIPELINE.md)).
+These figures are operational guidance and can change. subhound tracks quota
+only when a provider exposes enough information to do so.
 
-| Provider | Unauthenticated | Authenticated (free account) | Membership / paid tier |
-|---|---|---|---|
-| **Local OpenSubtitles DB** | Unlimited (offline) | — | — |
-| **OpenSubtitles.com** | 5 downloads / IP / 24 h | 20 downloads / day (rises with user rank) | **VIP:** up to 1000 downloads / day |
-| **SubSource** | API key required for the v1 API | Per **API key**: 60 req/min · 1,800 req/hour · 7,200 req/day (rate-limit headers returned) | No paid membership |
-| **Gestdown** (Addic7ed proxy) | No published per-day cap; caching proxy, fair-use expected | n/a (no accounts) | n/a |
-| **YIFY** (yts-subs.com) | No published cap (HTML site, no API) | n/a (no accounts) | n/a |
-| **Podnapisi** | No published per-day cap; fair-use expected | n/a (no accounts) | n/a |
-| **TVsubtitles.net** | No published cap (HTML site, no API) | n/a (no accounts) | n/a |
+| Provider | Current integration | Published/fair-use limits |
+|---|---|---|
+| **Milahu** | No account or key | No documented quota |
+| **OpenSubtitles.com** | App API key; optional account login | Unauthenticated and account download quotas; remaining/reset data drives the wait-list |
+| **SubSource** | API-key wiring planned | API key limits documented as 60/min, 1,800/hour, and 7,200/day |
+| **Gestdown** | No account | No published daily cap; fair use expected |
+| **YIFY** | HTML site | No published daily cap; fair use expected |
+| **Podnapisi** | Public JSON endpoint | No published daily cap; fair use expected |
+| **TVsubtitles.net** | HTML site | No published daily cap; fair use expected |
 
 Notes:
 
-- **OpenSubtitles.com** also enforces a short-term request rate limit (HTTP 429
-  on bursts) in addition to the daily download quota; the API reports
-  `remaining` downloads and a reset countdown, which subhound uses to drive its
-  wait-list. An app **API key** is required for API access even when running
-  unauthenticated; a username/password adds the per-account quota.
-- **SubSource** v1 API limits are **per API key** (60/min, 1,800/hour,
-  7,200/day) and responses include rate-limit headers. (Sending the SubSource
-  API key from subhound is a planned follow-up — see [ROADMAP.md](ROADMAP.md).)
-- **Gestdown**, **YIFY**, **Podnapisi** and **TVsubtitles.net** publish no hard
-  daily limits, but they are community/free services — use them politely.
-  subhound's per-source "already tried" tracking avoids re-querying a source for
-  the same video, and concurrency is bounded by the parallelism settings.
-- Figures reflect the providers' published policies at the time of writing and
-  can change; treat them as guidance, not guarantees.
+- OpenSubtitles can return quota responses during search or download. Entries
+  blocked by quota are persisted and retried after a known reset.
+- SubSource credential and rate-limit-header integration is planned in
+  [ROADMAP.md](ROADMAP.md). It will use a provider-specific credential rather
+  than reusing the OpenSubtitles API key.
+- Free/community providers should be used conservatively. Searches are bounded
+  by concurrency settings and completed sources are not queried twice for the
+  same entry.
+
+## Runtime state
+
+Each target directory receives a `.subhound/` state directory containing the
+run-log sidecar, temporary work files, logs, and a single-run lock. The stable
+results and diagnostics TSV files are written at the target root. See
+[docs/PIPELINE.md](docs/PIPELINE.md) for exact filenames and invariants.
 
 ## Tooling
 
-ffmpeg/ffprobe are bundled via `static-ffmpeg` (a system install is used when
-present); ffsubsync is a Python dependency. No manual external installs are
-required.
+ffmpeg and ffprobe are provided through `static-ffmpeg` when no system install is
+available. ffsubsync is a Python dependency. No manual media-tool installation
+is required for the normal workflow.

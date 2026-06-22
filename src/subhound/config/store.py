@@ -35,7 +35,7 @@ def config_dir() -> Path:
 
 
 # Function Summary:
-#    Return subhound's data directory (for the local OSDB, mirror, logs),
+#    Return subhound's per-user application data directory,
 #    creating it if needed.
 #
 #  Input (parameters):

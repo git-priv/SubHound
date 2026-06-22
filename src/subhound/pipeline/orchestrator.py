@@ -4,7 +4,7 @@
 # For each (video, language):
 #   1. embedded subtitles (extract + sync-test)
 #   2. existing subtitle files in the directory (sync-test)
-#   3. external providers in order (local OSDB, then APIs) -- search, download,
+#   3. external providers in configured, media-specific order -- search, download,
 #      sync-test, stopping at the first good sync.
 # Per-(video, lang) state lives in the RunLog (tried sources, status); quota
 # blocks feed the QuotaTracker and a WAITLIST status. Work is parallelised across
@@ -563,7 +563,7 @@ class Orchestrator:
   #    ok [bool]:  True if a good subtitle was produced and placed
   #
   # Example:
-  #    self._sync_and_place(key, video, sub, "en", False, "local_osdb", out)  ->  True
+  #    self._sync_and_place(key, video, sub, "en", False, "milahu", out)  ->  True
   def _sync_and_place(
     self,
     key: str,

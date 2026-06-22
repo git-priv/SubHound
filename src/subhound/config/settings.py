@@ -1,7 +1,7 @@
 # subhound.config.settings
 #
 # Typed settings model for subhound. This replaces Subservient's hand-edited
-# `.config` file: every field here is edited through the TUI, never by hand.
+# `.config` file with a structured schema persisted by the application.
 # Non-secret settings are persisted as TOML (see config/store.py); credentials
 # are stored separately in an encrypted, hardware-keyed file (see config/secrets.py).
 
@@ -60,6 +60,9 @@ class Settings:
   accept_offset_threshold: float = 0.05
   reject_offset_threshold: float = 2.5
   smart_sync: bool = True
+
+  # --- UI state --------------------------------------------------------
+  last_directory: str = ""
 
   # --- Media handling --------------------------------------------------
   # When None, media type is auto-detected per file/folder. True/False force
