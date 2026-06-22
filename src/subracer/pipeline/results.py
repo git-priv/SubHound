@@ -46,7 +46,7 @@ SOURCE_EXISTING = "existing"
 # Every source a (video, lang) pair can be checked against, in pipeline order.
 # Drives the per-source columns of the wide diagnostics TSV.
 DIAG_SOURCES = [
-  SOURCE_EMBEDDED, SOURCE_EXISTING, "local_osdb", "opensubtitles_com",
+  SOURCE_EMBEDDED, SOURCE_EXISTING, "milahu", "opensubtitles_com",
   "subsource", "gestdown", "yify", "podnapisi", "tvsubtitles",
 ]
 
@@ -470,7 +470,7 @@ class RunLog:
         entry.row.extracted_from_video += candidates
       elif source in (SOURCE_EXISTING,):
         entry.row.existing_subs += candidates
-      elif source == "local_osdb":
+      elif source == "milahu":
         entry.row.db_candidates += candidates
       else:
         entry.row.api_candidates += candidates

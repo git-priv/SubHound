@@ -40,7 +40,7 @@ def test_tsv_roundtrip_preserves_types():
       type="movie", title_or_show="A", year=2020, season=None, episode=None,
       video_filename="A.mkv", lang="en", extracted_from_video=1, existing_subs=0,
       db_candidates=2, api_candidates=3, sync_offset=0.25, good_subtitle=True,
-      result="local_osdb", status=SUCCESS, subtitle_file="/m/A.en.srt",
+      result="milahu", status=SUCCESS, subtitle_file="/m/A.en.srt",
     ),
     ResultRow(
       video_path="/t/S.mkv", video_size=9, video_mtime_ns=9, updated_at="t",
@@ -106,8 +106,8 @@ def test_tried_sources_and_pools():
   k1 = result_key(str(v1), "en")
   k2 = result_key(str(v2), "en")
 
-  # v1 succeeds via local DB; v2 only checked (no good sub) on opensubtitles.
-  log.record_success(k1, "local_osdb", str(d / "A.en.srt"), 0.1)
+  # v1 succeeds via milahu; v2 only checked (no good sub) on opensubtitles.
+  log.record_success(k1, "milahu", str(d / "A.en.srt"), 0.1)
   log.mark_source_tried(k2, "opensubtitles_com", candidates=4)
 
   # Pool for opensubtitles: v1 is done, v2 already tried -> empty.

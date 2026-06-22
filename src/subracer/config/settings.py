@@ -15,7 +15,7 @@ from typing import Any
 class Source(str, enum.Enum):
   # The subtitle sources subracer can use, in the canonical fallback order.
   # Membership/order in Settings.source_order decides which are used and when.
-  LOCAL_OSDB = "local_osdb"
+  MILAHU = "milahu"
   OPENSUBTITLES_COM = "opensubtitles_com"
   SUBSOURCE = "subsource"
   GESTDOWN = "gestdown"
@@ -27,7 +27,7 @@ class Source(str, enum.Enum):
 # Default fallback order, matching the project plan. Movie-only / TV-only
 # sources are filtered per media type at run time (see providers/registry.py).
 DEFAULT_SOURCE_ORDER: list[Source] = [
-  Source.LOCAL_OSDB,
+  Source.MILAHU,
   Source.OPENSUBTITLES_COM,
   Source.SUBSOURCE,
   Source.GESTDOWN,
@@ -35,13 +35,6 @@ DEFAULT_SOURCE_ORDER: list[Source] = [
   Source.PODNAPISI,
   Source.TVSUBTITLES,
 ]
-
-
-class OsdbMode(str, enum.Enum):
-  # How the local OpenSubtitles DB feature behaves.
-  OFF = "off"            # do not use a local DB at all
-  METADATA = "metadata"  # build/keep the SQLite metadata index; fetch subs on demand
-  MIRROR = "mirror"      # opt-in: full language-filtered local file mirror
 
 
 # Valid Source string values, for tolerant config loading.
@@ -108,32 +101,11 @@ class Settings:
   # The user-agent OpenSubtitles requires consumers to set.
   user_agent: str = "subracer v0.1.0"
 
-  # --- Local OSDB ------------------------------------------------------
-  osdb_mode: OsdbMode = OsdbMode.METADATA
-  osdb_languages: list[str] = field(default_factory=list)  # empty == use `languages`
-  osdb_storage_path: str = ""  # empty == platformdirs data dir
-  osdb_mirror_repo: str = "milahu/opensubtitles-scraper"  # GitHub repo for mirror torrent
-
   # --- Parallelism caps ------------------------------------------------
   max_concurrent_videos: int = 4
   max_concurrent_extract: int = 2  # ffmpeg is CPU/IO heavy
   max_concurrent_sync: int = 2     # ffsubsync is CPU heavy
   max_concurrent_search: int = 6   # network search across providers
-
-  # Function Summary:
-  #    Return the effective OSDB language filter: osdb_languages if set,
-  #    otherwise fall back to the general `languages` list.
-  #
-  #  Input (parameters):
-  #    self [Settings]:  the settings instance
-  #
-  #  Output:
-  #    langs [list[str]]:  ISO language codes to keep in the local OSDB
-  #
-  # Example:
-  #    Settings(languages=["en"], osdb_languages=[]).effective_osdb_languages()  ->  ["en"]
-  def effective_osdb_languages(self) -> list[str]:
-    return list(self.osdb_languages) if self.osdb_languages else list(self.languages)
 
   # Function Summary:
   #    Return the ordered list of sources that are both enabled and present in
@@ -147,7 +119,7 @@ class Settings:
   #    sources [list[Source]]:  enabled sources to try, in fallback order
   #
   # Example:
-  #    Settings().sources_for("tv")  ->  [LOCAL_OSDB, OPENSUBTITLES_COM, SUBSOURCE, GESTDOWN]
+  #    Settings().sources_for("tv")  ->  [MILAHU, OPENSUBTITLES_COM, SUBSOURCE, GESTDOWN]
   def sources_for(self, media_type: str) -> list[Source]:
     enabled = set(self.enabled_sources)
     result: list[Source] = []
@@ -176,7 +148,7 @@ class Settings:
 #    plain [Any]:  the same data using only dict/list/str/int/float/bool/None
 #
 # Example:
-#    settings_to_dict(Settings())["osdb_mode"]  ->  "metadata"
+#    settings_to_dict(Settings())["source_order"][0]  ->  "milahu"
 def settings_to_dict(obj: Any) -> Any:
   if is_dataclass(obj) and not isinstance(obj, type):
     # Skip None-valued fields: TOML has no null type, and an absent key loads
@@ -207,7 +179,7 @@ def settings_to_dict(obj: Any) -> Any:
 #    settings [Settings]:  a populated, type-coerced Settings instance
 #
 # Example:
-#    settings_from_dict({"languages": ["nl"], "osdb_mode": "off"}).osdb_mode  ->  OsdbMode.OFF
+#    settings_from_dict({"languages": ["nl"]}).languages  ->  ["nl"]
 def settings_from_dict(data: dict[str, Any]) -> Settings:
   known = {f.name: f for f in fields(Settings)}
   kwargs: dict[str, Any] = {}
@@ -215,11 +187,9 @@ def settings_from_dict(data: dict[str, Any]) -> Settings:
     if name not in data:
       continue
     value = data[name]
-    if f.type == "OsdbMode" or name == "osdb_mode":
-      kwargs[name] = OsdbMode(value)
-    elif name in ("source_order", "enabled_sources"):
-      # Skip unknown/removed source values (e.g. a retired "addic7ed") so older
-      # config files still load.
+    if name in ("source_order", "enabled_sources"):
+      # Skip unknown/removed source values (e.g. a retired "local_osdb") so
+      # older config files still load.
       kwargs[name] = [Source(v) for v in value if v in _SOURCE_VALUES]
     else:
       kwargs[name] = value

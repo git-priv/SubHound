@@ -16,13 +16,8 @@ dependencies = [
   "parsett>=1.8.5",
   "cryptography>=49.0.0",
   "static-ffmpeg>=3.0",
-  "zstandard>=0.25.0",
   "beautifulsoup4>=4.15.0",
 ]
-
-[project.optional-dependencies]
-# Heavy, opt-in: only needed for the full local file mirror (Phase 4).
-mirror = ["libtorrent>=2.0"]
 
 [dependency-groups]
 dev = [

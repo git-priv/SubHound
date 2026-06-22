@@ -176,7 +176,7 @@ def test_yify_skips_tv():
 # ---- registry -------------------------------------------------------------
 
 def test_registry_orders_all_providers_by_media_type():
-  s = Settings()  # OSDB off (no DB) -> local_osdb excluded
+  s = Settings()
   built = build_providers(s, Credentials())
   names_movie = [p.name for p in providers_for(built, s, "movie")]
   names_tv = [p.name for p in providers_for(built, s, "tv")]

@@ -114,9 +114,9 @@ def test_tvsubtitles_skips_movies():
 # ---- registry ordering with all providers ---------------------------------
 
 def test_registry_full_ordering():
-  s = Settings()  # OSDB off -> local_osdb excluded
+  s = Settings()
   built = build_providers(s, Credentials())
   movie = [p.name for p in providers_for(built, s, "movie")]
   tv = [p.name for p in providers_for(built, s, "tv")]
-  assert movie == ["opensubtitles_com", "subsource", "yify", "podnapisi"]
-  assert tv == ["opensubtitles_com", "subsource", "gestdown", "podnapisi", "tvsubtitles"]
+  assert movie == ["milahu", "opensubtitles_com", "subsource", "yify", "podnapisi"]
+  assert tv == ["milahu", "opensubtitles_com", "subsource", "gestdown", "podnapisi", "tvsubtitles"]

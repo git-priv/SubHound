@@ -29,12 +29,12 @@ uv run pytest
 - **Phase 3 — Quota orchestration:** ✅ quota detection, per-source wait-list, reset
   scheduling, and automatic retry of wait-listed videos once a source's quota resets
   (`run(wait_for_quota=True)` / `--wait-for-quota`).
-- **Phase 4 — Full mirror:** ✅ opt-in milahu torrent shards + update shards + language split.
-  **Implementation notes (from research):**
-  - milahu distributes via **magnet links only** — no direct HTTP downloads for SQLite files; libtorrent remains required.
-  - Shards are organized by **subtitle ID range** (e.g. `104xxxxx`, `103xxxxx`), not by language. Per-file language filtering at download time is not possible; download the full shard, then run `language_split()` afterward.
-  - The torrent source is an **RSS feed** in the repo at `release/opensubtitles.org.dump.torrent.rss` — milahu does not use GitHub releases. The current `fetch_latest_release()` implementation targets the GitHub releases API (which returns empty) and needs to be replaced with an RSS parser.
-  - There are **12 shards** covering ~100k subtitle IDs each; a complete database requires all of them. The TUI should let the user choose latest-only vs. all shards before downloading.
+- **Phase 4 — Milahu provider:** ✅ `MilahuProvider` — first-priority network source using
+  milahu's `get-subtitles` HTTP service (`http://milahu.duckdns.org/bin/get-subtitles`).
+  Passes the video filename + language; receives a ZIP of SRT files. No API key or account
+  required. Replaces the local OSDB/mirror approach (dropped after research showed milahu
+  distributes only via magnet links, not direct HTTP downloads, and shards are by ID range
+  not language — making a local mirror impractical without a native Python torrent client).
 - **Phase 5 — Polish:** TUI beautification (theme/palette, styled stats dashboard + progress,
   per-row status colors, directory picker), offset-verification screen, unwanted/forced track
   cleanup, packaging. (Phase 1 TUI is functional but intentionally unstyled.)
@@ -55,12 +55,10 @@ uv run pytest
 | 8 | `pipeline/`: quota tracker + orchestrator (thread-pool) + logging_setup | ✅ |
 | 9 | `tui/`: Textual app (Setup / Run / Logs) + `__main__` headless entry | ✅ |
 | 10 | Tests (75) + headless end-to-end run | ✅ |
-| 11 | `osdb/torrent_client.py`: libtorrent wrapper, per-file priority selection, blocking download loop | ✅ |
-| 12 | `osdb/mirror.py`: `MirrorManager` — GitHub release fetch, file-filtered torrent download, `language_split`, `mirror_state.json` persistence, update detection | ✅ |
-| 13 | `config/settings.py`: `osdb_mirror_repo` field (override for power users) | ✅ |
-| 14 | `providers/registry.py`: MIRROR mode wires `MirrorManager` paths into `LocalOsdbProvider` | ✅ |
-| 15 | `tui/app.py`: "Local Mirror" section in Setup tab (status, progress bar, Download/Update button) | ✅ |
-| 16 | `tests/test_mirror.py`: state roundtrip, GitHub parsing, update detection, download flow, missing-dep guard | ✅ |
+| 11 | `providers/milahu.py`: `MilahuProvider` — first-priority source via milahu's HTTP service; ZIP response → SRT candidates; no credentials | ✅ |
+| 12 | `config/settings.py`: replaced `LOCAL_OSDB` + `OsdbMode` with `MILAHU`; stripped all osdb fields | ✅ |
+| 13 | `providers/registry.py`: wired `MilahuProvider` as first factory; removed all OSDB infrastructure | ✅ |
+| 14 | `tests/test_milahu.py`: search/download happy path, error handling, max_results, synthetic filename | ✅ |
 
 **Phase 1 MVP complete** — full pipeline runs end-to-end (scan → identify → run log/skip →
 embedded → existing → local OSDB → OpenSubtitles → results TSV), via TUI or `--headless`.

@@ -10,7 +10,7 @@ from pathlib import Path
 import pytest
 
 from subracer.config.secrets import Credentials
-from subracer.config.settings import OsdbMode, Settings, Source
+from subracer.config.settings import Settings, Source
 from subracer.core.extract import ExtractedSubtitle
 from subracer.core.sync import SyncResult
 from subracer.pipeline.orchestrator import Orchestrator
@@ -19,7 +19,7 @@ from subracer.providers.base import Candidate, Provider, QuotaExceeded
 
 
 def _settings(**kw) -> Settings:
-  base = dict(languages=["en"], osdb_mode=OsdbMode.OFF,
+  base = dict(languages=["en"],
               enabled_sources=[Source.OPENSUBTITLES_COM],
               source_order=[Source.OPENSUBTITLES_COM], max_concurrent_videos=2)
   base.update(kw)

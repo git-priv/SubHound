@@ -19,9 +19,7 @@ from textual.widgets import (
   Header,
   Input,
   Label,
-  ProgressBar,
   RichLog,
-  Select,
   Static,
   Switch,
   TabbedContent,
@@ -30,9 +28,8 @@ from textual.widgets import (
 
 from .. import scheduling
 from ..config.secrets import Credentials, load_credentials, save_credentials
-from ..config.settings import OsdbMode, Settings
+from ..config.settings import Settings
 from ..config.store import config_dir, load_settings, save_settings
-from ..osdb.mirror import MirrorManager
 from ..pipeline.orchestrator import Orchestrator, PipelineEvents, RunStats
 from ..pipeline.results import ResultRow
 
@@ -48,8 +45,6 @@ class SubracerApp(App):
   #run_controls { height: auto; padding: 1 2; }
   #run_controls Input { width: 1fr; }
   RichLog { background: $surface; }
-  #mirror_progress { margin-top: 1; display: none; }
-  #mirror_progress.active { display: block; }
   """
   BINDINGS = [("q", "quit", "Quit"), ("ctrl+s", "save_setup", "Save setup")]
 
@@ -99,14 +94,6 @@ class SubracerApp(App):
           yield Input(str(self.settings.accept_offset_threshold), id="accept")
           yield Label("Reject offset threshold (s)")
           yield Input(str(self.settings.reject_offset_threshold), id="reject")
-          yield Label("Local OpenSubtitles DB mode")
-          yield Select(
-            [(m.value, m.value) for m in OsdbMode],
-            value=self.settings.osdb_mode.value, id="osdb_mode", allow_blank=False)
-          yield Label("Local Mirror")
-          yield Static("", id="mirror_status")
-          yield ProgressBar(id="mirror_progress", show_percentage=True, show_eta=True)
-          yield Button("Download / Update mirror", id="mirror_download", variant="default")
           yield Button("Save setup", id="save", variant="primary")
           yield Static("", id="setup_status")
       with TabPane("Run", id="run"):
@@ -149,7 +136,6 @@ class SubracerApp(App):
   def on_mount(self) -> None:
     table = self.query_one("#results", DataTable)
     table.add_columns("Video", "Lang", "Status", "Source", "Offset(s)")
-    self._refresh_mirror_status()
 
   # Function Summary:
   #    Route button presses to Save or Start.
@@ -171,8 +157,6 @@ class SubracerApp(App):
       self._show_schedule(install=False)
     elif event.button.id == "install_schedule":
       self._show_schedule(install=True)
-    elif event.button.id == "mirror_download":
-      self._start_mirror_download()
 
   # Function Summary:
   #    Persist the Setup tab into settings.toml and the encrypted secrets file.
@@ -192,7 +176,6 @@ class SubracerApp(App):
       ] or ["en"]
       self.settings.accept_offset_threshold = float(self.query_one("#accept", Input).value or 0.05)
       self.settings.reject_offset_threshold = float(self.query_one("#reject", Input).value or 2.5)
-      self.settings.osdb_mode = OsdbMode(self.query_one("#osdb_mode", Select).value)
       self.credentials.api_key = self.query_one("#api_key", Input).value.strip()
       self.credentials.username = self.query_one("#username", Input).value.strip()
       self.credentials.password = self.query_one("#password", Input).value
@@ -363,92 +346,3 @@ class SubracerApp(App):
   #    self._run_finished()
   def _run_finished(self) -> None:
     self._pipeline_running = False
-
-  # Function Summary:
-  #    Update the mirror status label with the current MirrorState (or lack thereof).
-  #
-  #  Input (parameters):
-  #    (none)
-  #
-  #  Output:
-  #    (none)
-  def _refresh_mirror_status(self) -> None:
-    mirror = MirrorManager(self.settings)
-    st = mirror.state()
-    label = self.query_one("#mirror_status", Static)
-    if self.settings.osdb_mode.value != "mirror":
-      label.update("Mirror mode not active (set OSDB mode to 'mirror' to use).")
-      return
-    if st is None:
-      label.update("Not downloaded.")
-      return
-    storage = mirror.storage_dir()
-    total_mb = sum(
-      (storage / f).stat().st_size for f in st.files if (storage / f).exists()
-    ) / (1024 * 1024)
-    date = st.downloaded_at[:10]
-    langs = ", ".join(st.languages)
-    label.update(
-      f"v{st.release_tag} · {date} · {len(st.files)} files · {total_mb:.0f} MB · langs: {langs}"
-    )
-
-  # Function Summary:
-  #    Start a mirror download in a background thread.
-  #
-  #  Input (parameters):
-  #    (none)
-  #
-  #  Output:
-  #    (none)
-  def _start_mirror_download(self) -> None:
-    if self.settings.osdb_mode.value != "mirror":
-      self.query_one("#mirror_status", Static).update(
-        "[red]Set OSDB mode to 'mirror' first, then save setup.[/]"
-      )
-      return
-    progress_bar = self.query_one("#mirror_progress", ProgressBar)
-    progress_bar.add_class("active")
-    progress_bar.update(total=100, progress=0)
-    self.query_one("#mirror_download", Button).disabled = True
-    self.run_worker(lambda: self._mirror_download_worker(), thread=True, name="mirror")
-
-  # Function Summary:
-  #    Worker body: run MirrorManager.download() with progress callbacks that
-  #    update the TUI from the background thread. Runs in a background thread.
-  #
-  #  Input (parameters):
-  #    (none)
-  #
-  #  Output:
-  #    (none)
-  def _mirror_download_worker(self) -> None:
-    mirror = MirrorManager(self.settings)
-    status = self.query_one("#mirror_status", Static)
-    progress_bar = self.query_one("#mirror_progress", ProgressBar)
-
-    def on_progress(fraction: float, filename: str) -> None:
-      self.call_from_thread(progress_bar.update, progress=int(fraction * 100))
-      self.call_from_thread(status.update, f"Downloading: {filename} ({fraction:.0%})")
-
-    try:
-      mirror.download(progress_cb=on_progress)
-      self.call_from_thread(self._mirror_download_finished, None)
-    except Exception as exc:
-      self.call_from_thread(self._mirror_download_finished, str(exc))
-
-  # Function Summary:
-  #    Called on the main thread after the mirror download completes (or fails).
-  #
-  #  Input (parameters):
-  #    error [str | None]:  error message, or None on success
-  #
-  #  Output:
-  #    (none)
-  def _mirror_download_finished(self, error: str | None) -> None:
-    self.query_one("#mirror_download", Button).disabled = False
-    progress_bar = self.query_one("#mirror_progress", ProgressBar)
-    progress_bar.remove_class("active")
-    if error:
-      self.query_one("#mirror_status", Static).update(f"[red]Download failed: {error}[/]")
-    else:
-      self._refresh_mirror_status()

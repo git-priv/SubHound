@@ -4,20 +4,17 @@
 # and yields them per media type in the configured fallback order. Only providers
 # that are implemented are instantiated; configured-but-unimplemented sources are
 # skipped (added in later phases). The local pipeline stages (embedded extract,
-# existing dir subs) and the local OSDB are handled outside this registry.
+# existing dir subs) are handled outside this registry.
 
 from __future__ import annotations
 
 from collections.abc import Callable
-from pathlib import Path
 
 from ..config.secrets import Credentials
-from ..config.settings import OsdbMode, Settings, Source
-from ..config.store import data_dir
-from ..osdb.local_osdb import LocalOsdbProvider
-from ..osdb.mirror import MirrorManager
+from ..config.settings import Settings, Source
 from .base import Provider
 from .gestdown import GestdownProvider
+from .milahu import MilahuProvider
 from .opensubtitles_com import OpenSubtitlesComProvider
 from .podnapisi import PodnapisiProvider
 from .subsource import SubSourceProvider
@@ -27,6 +24,22 @@ from .yify import YifyProvider
 # Maps a config Source to a factory building its Provider. Sources absent here
 # are not yet implemented and are silently skipped by build_providers().
 ProviderFactory = Callable[[Settings, Credentials], Provider]
+
+
+# Function Summary:
+#    Build the milahu get-subtitles provider.
+#
+#  Input (parameters):
+#    settings [Settings]:  the run settings (max_search_results)
+#    creds [Credentials]:  unused (no credentials needed)
+#
+#  Output:
+#    provider [Provider]:  a MilahuProvider
+#
+# Example:
+#    _build_milahu(Settings(), Credentials())  ->  MilahuProvider(...)
+def _build_milahu(settings: Settings, creds: Credentials) -> Provider:
+  return MilahuProvider(max_results=settings.max_search_results)
 
 
 # Function Summary:
@@ -50,54 +63,6 @@ def _build_opensubtitles_com(settings: Settings, creds: Credentials) -> Provider
     password=creds.password,
     token=creds.token,
   )
-
-
-# Function Summary:
-#    Resolve the local OSDB paths from settings: the metadata DB and any data
-#    DBs (zstd SRT shards). Defaults to <data_dir>/osdb when no path is set.
-#
-#  Input (parameters):
-#    settings [Settings]:  the run settings (osdb_storage_path)
-#
-#  Output:
-#    paths [tuple[Path, list[Path]]]:  (metadata_db_path, data_db_paths)
-#
-# Example:
-#    osdb_paths(Settings())  ->  (PosixPath(".../osdb/subtitles_all.db"), [])
-def osdb_paths(settings: Settings) -> tuple[Path, list[Path]]:
-  base = Path(settings.osdb_storage_path) if settings.osdb_storage_path else data_dir() / "osdb"
-  metadata_db = base / "subtitles_all.db"
-  data_dir_path = base / "data"
-  data_dbs = sorted(data_dir_path.glob("*.db")) if data_dir_path.exists() else []
-  return metadata_db, data_dbs
-
-
-# Function Summary:
-#    Build the local OSDB provider from settings (metadata DB + data shards).
-#
-#  Input (parameters):
-#    settings [Settings]:   the run settings (osdb paths, max_search_results)
-#    creds [Credentials]:   unused (local DB needs no credentials)
-#
-#  Output:
-#    provider [Provider]:  a LocalOsdbProvider
-#
-# Example:
-#    _build_local_osdb(Settings(), Credentials())  ->  LocalOsdbProvider(...)
-def _build_local_osdb(settings: Settings, creds: Credentials) -> Provider:
-  if settings.osdb_mode == OsdbMode.MIRROR:
-    mirror = MirrorManager(settings)
-    metadata = mirror.metadata_db()
-    data_dbs = mirror.available_data_dbs()
-    # metadata may be None when the mirror hasn't been downloaded yet; the
-    # provider's available() check will return False and it will be skipped.
-    return LocalOsdbProvider(
-      metadata or (mirror.storage_dir() / "metadata.db"),
-      data_dbs,
-      max_results=settings.max_search_results,
-    )
-  metadata_db, data_dbs = osdb_paths(settings)
-  return LocalOsdbProvider(metadata_db, data_dbs, max_results=settings.max_search_results)
 
 
 # Function Summary:
@@ -182,7 +147,7 @@ def _build_tvsubtitles(settings: Settings, creds: Credentials) -> Provider:
 
 # Registry of implemented providers, keyed by config Source.
 PROVIDER_FACTORIES: dict[Source, ProviderFactory] = {
-  Source.LOCAL_OSDB: _build_local_osdb,
+  Source.MILAHU: _build_milahu,
   Source.OPENSUBTITLES_COM: _build_opensubtitles_com,
   Source.SUBSOURCE: _build_subsource,
   Source.GESTDOWN: _build_gestdown,
@@ -204,20 +169,14 @@ PROVIDER_FACTORIES: dict[Source, ProviderFactory] = {
 #    providers [dict[Source, Provider]]:  built providers (insertion-ordered)
 #
 # Example:
-#    build_providers(Settings(), Credentials())  ->  {Source.OPENSUBTITLES_COM: <provider>}
+#    build_providers(Settings(), Credentials())  ->  {Source.MILAHU: <provider>, ...}
 def build_providers(settings: Settings, creds: Credentials) -> dict[Source, Provider]:
   enabled = set(settings.enabled_sources)
   providers: dict[Source, Provider] = {}
   for src in settings.source_order:
     if src not in enabled or src not in PROVIDER_FACTORIES:
       continue
-    if src == Source.LOCAL_OSDB and settings.osdb_mode == OsdbMode.OFF:
-      continue
-    provider = PROVIDER_FACTORIES[src](settings, creds)
-    # Only include the local OSDB when its metadata DB actually exists.
-    if src == Source.LOCAL_OSDB and not getattr(provider, "available", lambda: True)():
-      continue
-    providers[src] = provider
+    providers[src] = PROVIDER_FACTORIES[src](settings, creds)
   return providers
 
 
@@ -235,7 +194,7 @@ def build_providers(settings: Settings, creds: Credentials) -> dict[Source, Prov
 #    ordered [list[Provider]]:  providers to try for this media type, in order
 #
 # Example:
-#    providers_for(built, Settings(), "tv")  ->  [<opensubtitles_com provider>]
+#    providers_for(built, Settings(), "tv")  ->  [<milahu>, <opensubtitles_com>, ...]
 def providers_for(
   providers: dict[Source, Provider],
   settings: Settings,

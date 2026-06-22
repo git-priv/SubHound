@@ -122,33 +122,12 @@ def test_download_remaining_zero_marks_exhausted():
 
 
 def test_registry_builds_and_orders():
-  # No local OSDB present here -> local_osdb excluded; the network providers are
-  # built in configured order (full per-media-type ordering is covered in
-  # test_providers_phase2).
+  # Milahu is first; all network providers are built in configured order.
+  # Full per-media-type ordering is covered in test_providers_phase2.
   s = Settings()
   built = build_providers(s, Credentials(api_key="k"))
+  assert Source.MILAHU in built
   assert Source.OPENSUBTITLES_COM in built
-  assert Source.LOCAL_OSDB not in built  # OSDB metadata DB doesn't exist
   for mt in ("movie", "tv", "unknown"):
     names = [p.name for p in providers_for(built, s, mt)]
-    assert names[0] == "opensubtitles_com" and "local_osdb" not in names
-
-
-def test_registry_includes_local_osdb_when_present(tmp_path):
-  from subracer.config.settings import OsdbMode
-  from subracer.osdb.builder import ingest
-  # Lay out a metadata DB at <storage>/osdb/subtitles_all.db.
-  storage = tmp_path / "store"
-  (storage / "osdb").mkdir(parents=True)
-  ingest(storage / "osdb" / "subtitles_all.db",
-         [{"IDSubtitle": 1, "MovieName": "A", "ISO639": "en"}])
-  s = Settings(osdb_mode=OsdbMode.METADATA, osdb_storage_path=str(storage / "osdb"))
-  built = build_providers(s, Credentials())
-  assert Source.LOCAL_OSDB in built
-  # local_osdb is first in the configured order, ahead of opensubtitles_com.
-  order = [p.name for p in providers_for(built, s, "movie")]
-  assert order[0] == "local_osdb" and "opensubtitles_com" in order
-
-  # With OSDB off, it is excluded even though the DB exists.
-  s_off = Settings(osdb_mode=OsdbMode.OFF, osdb_storage_path=str(storage / "osdb"))
-  assert Source.LOCAL_OSDB not in build_providers(s_off, Credentials())
+    assert names[0] == "milahu"
