@@ -9,13 +9,13 @@ from pathlib import Path
 
 import pytest
 
-from subracer.config.secrets import Credentials
-from subracer.config.settings import Settings, Source
-from subracer.core.extract import ExtractedSubtitle
-from subracer.core.sync import SyncResult
-from subracer.pipeline.orchestrator import Orchestrator
-from subracer.pipeline.results import SUCCESS, WAITLIST, read_results_tsv, result_key
-from subracer.providers.base import Candidate, Provider, QuotaExceeded
+from subhound.config.secrets import Credentials
+from subhound.config.settings import Settings, Source
+from subhound.core.extract import ExtractedSubtitle
+from subhound.core.sync import SyncResult
+from subhound.pipeline.orchestrator import Orchestrator
+from subhound.pipeline.results import SUCCESS, WAITLIST, read_results_tsv, result_key
+from subhound.providers.base import Candidate, Provider, QuotaExceeded
 
 
 def _settings(**kw) -> Settings:
@@ -100,9 +100,9 @@ def test_provider_success_writes_results_and_places_srt():
 
 
 def test_run_refuses_when_directory_already_locked():
-  from subracer.pipeline.lock import RunLock, RunLockError
+  from subhound.pipeline.lock import RunLock, RunLockError
   d = _media_tree()
-  held = RunLock(d / ".subracer" / "lock")
+  held = RunLock(d / ".subhound" / "lock")
   assert held.acquire()
   try:
     orch = Orchestrator(

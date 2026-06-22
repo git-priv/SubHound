@@ -1,16 +1,35 @@
-# Python-generated files
+# Python bytecode and package artifacts
 __pycache__/
 *.py[oc]
 build/
 dist/
 wheels/
-*.egg-info
+*.egg-info/
 
 # Virtual environments
-.venv
+.venv/
+
+# Test, analysis, and coverage artifacts
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Editors and IDEs
+.vscode/
+.idea/
+
+# Operating-system metadata
+.DS_Store
 
 # Local repository metadata
 .git/
 
-# AI
-.claude
+# Local AI tooling
+.claude/

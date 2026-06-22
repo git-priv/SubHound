@@ -1,4 +1,4 @@
-# subracer — Roadmap & Progress
+# subhound — Roadmap & Progress
 
 Parallel, multi-source subtitle detection / extraction / download / sync with a
 cross-platform TUI. This file tracks the approved implementation plan and what's
@@ -75,38 +75,38 @@ Legend: ✅ done · �doing in progress · ⬜ not started
   pytest-asyncio, openpyxl. External tools present: ffmpeg, mkvtoolnix (ffsubsync via pip).
 
 ### 2. config/
-- [`settings.py`](src/subracer/config/settings.py) — typed `Settings` model mirroring
+- [`settings.py`](src/subhound/config/settings.py) — typed `Settings` model mirroring
   Subservient options + new fields (source order/enabled, OSDB mode, parallelism caps);
   `sources_for(media_type)` filters by movie/tv/unknown.
-- [`store.py`](src/subracer/config/store.py) — TOML load/save in platformdirs config dir.
-- [`secrets.py`](src/subracer/config/secrets.py) — credentials in an encrypted file
+- [`store.py`](src/subhound/config/store.py) — TOML load/save in platformdirs config dir.
+- [`secrets.py`](src/subhound/config/secrets.py) — credentials in an encrypted file
   (`secrets.enc`, 0600) using authenticated AES (Fernet); key derived at runtime from
   hardware/OS ids (Linux machine-id / macOS IOPlatformUUID / Windows MachineGuid /
   MAC+hostname fallback). No key stored or hard-coded; no master password. Decrypts only
   on the same machine.
-- [`portable.py`](src/subracer/config/portable.py) — plaintext export bundle +
+- [`portable.py`](src/subhound/config/portable.py) — plaintext export bundle +
   `install_bundle` (re-encrypts with the local machine key) + `delete_file`.
 
 ### 3. core/
-- [`scan.py`](src/subracer/core/scan.py) — recursive video discovery + skip_dirs.
-- [`identify.py`](src/subracer/core/identify.py) — PTT-based parsing with a directory-aware
+- [`scan.py`](src/subhound/core/scan.py) — recursive video discovery + skip_dirs.
+- [`identify.py`](src/subhound/core/identify.py) — PTT-based parsing with a directory-aware
   layer (show/SXX/episode), permissive season/episode formats, hyphen-title fix, year/title
   disambiguation, "unknown" with explanatory note when unresolvable.
-- [`hashing.py`](src/subracer/core/hashing.py) — OpenSubtitles moviehash + (size, mtime_ns)
+- [`hashing.py`](src/subhound/core/hashing.py) — OpenSubtitles moviehash + (size, mtime_ns)
   fingerprint.
-- [`subtitle_lang.py`](src/subracer/core/subtitle_lang.py) — detect a subtitle file's
+- [`subtitle_lang.py`](src/subhound/core/subtitle_lang.py) — detect a subtitle file's
   language from its text (langdetect + pycountry).
 
 ### 4. core/ (extract + sync)
-- [`tools.py`](src/subracer/core/tools.py) — **self-contained tooling**: prefers a system
+- [`tools.py`](src/subhound/core/tools.py) — **self-contained tooling**: prefers a system
   ffmpeg/ffprobe, else falls back to bundled binaries via `static-ffmpeg` (fetched/cached on
   first use); `ensure_tools_on_path()` exposes them so ffsubsync finds ffmpeg; `ffsubsync` runs
   as `<python> -m ffsubsync`. `check_tools()` reports availability and whether bundled binaries
   are in use. (mkvextract dropped — ffmpeg handles extraction.)
-- [`extract.py`](src/subracer/core/extract.py) — probe subtitle streams (ffprobe), extract
+- [`extract.py`](src/subhound/core/extract.py) — probe subtitle streams (ffprobe), extract
   text tracks to SRT (ffmpeg), and discover existing external subs next to the video. Image
   tracks (PGS/VobSub) are skipped (need OCR).
-- [`sync.py`](src/subracer/core/sync.py) — `synchronize()` via ffsubsync, offset estimation,
+- [`sync.py`](src/subhound/core/sync.py) — `synchronize()` via ffsubsync, offset estimation,
   `classify_offset()` (ACCEPT/VERIFY/REJECT vs thresholds), and `apply_offset_ms()` for manual
   correction. This is the sync-test reused at every pipeline stage.
 
@@ -117,35 +117,35 @@ Legend: ✅ done · �doing in progress · ⬜ not started
   and persists to a JSON sidecar for resume. Authoritative flow in [docs/PIPELINE.md](docs/PIPELINE.md).
 
 ### 6. providers/
-- [`base.py`](src/subracer/providers/base.py) — `Provider` ABC (`search`/`download`/`quota`/
+- [`base.py`](src/subhound/providers/base.py) — `Provider` ABC (`search`/`download`/`quota`/
   `supports`), `Candidate`, `QuotaState`, and `QuotaExceeded`.
-- [`opensubtitles_com.py`](src/subracer/providers/opensubtitles_com.py) — OpenSubtitles.com REST
+- [`opensubtitles_com.py`](src/subhound/providers/opensubtitles_com.py) — OpenSubtitles.com REST
   provider: API-key + JWT login, hash/title/year or show+SxxExx search, download with quota
   tracking (remaining/reset), raises `QuotaExceeded` on 406/429 or zero remaining.
-- [`registry.py`](src/subracer/providers/registry.py) — builds enabled+implemented providers in
+- [`registry.py`](src/subhound/providers/registry.py) — builds enabled+implemented providers in
   the configured order; `providers_for(media_type)` applies per-type filtering. (SubSource /
   Gestdown / YIFY / Addic7ed land in Phase 2.)
 
 ### Phase 2 providers
-- [`gestdown.py`](src/subracer/providers/gestdown.py) — Addic7ed proxy JSON API, **TV-only**
-  (needs season+episode). [`subsource.py`](src/subracer/providers/subsource.py) — SubSource
+- [`gestdown.py`](src/subhound/providers/gestdown.py) — Addic7ed proxy JSON API, **TV-only**
+  (needs season+episode). [`subsource.py`](src/subhound/providers/subsource.py) — SubSource
   **v1** REST (`/api/v1/movies/search`, `/api/v1/subtitles`, `/subtitles/{id}/download`).
-  [`yify.py`](src/subracer/providers/yify.py) — yts-subs.com HTML scrape (movies; bs4).
-  [`podnapisi.py`](src/subracer/providers/podnapisi.py) — podnapisi.net JSON search (movies+TV;
-  lowers TLS seclevel). [`tvsubtitles.py`](src/subracer/providers/tvsubtitles.py) —
+  [`yify.py`](src/subhound/providers/yify.py) — yts-subs.com HTML scrape (movies; bs4).
+  [`podnapisi.py`](src/subhound/providers/podnapisi.py) — podnapisi.net JSON search (movies+TV;
+  lowers TLS seclevel). [`tvsubtitles.py`](src/subhound/providers/tvsubtitles.py) —
   tvsubtitles.net multi-step HTML scrape (TV only; bs4).
-  [`_util.py`](src/subracer/providers/_util.py) — zip→srt extraction + language-name mapping.
+  [`_util.py`](src/subhound/providers/_util.py) — zip→srt extraction + language-name mapping.
 - Per-media-type ordering: movies → opensubtitles_com, subsource, **yify**, **podnapisi**; TV →
   opensubtitles_com, subsource, **gestdown**, **podnapisi**, **tvsubtitles** (local_osdb first
   when enabled).
 
 ### 7. osdb/
-- [`index.py`](src/subracer/osdb/index.py) — query layer over the milahu `subz_metadata` schema;
+- [`index.py`](src/subhound/osdb/index.py) — query layer over the milahu `subz_metadata` schema;
   **hash-first** lookup when a `MovieHash` column is present (PRAGMA-detected), then title/year/
   season-episode fill.
-- [`builder.py`](src/subracer/osdb/builder.py) — create schema, ingest records, and
+- [`builder.py`](src/subhound/osdb/builder.py) — create schema, ingest records, and
   `language_split()` to shrink the store to wanted languages.
-- [`local_osdb.py`](src/subracer/osdb/local_osdb.py) — `Provider` over the index; resolves actual
+- [`local_osdb.py`](src/subhound/osdb/local_osdb.py) — `Provider` over the index; resolves actual
   SRT bytes from milahu-style data DBs (`subtitles.srt_zstd`, zstd). Network-free; first external
   source. Registered in the registry and gated on `osdb_mode` + DB presence.
 
@@ -172,11 +172,11 @@ Legend: ✅ done · �doing in progress · ⬜ not started
   building blocks are synchronous subprocess/HTTP calls; cleaner fit and easy to bound per stage.
 
 ### 8. pipeline/ (orchestrator + quota + logging)
-- [`orchestrator.py`](src/subracer/pipeline/orchestrator.py) — runs docs/PIPELINE.md per
+- [`orchestrator.py`](src/subhound/pipeline/orchestrator.py) — runs docs/PIPELINE.md per
   (video, lang): embedded → existing → providers in order, short-circuit on first good sync,
   places the named `.srt`, records to the RunLog; parallel across entries (thread pool) with
   per-stage semaphores; emits `RunStats` (incl. skipped + undetermined) and per-entry events.
-- [`quota.py`](src/subracer/pipeline/quota.py) — thread-safe `QuotaTracker`: exhausted sources,
+- [`quota.py`](src/subhound/pipeline/quota.py) — thread-safe `QuotaTracker`: exhausted sources,
   reset timers, **FIFO** per-source wait-lists (earliest-blocked videos retried first);
   `resettable()` lists sources with a known reset countdown for the drain scheduler.
 
@@ -207,13 +207,13 @@ Legend: ✅ done · �doing in progress · ⬜ not started
   a quota-blocked source (never marked "tried") is retried. Fixed a related bug: a provider is only
   marked "tried" after its downloads finish without a quota block, so a mid-download quota leaves it
   retriable. Progress is persisted after the main pass and after every drain cycle.
-- **Single run per directory** ([pipeline/lock.py](src/subracer/pipeline/lock.py)): an OS-level
-  advisory lock (`fcntl`/`msvcrt`) on `.subracer/lock` stops two subracer processes from working the
+- **Single run per directory** ([pipeline/lock.py](src/subhound/pipeline/lock.py)): an OS-level
+  advisory lock (`fcntl`/`msvcrt`) on `.subhound/lock` stops two subhound processes from working the
   same directory at once and corrupting the shared TSVs / sidecar. A second run raises `RunLockError`
   (headless exits 3); the kernel frees the lock automatically if a process crashes, so it never goes
   stale.
-- **Cron / Task Scheduler option** ([scheduling.py](src/subracer/scheduling.py)): instead of keeping
-  the app open just to wait on a slow drip, the user can exit and let the OS re-run subracer
+- **Cron / Task Scheduler option** ([scheduling.py](src/subhound/scheduling.py)): instead of keeping
+  the app open just to wait on a slow drip, the user can exit and let the OS re-run subhound
   periodically; each run resumes and grabs newly-freed quota. `schedule_preview()` shows the exact
   crontab line (Linux/macOS) or `schtasks` command (Windows); `install_schedule()` installs it
   (crontab rewrite preserving other entries / `schtasks /Create`). Surfaced as a "Scheduled runs"
@@ -227,11 +227,11 @@ Legend: ✅ done · �doing in progress · ⬜ not started
   all nine sources (embedded, existing, local_osdb, opensubtitles_com, subsource, gestdown, yify,
   podnapisi, tvsubtitles). Per-source `SourceDiag` records (candidates found, language matches,
   every measured sync offset, and a `DIAG_*` outcome — good/rejected/none/quota/download_failed/
-  error) are captured during processing in [results.py](src/subracer/pipeline/results.py) and
+  error) are captured during processing in [results.py](src/subhound/pipeline/results.py) and
   persisted in the run-log JSON sidecar. For data nerds / troubleshooting, not the main results file.
 
 ### Subtitle normalization + download integrity
-- [`core/subtitle_convert.py`](src/subracer/core/subtitle_convert.py) — `normalize_to_srt()`
+- [`core/subtitle_convert.py`](src/subhound/core/subtitle_convert.py) — `normalize_to_srt()`
   converts **every** subtitle (downloaded, on-disk, or extracted) to clean UTF-8 **SubRip**
   before syncing/placement. SRT is the most broadly supported sidecar across Plex/Emby/Jellyfin/VLC
   (delivered as text, no transcode). Time-based formats (SRT/ASS/SSA/VTT) convert with timing
@@ -241,22 +241,22 @@ Legend: ✅ done · �doing in progress · ⬜ not started
   (UTF-8 → confident chardet → cp1252). Wired into the orchestrator as an injectable
   `normalize_fn` choke point; image/garbage payloads fail normalization and the candidate is skipped.
   (Future: an opt-in "preserve original styled format" flag for anime/"signs & songs" ASS tracks.)
-- [`providers/_util.py`](src/subracer/providers/_util.py) `write_subtitle_bytes()` now **integrity-
+- [`providers/_util.py`](src/subhound/providers/_util.py) `write_subtitle_bytes()` now **integrity-
   checks** downloads: ZIP archives are CRC-verified (`testzip()`) and any malformed/corrupt/truncated
   archive is discarded; the extracted payload is sanity-checked (decodes as text, isn't an HTML
   error page / JSON envelope, meets a minimum size) before being written; the written file's
   SHA-256 is logged for traceability. (Providers don't supply content hashes and HTTPS already
   guards in-flight corruption, so we validate structurally.)
-- [`logging_setup.py`](src/subracer/logging_setup.py) — per-run log file + optional callback
+- [`logging_setup.py`](src/subhound/logging_setup.py) — per-run log file + optional callback
   handler for the TUI live log.
 
 ### 9. tui/ + entry point
-- [`tui/app.py`](src/subracer/tui/app.py) — Textual app with Setup (edit settings + credentials,
+- [`tui/app.py`](src/subhound/tui/app.py) — Textual app with Setup (edit settings + credentials,
   no file editing), Run (pick dir, resync switch, Start, live per-(video,lang) table + summary
   stats) and Logs (live stream) tabs. The orchestrator runs in a background thread; updates are
   marshalled to the UI via `call_from_thread`.
-- [`__main__.py`](src/subracer/__main__.py) — launches the TUI, or `--headless --dir <path>
-  [--languages ..] [--resync]` runs once and prints a summary. Installed as the `subracer` command.
+- [`__main__.py`](src/subhound/__main__.py) — launches the TUI, or `--headless --dir <path>
+  [--languages ..] [--resync]` runs once and prints a summary. Installed as the `subhound` command.
 
 ### 10. Tests
 - 75 tests, gated on dataset checksums. Coverage: identify (dataset eval + HTML/XLSX reports),

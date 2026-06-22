@@ -1,11 +1,11 @@
-# Tests for the per-directory run lock that stops two subracer processes from
+# Tests for the per-directory run lock that stops two subhound processes from
 # clobbering the same TSVs.
 
 from __future__ import annotations
 
 import pytest
 
-from subracer.pipeline.lock import RunLock, RunLockError
+from subhound.pipeline.lock import RunLock, RunLockError
 
 
 def test_second_acquire_is_blocked_until_released(tmp_path):

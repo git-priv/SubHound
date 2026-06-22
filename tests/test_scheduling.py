@@ -1,4 +1,4 @@
-# Tests for subracer.scheduling: the headless command, cron timing expressions,
+# Tests for subhound.scheduling: the headless command, cron timing expressions,
 # and the cross-platform schedule preview. install_schedule is not exercised here
 # (it mutates the real crontab / Task Scheduler).
 
@@ -6,7 +6,7 @@ from __future__ import annotations
 
 from pathlib import Path
 
-from subracer.scheduling import (
+from subhound.scheduling import (
   CRON_MARKER,
   _cron_timing,
   build_run_command,
@@ -16,7 +16,7 @@ from subracer.scheduling import (
 
 def test_build_run_command_is_headless_single_pass():
   cmd = build_run_command(Path("/media"), ["en", "nl"], python="/usr/bin/python")
-  assert cmd[:4] == ["/usr/bin/python", "-m", "subracer", "--headless"]
+  assert cmd[:4] == ["/usr/bin/python", "-m", "subhound", "--headless"]
   assert "/media" in cmd and "en,nl" in cmd
   # Scheduled runs do a single pass and exit (no keep-running), so --once is set.
   assert "--once" in cmd and "--wait-for-quota" not in cmd
@@ -37,10 +37,10 @@ def test_cron_timing_intervals():
 def test_schedule_preview_cron():
   line = schedule_preview(Path("/media"), ["en"], 60, system="Linux")
   assert line.startswith("0 * * * * ") and line.endswith(CRON_MARKER)
-  assert "-m subracer --headless --once --dir /media --languages en" in line
+  assert "-m subhound --headless --once --dir /media --languages en" in line
 
 
 def test_schedule_preview_windows():
   line = schedule_preview(Path("/media"), ["en"], 30, system="Windows")
-  assert line.startswith("schtasks /Create /SC MINUTE /MO 30 /TN subracer")
+  assert line.startswith("schtasks /Create /SC MINUTE /MO 30 /TN subhound")
   assert "--headless" in line

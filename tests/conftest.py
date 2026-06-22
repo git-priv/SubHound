@@ -1,4 +1,4 @@
-# Pytest session setup for subracer.
+# Pytest session setup for subhound.
 #
 # Before any test runs, verify the labeled test dataset against its SHA-256
 # ledger. If anything is missing or corrupted, abort the entire session with a

@@ -6,7 +6,7 @@ from __future__ import annotations
 
 from pathlib import Path
 
-from subracer.core.subtitle_convert import detect_subtitle_format, normalize_to_srt
+from subhound.core.subtitle_convert import detect_subtitle_format, normalize_to_srt
 
 ASS = """[Script Info]
 ScriptType: v4.00+

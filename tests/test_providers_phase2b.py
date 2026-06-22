@@ -10,12 +10,12 @@ from pathlib import Path
 
 import httpx
 
-from subracer.config.secrets import Credentials
-from subracer.config.settings import Settings
-from subracer.core.identify import MediaInfo
-from subracer.providers.podnapisi import PodnapisiProvider
-from subracer.providers.registry import build_providers, providers_for
-from subracer.providers.tvsubtitles import TVsubtitlesProvider
+from subhound.config.secrets import Credentials
+from subhound.config.settings import Settings
+from subhound.core.identify import MediaInfo
+from subhound.providers.podnapisi import PodnapisiProvider
+from subhound.providers.registry import build_providers, providers_for
+from subhound.providers.tvsubtitles import TVsubtitlesProvider
 
 SRT = b"1\n00:00:01,000 --> 00:00:02,000\nHi.\n"
 

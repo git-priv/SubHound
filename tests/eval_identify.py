@@ -1,4 +1,4 @@
-# Evaluate subracer.core.identify against the labeled portable_media_test_set.
+# Evaluate subhound.core.identify against the labeled portable_media_test_set.
 #
 # Ground truth = manifest.csv. We score only real video files whose kind is
 # "movie" or "episode" (subtitles/artwork/nfo/etc. are not identify's job).
@@ -15,8 +15,8 @@ import re
 import sys
 from pathlib import Path
 
-from subracer.core.identify import MOVIE, TV, identify
-from subracer.core.scan import is_video_file
+from subhound.core.identify import MOVIE, TV, identify
+from subhound.core.scan import is_video_file
 
 DATASET = Path(__file__).parent / "data" / "portable_media_test_set"
 MANIFEST = DATASET / "manifest.csv"

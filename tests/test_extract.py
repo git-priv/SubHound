@@ -1,4 +1,4 @@
-# Tests for subracer.core.extract: existing-subtitle discovery (no tools needed),
+# Tests for subhound.core.extract: existing-subtitle discovery (no tools needed),
 # graceful probing of non-videos, and a real ffmpeg round-trip (embed a subtitle
 # track, then probe + extract it) that is skipped when ffmpeg/ffprobe are absent.
 
@@ -10,13 +10,13 @@ from pathlib import Path
 
 import pytest
 
-from subracer.core.extract import (
+from subhound.core.extract import (
   SubtitleStream,
   extract_embedded_subtitles,
   find_existing_subtitles,
   probe_subtitle_streams,
 )
-from subracer.core.tools import ffmpeg, ffprobe
+from subhound.core.tools import ffmpeg, ffprobe
 
 SRT = (
   "1\n00:00:00,500 --> 00:00:02,000\nHello there, this is a test subtitle.\n\n"

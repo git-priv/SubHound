@@ -3,7 +3,7 @@
 
 from __future__ import annotations
 
-from subracer.pipeline.quota import QuotaTracker
+from subhound.pipeline.quota import QuotaTracker
 
 
 def test_waitlist_is_fifo_ordered():

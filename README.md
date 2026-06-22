@@ -1,4 +1,4 @@
-# subracer
+# subhound
 
 Parallel, multi-source subtitle detection, extraction, downloading and syncing
 with a cross-platform TUI. Point it at a media directory and it finds a
@@ -13,8 +13,8 @@ subtitle is found.
 
 ```bash
 uv sync
-uv run subracer                       # launch the TUI
-uv run subracer --headless --dir /media --languages en   # run once, headless
+uv run subhound                       # launch the TUI
+uv run subhound --headless --dir /media --languages en   # run once, headless
 ```
 
 ## Subtitle sources
@@ -35,7 +35,7 @@ sources are filtered automatically by media type.
 
 ## Provider API limits
 
-These are **download** limits per source. subracer tracks remaining quota where a
+These are **download** limits per source. subhound tracks remaining quota where a
 provider reports it, and when a provider is exhausted it moves the affected
 videos to a wait-list and retries that source after its quota resets (see
 [docs/PIPELINE.md](docs/PIPELINE.md)).
@@ -54,15 +54,15 @@ Notes:
 
 - **OpenSubtitles.com** also enforces a short-term request rate limit (HTTP 429
   on bursts) in addition to the daily download quota; the API reports
-  `remaining` downloads and a reset countdown, which subracer uses to drive its
+  `remaining` downloads and a reset countdown, which subhound uses to drive its
   wait-list. An app **API key** is required for API access even when running
   unauthenticated; a username/password adds the per-account quota.
 - **SubSource** v1 API limits are **per API key** (60/min, 1,800/hour,
   7,200/day) and responses include rate-limit headers. (Sending the SubSource
-  API key from subracer is a planned follow-up — see [ROADMAP.md](ROADMAP.md).)
+  API key from subhound is a planned follow-up — see [ROADMAP.md](ROADMAP.md).)
 - **Gestdown**, **YIFY**, **Podnapisi** and **TVsubtitles.net** publish no hard
   daily limits, but they are community/free services — use them politely.
-  subracer's per-source "already tried" tracking avoids re-querying a source for
+  subhound's per-source "already tried" tracking avoids re-querying a source for
   the same video, and concurrency is bounded by the parallelism settings.
 - Figures reflect the providers' published policies at the time of writing and
   can change; treat them as guidance, not guarantees.

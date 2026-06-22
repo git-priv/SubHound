@@ -1,5 +1,5 @@
 [project]
-name = "subracer"
+name = "subhound"
 version = "0.1.0"
 description = "Parallel multi-source subtitle detection, extraction, downloading and syncing TUI"
 readme = "README.md"
@@ -27,7 +27,7 @@ dev = [
 ]
 
 [project.scripts]
-subracer = "subracer.__main__:main"
+subhound = "subhound.__main__:main"
 
 [build-system]
 requires = ["setuptools>=68"]

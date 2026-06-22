@@ -1,4 +1,4 @@
-# Stress tests for subracer.core.identify across messy real-world naming:
+# Stress tests for subhound.core.identify across messy real-world naming:
 # many TV season/episode dialects, movie names polluted with release-group and
 # codec tags (YTS/YIFY/RARBG/x264/1080p/...), folder-structure fallbacks, and
 # genuinely-undetermined files.
@@ -9,8 +9,8 @@ from pathlib import Path
 
 import pytest
 
-from subracer.config.settings import Settings
-from subracer.core.identify import MOVIE, TV, UNKNOWN, identify
+from subhound.config.settings import Settings
+from subhound.core.identify import MOVIE, TV, UNKNOWN, identify
 
 UT = Settings().unwanted_terms
 

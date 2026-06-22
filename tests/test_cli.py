@@ -7,7 +7,7 @@ from __future__ import annotations
 import tempfile
 from pathlib import Path
 
-from subracer.__main__ import main, parse_args, run_headless
+from subhound.__main__ import main, parse_args, run_headless
 
 
 def test_parse_args_defaults():
@@ -46,7 +46,7 @@ def test_print_schedule_outputs_cron_or_task(capsys):
                "--schedule-interval", "30"])
   assert code == 0
   out = capsys.readouterr().out
-  assert "subracer" in out and "--headless" in out
+  assert "subhound" in out and "--headless" in out
 
 
 def test_print_schedule_requires_dir(capsys):
@@ -60,7 +60,7 @@ def test_headless_empty_dir_runs(capsys):
   code = main(["--headless", "--dir", str(d), "--languages", "en"])
   assert code == 0
   out = capsys.readouterr().out
-  assert "subracer summary" in out
+  assert "subhound summary" in out
   assert "total pairs     : 0" in out
   # An (empty) results file is produced.
   assert (d / "parallel_pipeline_results.tsv").exists()

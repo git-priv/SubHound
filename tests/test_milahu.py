@@ -11,8 +11,8 @@ from unittest.mock import MagicMock, patch
 
 import pytest
 
-from subracer.core.identify import MediaInfo
-from subracer.providers.milahu import MilahuProvider, _is_zip, _synthetic_filename
+from subhound.core.identify import MediaInfo
+from subhound.providers.milahu import MilahuProvider, _is_zip, _synthetic_filename
 
 
 # ---------------------------------------------------------------------------
@@ -209,7 +209,7 @@ def test_download_copies_temp_file_to_dest(tmp_path):
 
 
 def test_download_returns_none_when_temp_gone(tmp_path):
-  from subracer.providers.base import Candidate
+  from subhound.providers.base import Candidate
   provider = MilahuProvider()
   c = Candidate(source="milahu", id="0", language="en",
                 release_name="x.srt", download_ref="/nonexistent/path.srt")

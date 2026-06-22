@@ -11,15 +11,15 @@ from pathlib import Path
 
 import httpx
 
-from subracer.config.secrets import Credentials
-from subracer.config.settings import Settings, Source
-from subracer.core.identify import MediaInfo
-from subracer.providers._util import language_name, write_subtitle_bytes
-from subracer.providers.base import Candidate
-from subracer.providers.gestdown import GestdownProvider
-from subracer.providers.registry import build_providers, providers_for
-from subracer.providers.subsource import SubSourceProvider
-from subracer.providers.yify import YifyProvider
+from subhound.config.secrets import Credentials
+from subhound.config.settings import Settings, Source
+from subhound.core.identify import MediaInfo
+from subhound.providers._util import language_name, write_subtitle_bytes
+from subhound.providers.base import Candidate
+from subhound.providers.gestdown import GestdownProvider
+from subhound.providers.registry import build_providers, providers_for
+from subhound.providers.subsource import SubSourceProvider
+from subhound.providers.yify import YifyProvider
 
 SRT = b"1\n00:00:01,000 --> 00:00:02,000\nHello.\n"
 

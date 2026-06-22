@@ -1,4 +1,4 @@
-# Reporting test for subracer.core.identify against the labeled
+# Reporting test for subhound.core.identify against the labeled
 # portable_media_test_set.
 #
 # It runs identify() on every video file the manifest labels as a movie or a TV
@@ -27,8 +27,8 @@ from pathlib import Path
 
 import pytest
 
-from subracer.core.identify import MOVIE, TV, UNKNOWN, identify
-from subracer.core.scan import is_video_file
+from subhound.core.identify import MOVIE, TV, UNKNOWN, identify
+from subhound.core.scan import is_video_file
 from tests.eval_identify import SHA256SUMS, verify_checksums
 
 DATASET = Path(__file__).parent / "data" / "portable_media_test_set"
@@ -36,14 +36,14 @@ MANIFEST = DATASET / "manifest.csv"
 REPORT_DIR = Path(__file__).parent / "reports"
 KIND_TO_TYPE = {"movie": MOVIE, "episode": TV}
 
-# Repo root (".../subracer"); used to rewrite absolute paths in the reports so
+# Repo root (".../subhound"); used to rewrite absolute paths in the reports so
 # they start at the repo name instead of leaking the machine-specific prefix.
 REPO_ROOT = Path(__file__).resolve().parents[1]
 
 
 # Function Summary:
 #    Rewrite any absolute repo path in a string so it starts at the repo dir
-#    name ("subracer/...") instead of the machine-specific absolute prefix.
+#    name ("subhound/...") instead of the machine-specific absolute prefix.
 #
 #  Input (parameters):
 #    text [str]:  any string that may embed an absolute path under the repo
@@ -52,7 +52,7 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 #    text [str]:  the same string with the absolute repo prefix shortened
 #
 # Example:
-#    repo_rel("/coding/subracer/tests/x.mkv")  ->  "subracer/tests/x.mkv"
+#    repo_rel("/coding/subhound/tests/x.mkv")  ->  "subhound/tests/x.mkv"
 def repo_rel(text: str) -> str:
   return (text or "").replace(str(REPO_ROOT), REPO_ROOT.name)
 
@@ -308,7 +308,7 @@ def write_html(records: list[Record], summary: dict, checks: dict, out_path: Pat
   )
   generated = dt.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
   doc = f"""<!doctype html><html><head><meta charset="utf-8">
-<title>subracer identify report</title>
+<title>subhound identify report</title>
 <style>
  body{{font-family:system-ui,Arial,sans-serif;margin:24px;color:#222}}
  h1{{margin:0 0 4px}} .sub{{color:#666;margin-bottom:16px}}
@@ -323,7 +323,7 @@ def write_html(records: list[Record], summary: dict, checks: dict, out_path: Pat
  .banner.ok{{background:#C6EFCE;color:#1b5e20;border:1px solid #1b5e2033}}
  .banner.bad{{background:#FFC7CE;color:#8b0000;border:1px solid #8b000033}}
 </style></head><body>
-<h1>subracer &mdash; identify() report</h1>
+<h1>subhound &mdash; identify() report</h1>
 {banner}
 <div class="sub">{summary['total']} video files scored against manifest ground truth &middot; generated {generated}</div>
 <div class="cards">{cards}</div>
@@ -361,7 +361,7 @@ def write_xlsx(records: list[Record], summary: dict, checks: dict, out_path: Pat
   wb = Workbook()
   ws = wb.active
   ws.title = "Summary"
-  ws.append(["subracer identify() report"])
+  ws.append(["subhound identify() report"])
   ws["A1"].font = Font(bold=True, size=14)
   # Data-integrity banner row, colour-coded green (ok) / red (corrupted).
   if checks["ok"]:

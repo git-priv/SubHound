@@ -9,14 +9,14 @@ from pathlib import Path
 
 import pytest
 
-from subracer.tui.app import SubracerApp
+from subhound.tui.app import SubhoundApp
 
 
 @pytest.mark.asyncio
 async def test_tui_composes_and_has_widgets():
   from textual.widgets import DataTable, Input, RichLog
 
-  app = SubracerApp()
+  app = SubhoundApp()
   async with app.run_test() as pilot:
     # Setup tab widgets.
     assert app.query_one("#languages", Input) is not None
@@ -40,7 +40,7 @@ async def test_tui_start_button_runs_pipeline():
   (d / "Inception (2010)").mkdir()
   (d / "Inception (2010)" / "Inception (2010).mkv").write_bytes(b"x" * 150000)
 
-  app = SubracerApp()
+  app = SubhoundApp()
   app.settings.enabled_sources = []  # offline; embedded/existing find nothing -> FAILED
   async with app.run_test(size=(120, 36)) as pilot:
     app.query_one(TabbedContent).active = "run"

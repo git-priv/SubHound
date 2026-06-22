@@ -1,4 +1,4 @@
-# subracer — Per-run pipeline (authoritative spec)
+# subhound — Per-run pipeline (authoritative spec)
 
 The whole point: **find a good (well-synced, correct-language) subtitle for each
 video and drop out of the pipeline for that video as early as possible.** Cheap,

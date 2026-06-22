@@ -1,4 +1,4 @@
-# Tests for subracer.core.sync (offset math, threshold classification, offset
+# Tests for subhound.core.sync (offset math, threshold classification, offset
 # application, and ffsubsync error handling). The actual ffsubsync alignment is
 # not unit-tested here (it needs a real spoken-audio video); the orchestrator's
 # end-to-end test covers a real run.
@@ -8,7 +8,7 @@ from __future__ import annotations
 import tempfile
 from pathlib import Path
 
-from subracer.core.sync import (
+from subhound.core.sync import (
   Verdict,
   apply_offset_ms,
   classify_offset,

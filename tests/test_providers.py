@@ -11,12 +11,12 @@ from pathlib import Path
 import httpx
 import pytest
 
-from subracer.config.secrets import Credentials
-from subracer.config.settings import Settings, Source
-from subracer.core.identify import MediaInfo
-from subracer.providers.base import QuotaExceeded
-from subracer.providers.opensubtitles_com import OpenSubtitlesComProvider, _parse_reset
-from subracer.providers.registry import build_providers, providers_for
+from subhound.config.secrets import Credentials
+from subhound.config.settings import Settings, Source
+from subhound.core.identify import MediaInfo
+from subhound.providers.base import QuotaExceeded
+from subhound.providers.opensubtitles_com import OpenSubtitlesComProvider, _parse_reset
+from subhound.providers.registry import build_providers, providers_for
 
 API = "https://api.opensubtitles.com/api/v1"
 
@@ -24,7 +24,7 @@ API = "https://api.opensubtitles.com/api/v1"
 def _provider(handler) -> OpenSubtitlesComProvider:
   client = httpx.Client(transport=httpx.MockTransport(handler), base_url="")
   return OpenSubtitlesComProvider(
-    api_url=API, api_key="KEY", user_agent="subracer test", client=client)
+    api_url=API, api_key="KEY", user_agent="subhound test", client=client)
 
 
 def test_parse_reset():
@@ -88,7 +88,7 @@ def test_download_success_updates_quota_and_writes_file():
     return httpx.Response(200, content=content)  # the file link
 
   prov = _provider(handler)
-  from subracer.providers.base import Candidate
+  from subhound.providers.base import Candidate
   out = prov.download(Candidate("opensubtitles_com", "9", "en", download_ref="555"), d / "out.srt")
   assert out and out.read_bytes() == content
   q = prov.quota()
@@ -100,7 +100,7 @@ def test_download_quota_exhausted_raises():
     return httpx.Response(406, json={"message": "download limit reached"})
 
   prov = _provider(handler)
-  from subracer.providers.base import Candidate
+  from subhound.providers.base import Candidate
   with pytest.raises(QuotaExceeded) as ei:
     prov.download(Candidate("opensubtitles_com", "9", "en", download_ref="555"), Path("/tmp/x.srt"))
   assert ei.value.source == "opensubtitles_com"
@@ -115,7 +115,7 @@ def test_download_remaining_zero_marks_exhausted():
     return httpx.Response(200, content=b"x")
 
   prov = _provider(handler)
-  from subracer.providers.base import Candidate
+  from subhound.providers.base import Candidate
   with pytest.raises(QuotaExceeded):
     prov.download(Candidate("opensubtitles_com", "9", "en", download_ref="555"), Path("/tmp/x.srt"))
   assert prov.quota().exhausted and prov.quota().reset_seconds == 3600

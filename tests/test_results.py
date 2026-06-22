@@ -1,4 +1,4 @@
-# Tests for subracer.pipeline.results: TSV round-trip, run-log build + skip logic,
+# Tests for subhound.pipeline.results: TSV round-trip, run-log build + skip logic,
 # tried-source tracking, per-source quota pools, and run-log persistence.
 
 from __future__ import annotations
@@ -6,8 +6,8 @@ from __future__ import annotations
 import tempfile
 from pathlib import Path
 
-from subracer.core.identify import MediaInfo
-from subracer.pipeline.results import (
+from subhound.core.identify import MediaInfo
+from subhound.pipeline.results import (
   DIAG_GOOD,
   DIAG_REJECTED,
   PENDING,

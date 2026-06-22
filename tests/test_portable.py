@@ -1,19 +1,19 @@
-# Tests for portable export/import of subracer configuration.
+# Tests for portable export/import of subhound configuration.
 
 from __future__ import annotations
 
 import tempfile
 from pathlib import Path
 
-from subracer.config.portable import (
+from subhound.config.portable import (
   delete_file,
   export_bundle,
   install_bundle,
   read_bundle,
 )
-from subracer.config.secrets import Credentials, load_credentials
-from subracer.config.settings import Settings, Source
-from subracer.config.store import load_settings
+from subhound.config.secrets import Credentials, load_credentials
+from subhound.config.settings import Settings, Source
+from subhound.config.store import load_settings
 
 
 def _tmp() -> Path:
@@ -21,7 +21,7 @@ def _tmp() -> Path:
 
 
 def test_export_is_plaintext_and_drops_token():
-  out = _tmp() / "subracer_export.toml"
+  out = _tmp() / "subhound_export.toml"
   creds = Credentials(api_key="KEY123", username="priv", password="s3cret", token="JWTSHOULDNOTEXPORT")
   export_bundle(Settings(languages=["nl", "en"]), creds, out)
   text = out.read_text(encoding="utf-8")
